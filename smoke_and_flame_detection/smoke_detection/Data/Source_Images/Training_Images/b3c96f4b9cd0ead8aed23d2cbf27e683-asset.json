@@ -1,0 +1,48 @@
+{
+    "asset": {
+        "format": "jpg",
+        "id": "b3c96f4b9cd0ead8aed23d2cbf27e683",
+        "name": "CameraHPWREN_MirrorSmoke4015.jpg",
+        "path": "file:/home/abhay_kashyap03/Downloads/smokee/CameraHPWREN_MirrorSmoke4015.jpg",
+        "size": {
+            "width": 540,
+            "height": 360
+        },
+        "state": 2,
+        "type": 1
+    },
+    "regions": [
+        {
+            "id": "Cn7JDquK8",
+            "type": "RECTANGLE",
+            "tags": [
+                "smoke"
+            ],
+            "boundingBox": {
+                "height": 72.82285714285715,
+                "width": 156.3861386138614,
+                "left": 383.61386138613864,
+                "top": 183.90857142857143
+            },
+            "points": [
+                {
+                    "x": 383.61386138613864,
+                    "y": 183.90857142857143
+                },
+                {
+                    "x": 540,
+                    "y": 183.90857142857143
+                },
+                {
+                    "x": 540,
+                    "y": 256.7314285714286
+                },
+                {
+                    "x": 383.61386138613864,
+                    "y": 256.7314285714286
+                }
+            ]
+        }
+    ],
+    "version": "2.1.0"
+}

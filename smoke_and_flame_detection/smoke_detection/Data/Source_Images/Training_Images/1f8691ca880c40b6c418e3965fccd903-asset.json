@@ -1,0 +1,48 @@
+{
+    "asset": {
+        "format": "jpeg",
+        "id": "1f8691ca880c40b6c418e3965fccd903",
+        "name": "ck0km64lvbavu0721bhfm918u.jpeg",
+        "path": "file:/home/abhay_kashyap03/Desktop/github/smoke5/Data/Source_Images/Training_Images/ck0km64lvbavu0721bhfm918u.jpeg",
+        "size": {
+            "width": 640,
+            "height": 480
+        },
+        "state": 2,
+        "type": 1
+    },
+    "regions": [
+        {
+            "id": "psU9nRqs5",
+            "type": "RECTANGLE",
+            "tags": [
+                "smoke"
+            ],
+            "boundingBox": {
+                "height": 51.565714285714286,
+                "width": 62.51928020565553,
+                "left": 168.2776349614396,
+                "top": 249.60000000000002
+            },
+            "points": [
+                {
+                    "x": 168.2776349614396,
+                    "y": 249.60000000000002
+                },
+                {
+                    "x": 230.79691516709514,
+                    "y": 249.60000000000002
+                },
+                {
+                    "x": 230.79691516709514,
+                    "y": 301.1657142857143
+                },
+                {
+                    "x": 168.2776349614396,
+                    "y": 301.1657142857143
+                }
+            ]
+        }
+    ],
+    "version": "2.1.0"
+}

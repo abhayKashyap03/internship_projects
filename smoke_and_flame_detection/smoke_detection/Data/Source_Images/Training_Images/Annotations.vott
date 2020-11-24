@@ -1,0 +1,4413 @@
+{
+    "name": "Annotations",
+    "securityToken": "Annotations Token",
+    "sourceConnection": {
+        "name": "annotations2",
+        "providerType": "localFileSystemProxy",
+        "providerOptions": {
+            "encrypted": "eyJjaXBoZXJ0ZXh0IjoiNDJjNTQ4NzlmZmIwMGVkYWI5ZDJkOGUyOTc5MDZjMzg4MWZhYWFiZWJhY2IyMjAyMTYzMmI1ZWU5YWI5YzY3ZmRlYzgyZmQ2ODkyZThiNzc3MTRkNTkyMWVkMDNlZTM5NDZhNTA1ZjYxMzVmYjViODI1MWFiZjVlNDQ3MDNlNDI5ZmNmZWQ1MDIyMmJiOGVlY2IyZjQ0MDY1MjkzYmFjMmNiNDViZjkwOTE5Mzc3N2I3MTI1ZWYyZmI1ZTY2ZTlmIiwiaXYiOiJiOTAxNGMxNmJkN2E1NTFhNGU0ZmUyMjM1MWJmMDY0OTNlNzc5NjU1OTQ4OGFiMWIifQ=="
+        },
+        "id": "jh1G5l9Ac"
+    },
+    "targetConnection": {
+        "name": "annotations2",
+        "providerType": "localFileSystemProxy",
+        "providerOptions": {
+            "encrypted": "eyJjaXBoZXJ0ZXh0IjoiZjE0ZGNhNTM1NTFjYzU3NDA1ZWY4ZWEzYjcxODY0YmVlNDczNzIyYmRhODU0NmE3YTEzZDUzMjEyMDliNzBjZGI4NjFkZGY0OTQ4OTVkNjkxYmM0OThkMjljYmQxYzM0Njg1NjZjMTgwZTMzMzAyZGU5ZjZjOTU4YmYzNmJmZTNiOGRiNmQ0YjNjYzNlNjQ4YjljMzIzMjEwM2E1NjAzYmRmZmQ5OGM1Nzc3MzMwMTRmOTcxZjYyNjAwOGE0ZDFhIiwiaXYiOiI1MTk2M2RjZDNiZDZlYzZkNGVkMzhlNjM0NDQ0MzNlYWJhN2Y4M2FjYjUzZDhlMTcifQ=="
+        },
+        "id": "jh1G5l9Ac"
+    },
+    "videoSettings": {
+        "frameExtractionRate": 15
+    },
+    "tags": [
+        {
+            "name": "smoke",
+            "color": "#00FF00"
+        }
+    ],
+    "id": "nWORPDLx4",
+    "activeLearningSettings": {
+        "autoDetect": false,
+        "predictTag": true,
+        "modelPathType": "coco"
+    },
+    "exportFormat": {
+        "providerType": "csv",
+        "providerOptions": {
+            "encrypted": "eyJjaXBoZXJ0ZXh0IjoiODFhYWQ5NjFjODU1NDNjYWE0NDJjMzYzNGU1N2IyMjY0MWM0NjIzN2ZiZDJkNGExMmQ4Yjc2MzI2NzA5MTJjMmMwYWYzMjU2NTVhYzg1OGI4NzBjZjliOTAxNDViNjBkIiwiaXYiOiJiNTNlMzZhMWMyZWNhOGQzY2I4NTRkNzM1ZjIxNzkzZWIyM2VhZDU5OTRlMmZhNzYifQ=="
+        }
+    },
+    "version": "2.1.0",
+    "lastVisitedAssetId": "5e10d4d661e4c4afb99ae25d1c2b7795",
+    "assets": {
+        "20af5052729977374fc159c19ed5df2c": {
+            "format": "jpeg",
+            "id": "20af5052729977374fc159c19ed5df2c",
+            "name": "ck0k99e6p79go0944lmxivkmv.jpeg",
+            "path": "file:/home/abhay_kashyap03/Desktop/github/smoke5/Data/Source_Images/Training_Images/vott-csv-export/ck0k99e6p79go0944lmxivkmv.jpeg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 2,
+            "type": 1
+        },
+        "7bb8bab328e21e9bf02b7e17efea52b6": {
+            "format": "jpeg",
+            "id": "7bb8bab328e21e9bf02b7e17efea52b6",
+            "name": "ck0k99r7bir3f0a460bctrlmy.jpeg",
+            "path": "file:/home/abhay_kashyap03/Desktop/github/smoke5/Data/Source_Images/Training_Images/vott-csv-export/ck0k99r7bir3f0a460bctrlmy.jpeg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 2,
+            "type": 1
+        },
+        "d8aee4bed3a8ac4b7f84e2f451bb44f2": {
+            "format": "jpeg",
+            "id": "d8aee4bed3a8ac4b7f84e2f451bb44f2",
+            "name": "ck0k9aqm99o2o0721aml8qpqr.jpeg",
+            "path": "file:/home/abhay_kashyap03/Desktop/github/smoke5/Data/Source_Images/Training_Images/vott-csv-export/ck0k9aqm99o2o0721aml8qpqr.jpeg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 1,
+            "type": 1
+        },
+        "3d6ddcb2e553652c1b271d1fb0b6e121": {
+            "format": "jpeg",
+            "id": "3d6ddcb2e553652c1b271d1fb0b6e121",
+            "name": "ck0k9dg0vjxcg0848rmqzl38w.jpeg",
+            "path": "file:/home/abhay_kashyap03/Desktop/github/smoke5/Data/Source_Images/Training_Images/vott-csv-export/ck0k9dg0vjxcg0848rmqzl38w.jpeg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 2,
+            "type": 1
+        },
+        "62c5ef4f3606467d745ee673bfd10ebf": {
+            "format": "jpeg",
+            "id": "62c5ef4f3606467d745ee673bfd10ebf",
+            "name": "ck0k9dzyzirme0a46fhirxayi.jpeg",
+            "path": "file:/home/abhay_kashyap03/Desktop/github/smoke5/Data/Source_Images/Training_Images/vott-csv-export/ck0k9dzyzirme0a46fhirxayi.jpeg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 2,
+            "type": 1
+        },
+        "c65e07bfc3c7d2125448231d61db870a": {
+            "format": "jpeg",
+            "id": "c65e07bfc3c7d2125448231d61db870a",
+            "name": "ck0k9etuqjxhh0848k6i1mw2f.jpeg",
+            "path": "file:/home/abhay_kashyap03/Desktop/github/smoke5/Data/Source_Images/Training_Images/vott-csv-export/ck0k9etuqjxhh0848k6i1mw2f.jpeg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 2,
+            "type": 1
+        },
+        "b050268f8fd35f39c950bce35d41d553": {
+            "format": "jpeg",
+            "id": "b050268f8fd35f39c950bce35d41d553",
+            "name": "ck0k9ghqt7a8l0944mcvy0jsx.jpeg",
+            "path": "file:/home/abhay_kashyap03/Desktop/github/smoke5/Data/Source_Images/Training_Images/vott-csv-export/ck0k9ghqt7a8l0944mcvy0jsx.jpeg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 2,
+            "type": 1
+        },
+        "754164a2bad65e9e71719d70ea004148": {
+            "format": "jpeg",
+            "id": "754164a2bad65e9e71719d70ea004148",
+            "name": "ck0k9jss09oxq0721c8pd7eds.jpeg",
+            "path": "file:/home/abhay_kashyap03/Desktop/github/smoke5/Data/Source_Images/Training_Images/vott-csv-export/ck0k9jss09oxq0721c8pd7eds.jpeg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 2,
+            "type": 1
+        },
+        "201e434246276aa7e6a4f836b8ae82ef": {
+            "format": "jpeg",
+            "id": "201e434246276aa7e6a4f836b8ae82ef",
+            "name": "ck0k9lqaz4ict0863typf3ngd.jpeg",
+            "path": "file:/home/abhay_kashyap03/Desktop/github/smoke5/Data/Source_Images/Training_Images/vott-csv-export/ck0k9lqaz4ict0863typf3ngd.jpeg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 2,
+            "type": 1
+        },
+        "d556e4f8988f9ee9747b89deecbe0a68": {
+            "format": "jpeg",
+            "id": "d556e4f8988f9ee9747b89deecbe0a68",
+            "name": "ck0kcaec57i7s0944jkpjyecx.jpeg",
+            "path": "file:/home/abhay_kashyap03/Desktop/github/smoke5/Data/Source_Images/Training_Images/vott-csv-export/ck0kcaec57i7s0944jkpjyecx.jpeg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 2,
+            "type": 1
+        },
+        "9b82f723673bbec34f0b11e910675fda": {
+            "format": "jpeg",
+            "id": "9b82f723673bbec34f0b11e910675fda",
+            "name": "ck0kcbvwl4tja0794csyimfqu.jpeg",
+            "path": "file:/home/abhay_kashyap03/Desktop/github/smoke5/Data/Source_Images/Training_Images/vott-csv-export/ck0kcbvwl4tja0794csyimfqu.jpeg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 2,
+            "type": 1
+        },
+        "d6e4fd228369a813cdf0fb86f15add9b": {
+            "format": "jpeg",
+            "id": "d6e4fd228369a813cdf0fb86f15add9b",
+            "name": "ck0kcju199xgd0721ljl6cd2n.jpeg",
+            "path": "file:/home/abhay_kashyap03/Desktop/github/smoke5/Data/Source_Images/Training_Images/vott-csv-export/ck0kcju199xgd0721ljl6cd2n.jpeg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 2,
+            "type": 1
+        },
+        "696a5cc7070c194b7ab7495453f8e736": {
+            "format": "jpeg",
+            "id": "696a5cc7070c194b7ab7495453f8e736",
+            "name": "ck0kck2czj0l10a46f6xkvofl.jpeg",
+            "path": "file:/home/abhay_kashyap03/Desktop/github/smoke5/Data/Source_Images/Training_Images/vott-csv-export/ck0kck2czj0l10a46f6xkvofl.jpeg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 2,
+            "type": 1
+        },
+        "8afd87d172ed5895cca9c27e9b755447": {
+            "format": "jpeg",
+            "id": "8afd87d172ed5895cca9c27e9b755447",
+            "name": "ck0kcko719xjn0721pujcl4if.jpeg",
+            "path": "file:/home/abhay_kashyap03/Desktop/github/smoke5/Data/Source_Images/Training_Images/vott-csv-export/ck0kcko719xjn0721pujcl4if.jpeg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 2,
+            "type": 1
+        },
+        "91701f66f0ffcdac690908b18289f959": {
+            "format": "jpeg",
+            "id": "91701f66f0ffcdac690908b18289f959",
+            "name": "ck0kcljocj0qo0a46rzj3y211.jpeg",
+            "path": "file:/home/abhay_kashyap03/Desktop/github/smoke5/Data/Source_Images/Training_Images/vott-csv-export/ck0kcljocj0qo0a46rzj3y211.jpeg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 2,
+            "type": 1
+        },
+        "78107c9158fa1d9d6ab92770f7d84c8b": {
+            "format": "jpeg",
+            "id": "78107c9158fa1d9d6ab92770f7d84c8b",
+            "name": "ck0kcn7u1j0vk0a46lr8si8zl.jpeg",
+            "path": "file:/home/abhay_kashyap03/Desktop/github/smoke5/Data/Source_Images/Training_Images/vott-csv-export/ck0kcn7u1j0vk0a46lr8si8zl.jpeg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 2,
+            "type": 1
+        },
+        "fd08adccef2f2972df39dd0f3d392c59": {
+            "format": "jpeg",
+            "id": "fd08adccef2f2972df39dd0f3d392c59",
+            "name": "ck0kcnh1p4uns0794bs53wqam.jpeg",
+            "path": "file:/home/abhay_kashyap03/Desktop/github/smoke5/Data/Source_Images/Training_Images/vott-csv-export/ck0kcnh1p4uns0794bs53wqam.jpeg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 2,
+            "type": 1
+        },
+        "1d3aac08414f5e319927b44dca673229": {
+            "format": "jpeg",
+            "id": "1d3aac08414f5e319927b44dca673229",
+            "name": "ck0kcnqqgk6li0848vp3bn5sx.jpeg",
+            "path": "file:/home/abhay_kashyap03/Desktop/github/smoke5/Data/Source_Images/Training_Images/vott-csv-export/ck0kcnqqgk6li0848vp3bn5sx.jpeg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 2,
+            "type": 1
+        },
+        "b806e7388a510e1d17662a7df2d9565f": {
+            "format": "jpeg",
+            "id": "b806e7388a510e1d17662a7df2d9565f",
+            "name": "ck0kcoc8ik6ni0848clxs0vif.jpeg",
+            "path": "file:/home/abhay_kashyap03/Desktop/github/smoke5/Data/Source_Images/Training_Images/vott-csv-export/ck0kcoc8ik6ni0848clxs0vif.jpeg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 2,
+            "type": 1
+        },
+        "49635e5798ac67176fe1935eb265989e": {
+            "format": "jpeg",
+            "id": "49635e5798ac67176fe1935eb265989e",
+            "name": "ck0kcouioj11m0a46yjyp0zlc.jpeg",
+            "path": "file:/home/abhay_kashyap03/Desktop/github/smoke5/Data/Source_Images/Training_Images/vott-csv-export/ck0kcouioj11m0a46yjyp0zlc.jpeg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 2,
+            "type": 1
+        },
+        "5601a24db69376f86d632aca1deed5ad": {
+            "format": "jpeg",
+            "id": "5601a24db69376f86d632aca1deed5ad",
+            "name": "ck0kcpbi29y0x0721g7dlzzcs.jpeg",
+            "path": "file:/home/abhay_kashyap03/Desktop/github/smoke5/Data/Source_Images/Training_Images/vott-csv-export/ck0kcpbi29y0x0721g7dlzzcs.jpeg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 2,
+            "type": 1
+        },
+        "ee320a62978cecb9f48970bf3adad6f9": {
+            "format": "jpeg",
+            "id": "ee320a62978cecb9f48970bf3adad6f9",
+            "name": "ck0kcqhwf4qtf0863lv432phe.jpeg",
+            "path": "file:/home/abhay_kashyap03/Desktop/github/smoke5/Data/Source_Images/Training_Images/vott-csv-export/ck0kcqhwf4qtf0863lv432phe.jpeg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 2,
+            "type": 1
+        },
+        "1ce623b55cb5b37f2e0ee693439fc433": {
+            "format": "jpeg",
+            "id": "1ce623b55cb5b37f2e0ee693439fc433",
+            "name": "ck0kcsfho4r010863q5sjbub6.jpeg",
+            "path": "file:/home/abhay_kashyap03/Desktop/github/smoke5/Data/Source_Images/Training_Images/vott-csv-export/ck0kcsfho4r010863q5sjbub6.jpeg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 2,
+            "type": 1
+        },
+        "ab3b5b9fa610f122290be4f332bf1deb": {
+            "format": "jpeg",
+            "id": "ab3b5b9fa610f122290be4f332bf1deb",
+            "name": "ck0kcso214r0r0863m2otgmja.jpeg",
+            "path": "file:/home/abhay_kashyap03/Desktop/github/smoke5/Data/Source_Images/Training_Images/vott-csv-export/ck0kcso214r0r0863m2otgmja.jpeg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 2,
+            "type": 1
+        },
+        "7a982504444214e824512508c1bd78b3": {
+            "format": "jpeg",
+            "id": "7a982504444214e824512508c1bd78b3",
+            "name": "ck0kcubsi4r530863gt6or3em.jpeg",
+            "path": "file:/home/abhay_kashyap03/Desktop/github/smoke5/Data/Source_Images/Training_Images/vott-csv-export/ck0kcubsi4r530863gt6or3em.jpeg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 2,
+            "type": 1
+        },
+        "dd153f3aa2a4e6426bec03e9915fa743": {
+            "format": "jpeg",
+            "id": "dd153f3aa2a4e6426bec03e9915fa743",
+            "name": "ck0kcurm6j1k50a464wsovbw2.jpeg",
+            "path": "file:/home/abhay_kashyap03/Desktop/github/smoke5/Data/Source_Images/Training_Images/vott-csv-export/ck0kcurm6j1k50a464wsovbw2.jpeg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 2,
+            "type": 1
+        },
+        "e6459e54cab114e3985921eca9d61b5c": {
+            "format": "jpeg",
+            "id": "e6459e54cab114e3985921eca9d61b5c",
+            "name": "ck0kcv9km4vc70794bkufs7xw.jpeg",
+            "path": "file:/home/abhay_kashyap03/Desktop/github/smoke5/Data/Source_Images/Training_Images/vott-csv-export/ck0kcv9km4vc70794bkufs7xw.jpeg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 2,
+            "type": 1
+        },
+        "b2f503dea99a1a9aa781bbcd7bcd85b6": {
+            "format": "jpeg",
+            "id": "b2f503dea99a1a9aa781bbcd7bcd85b6",
+            "name": "ck0kcy2pmj1v70a464cl53bkw.jpeg",
+            "path": "file:/home/abhay_kashyap03/Desktop/github/smoke5/Data/Source_Images/Training_Images/vott-csv-export/ck0kcy2pmj1v70a464cl53bkw.jpeg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 2,
+            "type": 1
+        },
+        "61a9e6c7a3bf8c22a5f34743ab9678da": {
+            "format": "jpeg",
+            "id": "61a9e6c7a3bf8c22a5f34743ab9678da",
+            "name": "ck0kcz0wr67xc0838pqo5w48a.jpeg",
+            "path": "file:/home/abhay_kashyap03/Desktop/github/smoke5/Data/Source_Images/Training_Images/vott-csv-export/ck0kcz0wr67xc0838pqo5w48a.jpeg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 2,
+            "type": 1
+        },
+        "d258768cbd11760fae0162a0bcbb9b80": {
+            "format": "jpeg",
+            "id": "d258768cbd11760fae0162a0bcbb9b80",
+            "name": "ck0kd21cfj2810a46eicmjtng.jpeg",
+            "path": "file:/home/abhay_kashyap03/Desktop/github/smoke5/Data/Source_Images/Training_Images/vott-csv-export/ck0kd21cfj2810a46eicmjtng.jpeg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 2,
+            "type": 1
+        },
+        "df01e0ba59a24fc3601623ecfc8d8e99": {
+            "format": "jpeg",
+            "id": "df01e0ba59a24fc3601623ecfc8d8e99",
+            "name": "ck0kd2lpc7kvu0944pq8xomg1.jpeg",
+            "path": "file:/home/abhay_kashyap03/Desktop/github/smoke5/Data/Source_Images/Training_Images/vott-csv-export/ck0kd2lpc7kvu0944pq8xomg1.jpeg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 2,
+            "type": 1
+        },
+        "93241c6c124112a93e631d527c8fcc1d": {
+            "format": "jpeg",
+            "id": "93241c6c124112a93e631d527c8fcc1d",
+            "name": "ck0kd4afx8g470701watkwxut.jpeg",
+            "path": "file:/home/abhay_kashyap03/Desktop/github/smoke5/Data/Source_Images/Training_Images/vott-csv-export/ck0kd4afx8g470701watkwxut.jpeg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 2,
+            "type": 1
+        },
+        "6484f8fc0e9c6d0f2eba7d740d2a7b83": {
+            "format": "jpeg",
+            "id": "6484f8fc0e9c6d0f2eba7d740d2a7b83",
+            "name": "ck0kd70pu4w7b07946742zfpg.jpeg",
+            "path": "file:/home/abhay_kashyap03/Desktop/github/smoke5/Data/Source_Images/Training_Images/vott-csv-export/ck0kd70pu4w7b07946742zfpg.jpeg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 2,
+            "type": 1
+        },
+        "e94f4b92581724199e3aa14002710554": {
+            "format": "jpeg",
+            "id": "e94f4b92581724199e3aa14002710554",
+            "name": "ck0kd7h8nj2m70a469e4k6x92.jpeg",
+            "path": "file:/home/abhay_kashyap03/Desktop/github/smoke5/Data/Source_Images/Training_Images/vott-csv-export/ck0kd7h8nj2m70a469e4k6x92.jpeg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 2,
+            "type": 1
+        },
+        "56a8e7036bfb7553503ac886bd4f1291": {
+            "format": "jpeg",
+            "id": "56a8e7036bfb7553503ac886bd4f1291",
+            "name": "ck0kd86qe8gf507018qw8usfe.jpeg",
+            "path": "file:/home/abhay_kashyap03/Desktop/github/smoke5/Data/Source_Images/Training_Images/vott-csv-export/ck0kd86qe8gf507018qw8usfe.jpeg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 2,
+            "type": 1
+        },
+        "cb57cc5c95aed8822751d2fe4afd85fa": {
+            "format": "jpeg",
+            "id": "cb57cc5c95aed8822751d2fe4afd85fa",
+            "name": "ck0kd8g4e9zka0721qprbwtsa.jpeg",
+            "path": "file:/home/abhay_kashyap03/Desktop/github/smoke5/Data/Source_Images/Training_Images/vott-csv-export/ck0kd8g4e9zka0721qprbwtsa.jpeg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 1,
+            "type": 1
+        },
+        "4b596958e63d7fe05cb44d71c257e205": {
+            "format": "jpeg",
+            "id": "4b596958e63d7fe05cb44d71c257e205",
+            "name": "ck0kd8vmh68nl083835g4ngoc.jpeg",
+            "path": "file:/home/abhay_kashyap03/Desktop/github/smoke5/Data/Source_Images/Training_Images/vott-csv-export/ck0kd8vmh68nl083835g4ngoc.jpeg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 2,
+            "type": 1
+        },
+        "85ec16bfd6ea77f57ea0445f68b03e16": {
+            "format": "jpeg",
+            "id": "85ec16bfd6ea77f57ea0445f68b03e16",
+            "name": "ck0kdc75e4wgn0794wltgjwdw.jpeg",
+            "path": "file:/home/abhay_kashyap03/Desktop/github/smoke5/Data/Source_Images/Training_Images/vott-csv-export/ck0kdc75e4wgn0794wltgjwdw.jpeg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 1,
+            "type": 1
+        },
+        "48be342b964f123d530ee85ad3b41fa3": {
+            "format": "jpeg",
+            "id": "48be342b964f123d530ee85ad3b41fa3",
+            "name": "ck0kdeqv8a00m0721x8avt6qe.jpeg",
+            "path": "file:/home/abhay_kashyap03/Desktop/github/smoke5/Data/Source_Images/Training_Images/vott-csv-export/ck0kdeqv8a00m0721x8avt6qe.jpeg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 2,
+            "type": 1
+        },
+        "2c000ba2aaf00f7c5f2fc01b6958e75d": {
+            "format": "jpeg",
+            "id": "2c000ba2aaf00f7c5f2fc01b6958e75d",
+            "name": "ck0kdgfrn7loi0944bc5njxd7.jpeg",
+            "path": "file:/home/abhay_kashyap03/Desktop/github/smoke5/Data/Source_Images/Training_Images/vott-csv-export/ck0kdgfrn7loi0944bc5njxd7.jpeg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 2,
+            "type": 1
+        },
+        "4c4265118c18860e81f068b335180d50": {
+            "format": "jpeg",
+            "id": "4c4265118c18860e81f068b335180d50",
+            "name": "ck0kdgpnj8gvt0701oaod540q.jpeg",
+            "path": "file:/home/abhay_kashyap03/Desktop/github/smoke5/Data/Source_Images/Training_Images/vott-csv-export/ck0kdgpnj8gvt0701oaod540q.jpeg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 2,
+            "type": 1
+        },
+        "8967236232a8db6af701e8bc8b5c0e1c": {
+            "format": "jpeg",
+            "id": "8967236232a8db6af701e8bc8b5c0e1c",
+            "name": "ck0kdh8yok8rw08486abmn3z3.jpeg",
+            "path": "file:/home/abhay_kashyap03/Desktop/github/smoke5/Data/Source_Images/Training_Images/vott-csv-export/ck0kdh8yok8rw08486abmn3z3.jpeg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 2,
+            "type": 1
+        },
+        "1824d310c2bb960ad4109c39ffc830b3": {
+            "format": "jpeg",
+            "id": "1824d310c2bb960ad4109c39ffc830b3",
+            "name": "ck0kdhizwj37t0a461n7bsvun.jpeg",
+            "path": "file:/home/abhay_kashyap03/Desktop/github/smoke5/Data/Source_Images/Training_Images/vott-csv-export/ck0kdhizwj37t0a461n7bsvun.jpeg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 1,
+            "type": 1
+        },
+        "6516f77e69bf7aef10722194bd66a2d2": {
+            "format": "jpeg",
+            "id": "6516f77e69bf7aef10722194bd66a2d2",
+            "name": "ck0kdhymna0b10721v4wntit8.jpeg",
+            "path": "file:/home/abhay_kashyap03/Desktop/github/smoke5/Data/Source_Images/Training_Images/vott-csv-export/ck0kdhymna0b10721v4wntit8.jpeg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 2,
+            "type": 1
+        },
+        "b62cb3031474fd7bf17406f6d3f6e9d6": {
+            "format": "jpeg",
+            "id": "b62cb3031474fd7bf17406f6d3f6e9d6",
+            "name": "ck0kdklhl8h7h07015yka75gg.jpeg",
+            "path": "file:/home/abhay_kashyap03/Desktop/github/smoke5/Data/Source_Images/Training_Images/vott-csv-export/ck0kdklhl8h7h07015yka75gg.jpeg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 2,
+            "type": 1
+        },
+        "d628198db1807184c0be72dc4583d760": {
+            "format": "jpeg",
+            "id": "d628198db1807184c0be72dc4583d760",
+            "name": "ck0kdobka8hev07019b3gbgq6.jpeg",
+            "path": "file:/home/abhay_kashyap03/Desktop/github/smoke5/Data/Source_Images/Training_Images/vott-csv-export/ck0kdobka8hev07019b3gbgq6.jpeg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 2,
+            "type": 1
+        },
+        "880831e025bc166cc929d31c81970b93": {
+            "format": "jpeg",
+            "id": "880831e025bc166cc929d31c81970b93",
+            "name": "ck0kdox8w69td0838i6leuzy9.jpeg",
+            "path": "file:/home/abhay_kashyap03/Desktop/github/smoke5/Data/Source_Images/Training_Images/vott-csv-export/ck0kdox8w69td0838i6leuzy9.jpeg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 2,
+            "type": 1
+        },
+        "a05f44262aa7bd86c1584bd05c8f1ae7": {
+            "format": "jpeg",
+            "id": "a05f44262aa7bd86c1584bd05c8f1ae7",
+            "name": "ck0kdpfyk4t8v08633b9u5zhe.jpeg",
+            "path": "file:/home/abhay_kashyap03/Desktop/github/smoke5/Data/Source_Images/Training_Images/vott-csv-export/ck0kdpfyk4t8v08633b9u5zhe.jpeg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 2,
+            "type": 1
+        },
+        "a69ac44a38da537ac1f9a390e4df93fa": {
+            "format": "jpeg",
+            "id": "a69ac44a38da537ac1f9a390e4df93fa",
+            "name": "ck0kdra5c7mjh0944w97n0exh.jpeg",
+            "path": "file:/home/abhay_kashyap03/Desktop/github/smoke5/Data/Source_Images/Training_Images/vott-csv-export/ck0kdra5c7mjh0944w97n0exh.jpeg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 2,
+            "type": 1
+        },
+        "c548bebb04f22658ca28eacf8552d133": {
+            "format": "jpeg",
+            "id": "c548bebb04f22658ca28eacf8552d133",
+            "name": "ck0kdsrnk4tm80863omawzddc.jpeg",
+            "path": "file:/home/abhay_kashyap03/Desktop/github/smoke5/Data/Source_Images/Training_Images/vott-csv-export/ck0kdsrnk4tm80863omawzddc.jpeg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 2,
+            "type": 1
+        },
+        "7ee2cedee4a1512d294f76962167c4fe": {
+            "format": "jpeg",
+            "id": "7ee2cedee4a1512d294f76962167c4fe",
+            "name": "ck0kdvg6tj4hn0a46k06job5k.jpeg",
+            "path": "file:/home/abhay_kashyap03/Desktop/github/smoke5/Data/Source_Images/Training_Images/vott-csv-export/ck0kdvg6tj4hn0a46k06job5k.jpeg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 2,
+            "type": 1
+        },
+        "056e808983154a52e55b9291babde818": {
+            "format": "jpeg",
+            "id": "056e808983154a52e55b9291babde818",
+            "name": "ck0kdwh3o6akx0838c87v3jbu.jpeg",
+            "path": "file:/home/abhay_kashyap03/Desktop/github/smoke5/Data/Source_Images/Training_Images/vott-csv-export/ck0kdwh3o6akx0838c87v3jbu.jpeg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 2,
+            "type": 1
+        },
+        "461c0c1b3274a69db6a51caa940e63d0": {
+            "format": "jpeg",
+            "id": "461c0c1b3274a69db6a51caa940e63d0",
+            "name": "ck0kdxyxd8iat0701jbwd0oq6.jpeg",
+            "path": "file:/home/abhay_kashyap03/Desktop/github/smoke5/Data/Source_Images/Training_Images/vott-csv-export/ck0kdxyxd8iat0701jbwd0oq6.jpeg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 2,
+            "type": 1
+        },
+        "4b078e12ee3f5a0736a886ce5c1f52c0": {
+            "format": "jpeg",
+            "id": "4b078e12ee3f5a0736a886ce5c1f52c0",
+            "name": "ck0ken8886dvt0838isatschp.jpeg",
+            "path": "file:/home/abhay_kashyap03/Desktop/github/smoke5/Data/Source_Images/Training_Images/vott-csv-export/ck0ken8886dvt0838isatschp.jpeg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 2,
+            "type": 1
+        },
+        "0502b52b99a54370c9a4a34291a4f0e4": {
+            "format": "jpeg",
+            "id": "0502b52b99a54370c9a4a34291a4f0e4",
+            "name": "ck0kengxx4xiw0863hvii9d2r.jpeg",
+            "path": "file:/home/abhay_kashyap03/Desktop/github/smoke5/Data/Source_Images/Training_Images/vott-csv-export/ck0kengxx4xiw0863hvii9d2r.jpeg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 2,
+            "type": 1
+        },
+        "87a35be9b6290a0f246e42ffe5d3e8b1": {
+            "format": "jpeg",
+            "id": "87a35be9b6290a0f246e42ffe5d3e8b1",
+            "name": "ck0keo0re4xll086378211i65.jpeg",
+            "path": "file:/home/abhay_kashyap03/Desktop/github/smoke5/Data/Source_Images/Training_Images/vott-csv-export/ck0keo0re4xll086378211i65.jpeg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 1,
+            "type": 1
+        },
+        "770b35eee22d0f02ca1e30f93e5bb4c4": {
+            "format": "jpeg",
+            "id": "770b35eee22d0f02ca1e30f93e5bb4c4",
+            "name": "ck0keop2ya51r072149ntr73o.jpeg",
+            "path": "file:/home/abhay_kashyap03/Desktop/github/smoke5/Data/Source_Images/Training_Images/vott-csv-export/ck0keop2ya51r072149ntr73o.jpeg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 2,
+            "type": 1
+        },
+        "05758acae21bbf66cb91d71d6c59e384": {
+            "format": "jpeg",
+            "id": "05758acae21bbf66cb91d71d6c59e384",
+            "name": "ck0kepbs9kdym0848hgpcf3y9.jpeg",
+            "path": "file:/home/abhay_kashyap03/Desktop/github/smoke5/Data/Source_Images/Training_Images/vott-csv-export/ck0kepbs9kdym0848hgpcf3y9.jpeg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 2,
+            "type": 1
+        },
+        "dafad4fe1194624de0660c38202704a8": {
+            "format": "jpeg",
+            "id": "dafad4fe1194624de0660c38202704a8",
+            "name": "ck0kepk22a57e07215s22fyiv.jpeg",
+            "path": "file:/home/abhay_kashyap03/Desktop/github/smoke5/Data/Source_Images/Training_Images/vott-csv-export/ck0kepk22a57e07215s22fyiv.jpeg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 2,
+            "type": 1
+        },
+        "f1a643954019b74dd370a41cea16615a": {
+            "format": "jpeg",
+            "id": "f1a643954019b74dd370a41cea16615a",
+            "name": "ck0keprw9ke1d08483vmle7ed.jpeg",
+            "path": "file:/home/abhay_kashyap03/Desktop/github/smoke5/Data/Source_Images/Training_Images/vott-csv-export/ck0keprw9ke1d08483vmle7ed.jpeg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 1,
+            "type": 1
+        },
+        "0eab19aada2b87b4749b0563bec88dbc": {
+            "format": "jpeg",
+            "id": "0eab19aada2b87b4749b0563bec88dbc",
+            "name": "ck0keq7xa4xxd0863otmigtsy.jpeg",
+            "path": "file:/home/abhay_kashyap03/Desktop/github/smoke5/Data/Source_Images/Training_Images/vott-csv-export/ck0keq7xa4xxd0863otmigtsy.jpeg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 1,
+            "type": 1
+        },
+        "a2992809aa80c5fe0c6b76c6db8a25a0": {
+            "format": "jpeg",
+            "id": "a2992809aa80c5fe0c6b76c6db8a25a0",
+            "name": "ck0keqofqkeab0848eq712ch1.jpeg",
+            "path": "file:/home/abhay_kashyap03/Desktop/github/smoke5/Data/Source_Images/Training_Images/vott-csv-export/ck0keqofqkeab0848eq712ch1.jpeg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 2,
+            "type": 1
+        },
+        "2e915c21d18a604e54a5e9e1d8305703": {
+            "format": "jpeg",
+            "id": "2e915c21d18a604e54a5e9e1d8305703",
+            "name": "ck0kewjljj9q20a46zd3hi5wl.jpeg",
+            "path": "file:/home/abhay_kashyap03/Desktop/github/smoke5/Data/Source_Images/Training_Images/vott-csv-export/ck0kewjljj9q20a46zd3hi5wl.jpeg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 2,
+            "type": 1
+        },
+        "0d75a69ed441430db2bb20c995461d67": {
+            "format": "jpeg",
+            "id": "0d75a69ed441430db2bb20c995461d67",
+            "name": "ck0kewsaha6hh07215jgx1bp2.jpeg",
+            "path": "file:/home/abhay_kashyap03/Desktop/github/smoke5/Data/Source_Images/Training_Images/vott-csv-export/ck0kewsaha6hh07215jgx1bp2.jpeg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 2,
+            "type": 1
+        },
+        "1217d80c6ee32750bd2a6407c15e5f27": {
+            "format": "jpeg",
+            "id": "1217d80c6ee32750bd2a6407c15e5f27",
+            "name": "ck0kexd04j9w30a4628x0rzxi.jpeg",
+            "path": "file:/home/abhay_kashyap03/Desktop/github/smoke5/Data/Source_Images/Training_Images/vott-csv-export/ck0kexd04j9w30a4628x0rzxi.jpeg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 2,
+            "type": 1
+        },
+        "2663b2ded71794cddf1642c456164a78": {
+            "format": "jpeg",
+            "id": "2663b2ded71794cddf1642c456164a78",
+            "name": "ck0kfhu4n8q7f0701ixmonyig.jpeg",
+            "path": "file:/home/abhay_kashyap03/Desktop/github/smoke5/Data/Source_Images/Training_Images/vott-csv-export/ck0kfhu4n8q7f0701ixmonyig.jpeg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 2,
+            "type": 1
+        },
+        "329496ad4ace5b1351a81303eba411b0": {
+            "format": "jpeg",
+            "id": "329496ad4ace5b1351a81303eba411b0",
+            "name": "ck0kfjen48qhj0701wjkosmel.jpeg",
+            "path": "file:/home/abhay_kashyap03/Desktop/github/smoke5/Data/Source_Images/Training_Images/vott-csv-export/ck0kfjen48qhj0701wjkosmel.jpeg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 2,
+            "type": 1
+        },
+        "2db18a3feb69772b56fcb3e506d47bcd": {
+            "format": "jpeg",
+            "id": "2db18a3feb69772b56fcb3e506d47bcd",
+            "name": "ck0kfk23ukj1m0848e93um98b.jpeg",
+            "path": "file:/home/abhay_kashyap03/Desktop/github/smoke5/Data/Source_Images/Training_Images/vott-csv-export/ck0kfk23ukj1m0848e93um98b.jpeg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 2,
+            "type": 1
+        },
+        "b7964b2c357fb421b353a99ab280750f": {
+            "format": "jpeg",
+            "id": "b7964b2c357fb421b353a99ab280750f",
+            "name": "ck0kfljfp7vuk09441308dug1.jpeg",
+            "path": "file:/home/abhay_kashyap03/Desktop/github/smoke5/Data/Source_Images/Training_Images/vott-csv-export/ck0kfljfp7vuk09441308dug1.jpeg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 2,
+            "type": 1
+        },
+        "d8fe81662a1b9bd5ca1fb20e54448aaf": {
+            "format": "jpeg",
+            "id": "d8fe81662a1b9bd5ca1fb20e54448aaf",
+            "name": "ck0kfm0ie6jf7083851froruk.jpeg",
+            "path": "file:/home/abhay_kashyap03/Desktop/github/smoke5/Data/Source_Images/Training_Images/vott-csv-export/ck0kfm0ie6jf7083851froruk.jpeg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 2,
+            "type": 1
+        },
+        "ceeabd0304f1a704152844d55a272b45": {
+            "format": "jpeg",
+            "id": "ceeabd0304f1a704152844d55a272b45",
+            "name": "ck0kfnjva6jp60838d6vqyxq2.jpeg",
+            "path": "file:/home/abhay_kashyap03/Desktop/github/smoke5/Data/Source_Images/Training_Images/vott-csv-export/ck0kfnjva6jp60838d6vqyxq2.jpeg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 2,
+            "type": 1
+        },
+        "e8434dfc325b099bec77420fdd0d76f7": {
+            "format": "jpeg",
+            "id": "e8434dfc325b099bec77420fdd0d76f7",
+            "name": "ck0kfmg3p6jh90838qxnikor1.jpeg",
+            "path": "file:/home/abhay_kashyap03/Desktop/github/smoke5/Data/Source_Images/Training_Images/vott-csv-export/ck0kfmg3p6jh90838qxnikor1.jpeg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 2,
+            "type": 1
+        },
+        "d5ddbe3148ffffca6d635882a61b1947": {
+            "format": "jpeg",
+            "id": "d5ddbe3148ffffca6d635882a61b1947",
+            "name": "ck0khrg9xan7u0721mn5rxpzo.jpeg",
+            "path": "file:/home/abhay_kashyap03/Desktop/github/smoke5/Data/Source_Images/Training_Images/vott-csv-export/ck0khrg9xan7u0721mn5rxpzo.jpeg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 2,
+            "type": 1
+        },
+        "7336ea20807e850c6ccebc0fc07ad40b": {
+            "format": "jpeg",
+            "id": "7336ea20807e850c6ccebc0fc07ad40b",
+            "name": "ck0khrpvr6w7p08381txzz4na.jpeg",
+            "path": "file:/home/abhay_kashyap03/Desktop/github/smoke5/Data/Source_Images/Training_Images/vott-csv-export/ck0khrpvr6w7p08381txzz4na.jpeg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 2,
+            "type": 1
+        },
+        "325c893577cad0fed81d6c68d35c7b77": {
+            "format": "jpeg",
+            "id": "325c893577cad0fed81d6c68d35c7b77",
+            "name": "ck0khrzkh940s0701k1i2tfe3.jpeg",
+            "path": "file:/home/abhay_kashyap03/Desktop/github/smoke5/Data/Source_Images/Training_Images/vott-csv-export/ck0khrzkh940s0701k1i2tfe3.jpeg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 2,
+            "type": 1
+        },
+        "724ebd69bbcb9b8656b2483dfdc323d8": {
+            "format": "jpeg",
+            "id": "724ebd69bbcb9b8656b2483dfdc323d8",
+            "name": "ck0khsg8rangi07215h1hso72.jpeg",
+            "path": "file:/home/abhay_kashyap03/Desktop/github/smoke5/Data/Source_Images/Training_Images/vott-csv-export/ck0khsg8rangi07215h1hso72.jpeg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 2,
+            "type": 1
+        },
+        "e81146b10b00d5a60581d1c17c36241e": {
+            "format": "jpeg",
+            "id": "e81146b10b00d5a60581d1c17c36241e",
+            "name": "ck0kht0vs5k2r079428olg3jt.jpeg",
+            "path": "file:/home/abhay_kashyap03/Desktop/github/smoke5/Data/Source_Images/Training_Images/vott-csv-export/ck0kht0vs5k2r079428olg3jt.jpeg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 2,
+            "type": 1
+        },
+        "f8c0f7fa937d1a9ee40f4028174ed883": {
+            "format": "jpeg",
+            "id": "f8c0f7fa937d1a9ee40f4028174ed883",
+            "name": "ck0khttiojrab0a46z2tgb5rd.jpeg",
+            "path": "file:/home/abhay_kashyap03/Desktop/github/smoke5/Data/Source_Images/Training_Images/vott-csv-export/ck0khttiojrab0a46z2tgb5rd.jpeg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 2,
+            "type": 1
+        },
+        "5bd493c2b10b3f6774a857d4fd92a4cc": {
+            "format": "jpeg",
+            "id": "5bd493c2b10b3f6774a857d4fd92a4cc",
+            "name": "ck0khu2xz94nj070165dkfirk.jpeg",
+            "path": "file:/home/abhay_kashyap03/Desktop/github/smoke5/Data/Source_Images/Training_Images/vott-csv-export/ck0khu2xz94nj070165dkfirk.jpeg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 2,
+            "type": 1
+        },
+        "9b3fdb78d9fe272485bb0680a5ab796f": {
+            "format": "jpeg",
+            "id": "9b3fdb78d9fe272485bb0680a5ab796f",
+            "name": "ck0khubxx5khq0794ja58vgv5.jpeg",
+            "path": "file:/home/abhay_kashyap03/Desktop/github/smoke5/Data/Source_Images/Training_Images/vott-csv-export/ck0khubxx5khq0794ja58vgv5.jpeg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 2,
+            "type": 1
+        },
+        "08e39b4cce82d68b54aafe1a4492381c": {
+            "format": "jpeg",
+            "id": "08e39b4cce82d68b54aafe1a4492381c",
+            "name": "ck0kk7o8o5vu70794mj0deixq.jpeg",
+            "path": "file:/home/abhay_kashyap03/Desktop/github/smoke5/Data/Source_Images/Training_Images/vott-csv-export/ck0kk7o8o5vu70794mj0deixq.jpeg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 2,
+            "type": 1
+        },
+        "47d933b134b810b89d14271f017a0400": {
+            "format": "jpeg",
+            "id": "47d933b134b810b89d14271f017a0400",
+            "name": "ck0kkep0vb0nz0721g3sq0a4g.jpeg",
+            "path": "file:/home/abhay_kashyap03/Desktop/github/smoke5/Data/Source_Images/Training_Images/vott-csv-export/ck0kkep0vb0nz0721g3sq0a4g.jpeg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 2,
+            "type": 1
+        },
+        "5458e15120e3ba4aaff7491c08fa768d": {
+            "format": "jpeg",
+            "id": "5458e15120e3ba4aaff7491c08fa768d",
+            "name": "ck0kkg0u65u3q0863z6w2psqp.jpeg",
+            "path": "file:/home/abhay_kashyap03/Desktop/github/smoke5/Data/Source_Images/Training_Images/vott-csv-export/ck0kkg0u65u3q0863z6w2psqp.jpeg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 2,
+            "type": 1
+        },
+        "f73e47d33bda8fbb109df25497d36126": {
+            "format": "jpeg",
+            "id": "f73e47d33bda8fbb109df25497d36126",
+            "name": "ck0kkg80v5x900794hcgsb4e1.jpeg",
+            "path": "file:/home/abhay_kashyap03/Desktop/github/smoke5/Data/Source_Images/Training_Images/vott-csv-export/ck0kkg80v5x900794hcgsb4e1.jpeg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 2,
+            "type": 1
+        },
+        "d7a5d08a636d264acb5aa556eee506d5": {
+            "format": "jpeg",
+            "id": "d7a5d08a636d264acb5aa556eee506d5",
+            "name": "ck0kkgh0ik3y20a46kzrit8v2.jpeg",
+            "path": "file:/home/abhay_kashyap03/Desktop/github/smoke5/Data/Source_Images/Training_Images/vott-csv-export/ck0kkgh0ik3y20a46kzrit8v2.jpeg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 2,
+            "type": 1
+        },
+        "a75ac5a09ce1f5bdec5ddab06fea6052": {
+            "format": "jpeg",
+            "id": "a75ac5a09ce1f5bdec5ddab06fea6052",
+            "name": "ck0kkgwvk9hhg0701edmbvr7r.jpeg",
+            "path": "file:/home/abhay_kashyap03/Desktop/github/smoke5/Data/Source_Images/Training_Images/vott-csv-export/ck0kkgwvk9hhg0701edmbvr7r.jpeg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 2,
+            "type": 1
+        },
+        "0721a0d759cc20bdd7c534bd59f1c7e7": {
+            "format": "jpeg",
+            "id": "0721a0d759cc20bdd7c534bd59f1c7e7",
+            "name": "ck0kkhi2lb1b30721f7ltwn14.jpeg",
+            "path": "file:/home/abhay_kashyap03/Desktop/github/smoke5/Data/Source_Images/Training_Images/vott-csv-export/ck0kkhi2lb1b30721f7ltwn14.jpeg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 2,
+            "type": 1
+        },
+        "7b929940b008c0a9e86daac688b88172": {
+            "format": "jpeg",
+            "id": "7b929940b008c0a9e86daac688b88172",
+            "name": "ck0kkizhblbln0848zygsqz0h.jpeg",
+            "path": "file:/home/abhay_kashyap03/Desktop/github/smoke5/Data/Source_Images/Training_Images/vott-csv-export/ck0kkizhblbln0848zygsqz0h.jpeg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 2,
+            "type": 1
+        },
+        "501753f04d1f33e0971f09be7d606e0d": {
+            "format": "jpeg",
+            "id": "501753f04d1f33e0971f09be7d606e0d",
+            "name": "ck0kkjnqo5xx10794xzpyur0y.jpeg",
+            "path": "file:/home/abhay_kashyap03/Desktop/github/smoke5/Data/Source_Images/Training_Images/vott-csv-export/ck0kkjnqo5xx10794xzpyur0y.jpeg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 2,
+            "type": 1
+        },
+        "9daa89b0b8137f5cfcebb0e72eb74586": {
+            "format": "jpeg",
+            "id": "9daa89b0b8137f5cfcebb0e72eb74586",
+            "name": "ck0kksymy5z9j0794x0i3rdvo.jpeg",
+            "path": "file:/home/abhay_kashyap03/Desktop/github/smoke5/Data/Source_Images/Training_Images/vott-csv-export/ck0kksymy5z9j0794x0i3rdvo.jpeg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 2,
+            "type": 1
+        },
+        "153491a240ae99ef08e66f3e6c8ff00c": {
+            "format": "jpeg",
+            "id": "153491a240ae99ef08e66f3e6c8ff00c",
+            "name": "ck0kkta309jh807010cayyl5d.jpeg",
+            "path": "file:/home/abhay_kashyap03/Desktop/github/smoke5/Data/Source_Images/Training_Images/vott-csv-export/ck0kkta309jh807010cayyl5d.jpeg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 2,
+            "type": 1
+        },
+        "2f11fbe69f0579795eaf4e24dfea6739": {
+            "format": "jpeg",
+            "id": "2f11fbe69f0579795eaf4e24dfea6739",
+            "name": "ck0kkthj17c9g0838c3vjfndl.jpeg",
+            "path": "file:/home/abhay_kashyap03/Desktop/github/smoke5/Data/Source_Images/Training_Images/vott-csv-export/ck0kkthj17c9g0838c3vjfndl.jpeg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 2,
+            "type": 1
+        },
+        "8ce99ad1d6e376c6675235a2a82b30f4": {
+            "format": "jpeg",
+            "id": "8ce99ad1d6e376c6675235a2a82b30f4",
+            "name": "ck0kkv2jf8pil09448qnz1ndu.jpeg",
+            "path": "file:/home/abhay_kashyap03/Desktop/github/smoke5/Data/Source_Images/Training_Images/vott-csv-export/ck0kkv2jf8pil09448qnz1ndu.jpeg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 2,
+            "type": 1
+        },
+        "c58b34d92a9e06531b9d56bd496c8830": {
+            "format": "jpeg",
+            "id": "c58b34d92a9e06531b9d56bd496c8830",
+            "name": "ck0kkwqeq5zxe07942ouxkr5q.jpeg",
+            "path": "file:/home/abhay_kashyap03/Desktop/github/smoke5/Data/Source_Images/Training_Images/vott-csv-export/ck0kkwqeq5zxe07942ouxkr5q.jpeg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 2,
+            "type": 1
+        },
+        "3a6629df42606f95301a0713e7f2ed32": {
+            "format": "jpeg",
+            "id": "3a6629df42606f95301a0713e7f2ed32",
+            "name": "ck0kkxafs5wwc08631zxdpdyd.jpeg",
+            "path": "file:/home/abhay_kashyap03/Desktop/github/smoke5/Data/Source_Images/Training_Images/vott-csv-export/ck0kkxafs5wwc08631zxdpdyd.jpeg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 1,
+            "type": 1
+        },
+        "1c6386398a67ba55efe89a10de9ce87c": {
+            "format": "jpeg",
+            "id": "1c6386398a67ba55efe89a10de9ce87c",
+            "name": "ck0kkxngib3qh0721x6mgyttk.jpeg",
+            "path": "file:/home/abhay_kashyap03/Desktop/github/smoke5/Data/Source_Images/Training_Images/vott-csv-export/ck0kkxngib3qh0721x6mgyttk.jpeg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 2,
+            "type": 1
+        },
+        "e141ad0d953dc0d772d50ab0d39277fd": {
+            "format": "jpeg",
+            "id": "e141ad0d953dc0d772d50ab0d39277fd",
+            "name": "ck0kky5oy7d3s08381yd0i465.jpeg",
+            "path": "file:/home/abhay_kashyap03/Desktop/github/smoke5/Data/Source_Images/Training_Images/vott-csv-export/ck0kky5oy7d3s08381yd0i465.jpeg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 1,
+            "type": 1
+        },
+        "9b888132c2b7bb3200c1a525e01fbd61": {
+            "format": "jpeg",
+            "id": "9b888132c2b7bb3200c1a525e01fbd61",
+            "name": "ck0kkywt08q2d0944abjjfi8q.jpeg",
+            "path": "file:/home/abhay_kashyap03/Desktop/github/smoke5/Data/Source_Images/Training_Images/vott-csv-export/ck0kkywt08q2d0944abjjfi8q.jpeg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 1,
+            "type": 1
+        },
+        "78bb6790934c621df730a9a7aa26b25a": {
+            "format": "jpeg",
+            "id": "78bb6790934c621df730a9a7aa26b25a",
+            "name": "ck0kkz639le090848leseakdk.jpeg",
+            "path": "file:/home/abhay_kashyap03/Desktop/github/smoke5/Data/Source_Images/Training_Images/vott-csv-export/ck0kkz639le090848leseakdk.jpeg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 2,
+            "type": 1
+        },
+        "3cbe01d45f7586c5660034a89c677531": {
+            "format": "jpeg",
+            "id": "3cbe01d45f7586c5660034a89c677531",
+            "name": "ck0kkzh767dc70838hdq9sv4u.jpeg",
+            "path": "file:/home/abhay_kashyap03/Desktop/github/smoke5/Data/Source_Images/Training_Images/vott-csv-export/ck0kkzh767dc70838hdq9sv4u.jpeg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 2,
+            "type": 1
+        },
+        "7a254cc7d752ad625fcbc0addf6610d9": {
+            "format": "jpeg",
+            "id": "7a254cc7d752ad625fcbc0addf6610d9",
+            "name": "ck0kkzzufk6zy0a464la26n1c.jpeg",
+            "path": "file:/home/abhay_kashyap03/Desktop/github/smoke5/Data/Source_Images/Training_Images/vott-csv-export/ck0kkzzufk6zy0a464la26n1c.jpeg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 2,
+            "type": 1
+        },
+        "9b930b99d9490b6019f989ec6c8e49da": {
+            "format": "jpeg",
+            "id": "9b930b99d9490b6019f989ec6c8e49da",
+            "name": "ck0kl079lk71f0a46m6yo4q9m.jpeg",
+            "path": "file:/home/abhay_kashyap03/Desktop/github/smoke5/Data/Source_Images/Training_Images/vott-csv-export/ck0kl079lk71f0a46m6yo4q9m.jpeg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 2,
+            "type": 1
+        },
+        "5ec46ff8e77edba19f5d207fa0ed4d55": {
+            "format": "jpeg",
+            "id": "5ec46ff8e77edba19f5d207fa0ed4d55",
+            "name": "ck0kl0ifc5xd60863hxynsup8.jpeg",
+            "path": "file:/home/abhay_kashyap03/Desktop/github/smoke5/Data/Source_Images/Training_Images/vott-csv-export/ck0kl0ifc5xd60863hxynsup8.jpeg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 2,
+            "type": 1
+        },
+        "ee2db0d3fbcf05b8ca8a2dbdf2718e79": {
+            "format": "jpeg",
+            "id": "ee2db0d3fbcf05b8ca8a2dbdf2718e79",
+            "name": "ck0kl11aa7dlt0838zoqikube.jpeg",
+            "path": "file:/home/abhay_kashyap03/Desktop/github/smoke5/Data/Source_Images/Training_Images/vott-csv-export/ck0kl11aa7dlt0838zoqikube.jpeg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 1,
+            "type": 1
+        },
+        "1cb3613d9966bf1b997aa375e832378e": {
+            "format": "jpeg",
+            "id": "1cb3613d9966bf1b997aa375e832378e",
+            "name": "ck0kl1k8d9ks80701twyaq08t.jpeg",
+            "path": "file:/home/abhay_kashyap03/Desktop/github/smoke5/Data/Source_Images/Training_Images/vott-csv-export/ck0kl1k8d9ks80701twyaq08t.jpeg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 2,
+            "type": 1
+        },
+        "24725ac84e49399ac1571b7afee81712": {
+            "format": "jpeg",
+            "id": "24725ac84e49399ac1571b7afee81712",
+            "name": "ck0kl2hwy5xu80863zi6j6gy4.jpeg",
+            "path": "file:/home/abhay_kashyap03/Desktop/github/smoke5/Data/Source_Images/Training_Images/vott-csv-export/ck0kl2hwy5xu80863zi6j6gy4.jpeg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 2,
+            "type": 1
+        },
+        "eb4b314ee29809928890d984aca5ac77": {
+            "format": "jpeg",
+            "id": "eb4b314ee29809928890d984aca5ac77",
+            "name": "ck0kl34jm7e2s08384qcp85ih.jpeg",
+            "path": "file:/home/abhay_kashyap03/Desktop/github/smoke5/Data/Source_Images/Training_Images/vott-csv-export/ck0kl34jm7e2s08384qcp85ih.jpeg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 2,
+            "type": 1
+        },
+        "1417d9c29aee811d8fac6870331dc451": {
+            "format": "jpeg",
+            "id": "1417d9c29aee811d8fac6870331dc451",
+            "name": "ck0kl3bjt5xyz0863ru5wbw27.jpeg",
+            "path": "file:/home/abhay_kashyap03/Desktop/github/smoke5/Data/Source_Images/Training_Images/vott-csv-export/ck0kl3bjt5xyz0863ru5wbw27.jpeg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 2,
+            "type": 1
+        },
+        "316d0f6dee259bb76eccee9dc4d5af74": {
+            "format": "jpeg",
+            "id": "316d0f6dee259bb76eccee9dc4d5af74",
+            "name": "ck0kl3hgk8qyh0944gjtwyh6h.jpeg",
+            "path": "file:/home/abhay_kashyap03/Desktop/github/smoke5/Data/Source_Images/Training_Images/vott-csv-export/ck0kl3hgk8qyh0944gjtwyh6h.jpeg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 2,
+            "type": 1
+        },
+        "dbe533d23800c77170bc281e92df9f9b": {
+            "format": "jpeg",
+            "id": "dbe533d23800c77170bc281e92df9f9b",
+            "name": "ck0kl3wpd616z079452ea8lq2.jpeg",
+            "path": "file:/home/abhay_kashyap03/Desktop/github/smoke5/Data/Source_Images/Training_Images/vott-csv-export/ck0kl3wpd616z079452ea8lq2.jpeg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 2,
+            "type": 1
+        },
+        "819c22ae02b021e3c1c19ad8a6bb7db3": {
+            "format": "jpeg",
+            "id": "819c22ae02b021e3c1c19ad8a6bb7db3",
+            "name": "ck0kl4d8y7e9x0838i33y0nta.jpeg",
+            "path": "file:/home/abhay_kashyap03/Desktop/github/smoke5/Data/Source_Images/Training_Images/vott-csv-export/ck0kl4d8y7e9x0838i33y0nta.jpeg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 2,
+            "type": 1
+        },
+        "65ea07115ac9ae019f7e72ec98cab1c0": {
+            "format": "jpeg",
+            "id": "65ea07115ac9ae019f7e72ec98cab1c0",
+            "name": "ck0kl5uir7ej708386nnh95ra.jpeg",
+            "path": "file:/home/abhay_kashyap03/Desktop/github/smoke5/Data/Source_Images/Training_Images/vott-csv-export/ck0kl5uir7ej708386nnh95ra.jpeg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 2,
+            "type": 1
+        },
+        "c4712ba5ea0edaa9e3657c4cacfb084f": {
+            "format": "jpeg",
+            "id": "c4712ba5ea0edaa9e3657c4cacfb084f",
+            "name": "ck0klcevilg5n0848axl4ww0k.jpeg",
+            "path": "file:/home/abhay_kashyap03/Desktop/github/smoke5/Data/Source_Images/Training_Images/vott-csv-export/ck0klcevilg5n0848axl4ww0k.jpeg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 2,
+            "type": 1
+        },
+        "d886753d938bb427dd5edf40f80f871c": {
+            "format": "jpeg",
+            "id": "d886753d938bb427dd5edf40f80f871c",
+            "name": "ck0klds7p9myv07018b68zcsu.jpeg",
+            "path": "file:/home/abhay_kashyap03/Desktop/github/smoke5/Data/Source_Images/Training_Images/vott-csv-export/ck0klds7p9myv07018b68zcsu.jpeg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 2,
+            "type": 1
+        },
+        "a65eeac909eae0abedc5105de9b74bd2": {
+            "format": "jpeg",
+            "id": "a65eeac909eae0abedc5105de9b74bd2",
+            "name": "ck0km26n78w6b0944d8vapoyy.jpeg",
+            "path": "file:/home/abhay_kashyap03/Desktop/github/smoke5/Data/Source_Images/Training_Images/vott-csv-export/ck0km26n78w6b0944d8vapoyy.jpeg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 1,
+            "type": 1
+        },
+        "356b30b49f22daeebd93a2f0848da048": {
+            "format": "jpeg",
+            "id": "356b30b49f22daeebd93a2f0848da048",
+            "name": "ck0km3uktkdxc0a46uf6e417v.jpeg",
+            "path": "file:/home/abhay_kashyap03/Desktop/github/smoke5/Data/Source_Images/Training_Images/vott-csv-export/ck0km3uktkdxc0a46uf6e417v.jpeg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 2,
+            "type": 1
+        },
+        "516e619d144b49138a22b3ddc186dbd2": {
+            "format": "jpeg",
+            "id": "516e619d144b49138a22b3ddc186dbd2",
+            "name": "ck0km415y8wk90944mab9i4lr.jpeg",
+            "path": "file:/home/abhay_kashyap03/Desktop/github/smoke5/Data/Source_Images/Training_Images/vott-csv-export/ck0km415y8wk90944mab9i4lr.jpeg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 1,
+            "type": 1
+        },
+        "0c1082d56647c71d809a9c72af4577e7": {
+            "format": "jpeg",
+            "id": "0c1082d56647c71d809a9c72af4577e7",
+            "name": "ck0km4hlk63zp0863ur0owhkg.jpeg",
+            "path": "file:/home/abhay_kashyap03/Desktop/github/smoke5/Data/Source_Images/Training_Images/vott-csv-export/ck0km4hlk63zp0863ur0owhkg.jpeg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 2,
+            "type": 1
+        },
+        "b5071c63bbd26da077031b4679d13e16": {
+            "format": "jpeg",
+            "id": "b5071c63bbd26da077031b4679d13e16",
+            "name": "ck0km4pkh640f086302no99ma.jpeg",
+            "path": "file:/home/abhay_kashyap03/Desktop/github/smoke5/Data/Source_Images/Training_Images/vott-csv-export/ck0km4pkh640f086302no99ma.jpeg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 2,
+            "type": 1
+        },
+        "99883406ccdef3eaf7ac3ae1aad35a30": {
+            "format": "jpeg",
+            "id": "99883406ccdef3eaf7ac3ae1aad35a30",
+            "name": "ck0km4x1h672j0794gya4kfco.jpeg",
+            "path": "file:/home/abhay_kashyap03/Desktop/github/smoke5/Data/Source_Images/Training_Images/vott-csv-export/ck0km4x1h672j0794gya4kfco.jpeg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 2,
+            "type": 1
+        },
+        "4804fca8a31dc1fa2fe2d4738a70224b": {
+            "format": "jpeg",
+            "id": "4804fca8a31dc1fa2fe2d4738a70224b",
+            "name": "ck0km5c8vke4q0a46trc774lh.jpeg",
+            "path": "file:/home/abhay_kashyap03/Desktop/github/smoke5/Data/Source_Images/Training_Images/vott-csv-export/ck0km5c8vke4q0a46trc774lh.jpeg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 1,
+            "type": 1
+        },
+        "3b79b79b03a92a9a85676787a4b5908e": {
+            "format": "jpeg",
+            "id": "3b79b79b03a92a9a85676787a4b5908e",
+            "name": "ck0km5x3u9r910701d3yfjhtv.jpeg",
+            "path": "file:/home/abhay_kashyap03/Desktop/github/smoke5/Data/Source_Images/Training_Images/vott-csv-export/ck0km5x3u9r910701d3yfjhtv.jpeg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 1,
+            "type": 1
+        },
+        "1f8691ca880c40b6c418e3965fccd903": {
+            "format": "jpeg",
+            "id": "1f8691ca880c40b6c418e3965fccd903",
+            "name": "ck0km64lvbavu0721bhfm918u.jpeg",
+            "path": "file:/home/abhay_kashyap03/Desktop/github/smoke5/Data/Source_Images/Training_Images/vott-csv-export/ck0km64lvbavu0721bhfm918u.jpeg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 2,
+            "type": 1
+        },
+        "dd3eccdc717541d116b0e583490c8aaa": {
+            "format": "jpeg",
+            "id": "dd3eccdc717541d116b0e583490c8aaa",
+            "name": "ck0kmem9m68vr07947lx0jam1.jpeg",
+            "path": "file:/home/abhay_kashyap03/Desktop/github/smoke5/Data/Source_Images/Training_Images/vott-csv-export/ck0kmem9m68vr07947lx0jam1.jpeg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 2,
+            "type": 1
+        },
+        "bc0a23583ebb4397122ca1fe327412c3": {
+            "format": "jpeg",
+            "id": "bc0a23583ebb4397122ca1fe327412c3",
+            "name": "ck0kmewv08ygm0944br9j606r.jpeg",
+            "path": "file:/home/abhay_kashyap03/Desktop/github/smoke5/Data/Source_Images/Training_Images/vott-csv-export/ck0kmewv08ygm0944br9j606r.jpeg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 2,
+            "type": 1
+        },
+        "51e6ec79c6081b69d772513f2ddd950f": {
+            "format": "jpeg",
+            "id": "51e6ec79c6081b69d772513f2ddd950f",
+            "name": "ck0kmf5q58yik0944gdwwrqnt.jpeg",
+            "path": "file:/home/abhay_kashyap03/Desktop/github/smoke5/Data/Source_Images/Training_Images/vott-csv-export/ck0kmf5q58yik0944gdwwrqnt.jpeg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 2,
+            "type": 1
+        },
+        "4bcb6097b20eb0475637d6932405afba": {
+            "format": "jpeg",
+            "id": "4bcb6097b20eb0475637d6932405afba",
+            "name": "ck0kmfd7ibcib0721v08q1jv0.jpeg",
+            "path": "file:/home/abhay_kashyap03/Desktop/github/smoke5/Data/Source_Images/Training_Images/vott-csv-export/ck0kmfd7ibcib0721v08q1jv0.jpeg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 2,
+            "type": 1
+        },
+        "18906255a7a1bc8dfa24ba726666fd3d": {
+            "format": "jpeg",
+            "id": "18906255a7a1bc8dfa24ba726666fd3d",
+            "name": "ck0kmftzekfwv0a46aj0nh5dz.jpeg",
+            "path": "file:/home/abhay_kashyap03/Desktop/github/smoke5/Data/Source_Images/Training_Images/vott-csv-export/ck0kmftzekfwv0a46aj0nh5dz.jpeg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 1,
+            "type": 1
+        },
+        "26fafa21bd62dc4511ce1ff754b730d2": {
+            "format": "jpeg",
+            "id": "26fafa21bd62dc4511ce1ff754b730d2",
+            "name": "ck0kmgevm69ac0794mihosd3p.jpeg",
+            "path": "file:/home/abhay_kashyap03/Desktop/github/smoke5/Data/Source_Images/Training_Images/vott-csv-export/ck0kmgevm69ac0794mihosd3p.jpeg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 2,
+            "type": 1
+        },
+        "44c90a3ef4d32e71183325b7fe574c4b": {
+            "format": "jpeg",
+            "id": "44c90a3ef4d32e71183325b7fe574c4b",
+            "name": "ck0kmh9hhkg5e0a46we9ywaxl.jpeg",
+            "path": "file:/home/abhay_kashyap03/Desktop/github/smoke5/Data/Source_Images/Training_Images/vott-csv-export/ck0kmh9hhkg5e0a46we9ywaxl.jpeg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 2,
+            "type": 1
+        },
+        "e7b5022222c5b9090c97e986ffa3ce29": {
+            "format": "jpeg",
+            "id": "e7b5022222c5b9090c97e986ffa3ce29",
+            "name": "ck0kmhpz99t9w0701ftiu8jlx.jpeg",
+            "path": "file:/home/abhay_kashyap03/Desktop/github/smoke5/Data/Source_Images/Training_Images/vott-csv-export/ck0kmhpz99t9w0701ftiu8jlx.jpeg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 2,
+            "type": 1
+        },
+        "4d4f43f875df6d58cff959f27c25e266": {
+            "format": "jpeg",
+            "id": "4d4f43f875df6d58cff959f27c25e266",
+            "name": "ck0kmi067lmu70848mrnfi0rc.jpeg",
+            "path": "file:/home/abhay_kashyap03/Desktop/github/smoke5/Data/Source_Images/Training_Images/vott-csv-export/ck0kmi067lmu70848mrnfi0rc.jpeg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 2,
+            "type": 1
+        },
+        "a706eca6b15a40492ebefc9b8253c16d": {
+            "format": "jpeg",
+            "id": "a706eca6b15a40492ebefc9b8253c16d",
+            "name": "ck0kmi7k47m0i08380dwkjuc1.jpeg",
+            "path": "file:/home/abhay_kashyap03/Desktop/github/smoke5/Data/Source_Images/Training_Images/vott-csv-export/ck0kmi7k47m0i08380dwkjuc1.jpeg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 2,
+            "type": 1
+        },
+        "4e0ffcd336ab982ab3916acb2d3b8596": {
+            "format": "jpeg",
+            "id": "4e0ffcd336ab982ab3916acb2d3b8596",
+            "name": "ck0kmp3qy67dy08634jubsyx8.jpeg",
+            "path": "file:/home/abhay_kashyap03/Desktop/github/smoke5/Data/Source_Images/Training_Images/vott-csv-export/ck0kmp3qy67dy08634jubsyx8.jpeg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 2,
+            "type": 1
+        },
+        "aeb797cd77b0c0c02f01f03ad7f59470": {
+            "format": "jpeg",
+            "id": "aeb797cd77b0c0c02f01f03ad7f59470",
+            "name": "ck0kmpmy67n4j08386u8554cs.jpeg",
+            "path": "file:/home/abhay_kashyap03/Desktop/github/smoke5/Data/Source_Images/Training_Images/vott-csv-export/ck0kmpmy67n4j08386u8554cs.jpeg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 2,
+            "type": 1
+        },
+        "baeb095d77b945a28cc79519ce4cc787": {
+            "format": "jpeg",
+            "id": "baeb095d77b945a28cc79519ce4cc787",
+            "name": "ck0kmr5ewkhpq0a46nuv73id4.jpeg",
+            "path": "file:/home/abhay_kashyap03/Desktop/github/smoke5/Data/Source_Images/Training_Images/vott-csv-export/ck0kmr5ewkhpq0a46nuv73id4.jpeg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 2,
+            "type": 1
+        },
+        "8376af628955bfa56ce06c8f5c0dd187": {
+            "format": "jpeg",
+            "id": "8376af628955bfa56ce06c8f5c0dd187",
+            "name": "ck0kmrvn590jl0944asem2ofh.jpeg",
+            "path": "file:/home/abhay_kashyap03/Desktop/github/smoke5/Data/Source_Images/Training_Images/vott-csv-export/ck0kmrvn590jl0944asem2ofh.jpeg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 2,
+            "type": 1
+        },
+        "b638ab515a244f9564abb31f3a690257": {
+            "format": "jpeg",
+            "id": "b638ab515a244f9564abb31f3a690257",
+            "name": "ck0kmtk7c90w60944bjhqhm4j.jpeg",
+            "path": "file:/home/abhay_kashyap03/Desktop/github/smoke5/Data/Source_Images/Training_Images/vott-csv-export/ck0kmtk7c90w60944bjhqhm4j.jpeg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 2,
+            "type": 1
+        },
+        "dedf133920de045667122962ab53c5af": {
+            "format": "jpeg",
+            "id": "dedf133920de045667122962ab53c5af",
+            "name": "ck0kn591g92v60944tmg09bpa.jpeg",
+            "path": "file:/home/abhay_kashyap03/Desktop/github/smoke5/Data/Source_Images/Training_Images/vott-csv-export/ck0kn591g92v60944tmg09bpa.jpeg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 1,
+            "type": 1
+        },
+        "0dbe25fb422d4f571dc01e4be2e0f4f2": {
+            "format": "jpeg",
+            "id": "0dbe25fb422d4f571dc01e4be2e0f4f2",
+            "name": "ck0kn6a6093460944dnwl19so.jpeg",
+            "path": "file:/home/abhay_kashyap03/Desktop/github/smoke5/Data/Source_Images/Training_Images/vott-csv-export/ck0kn6a6093460944dnwl19so.jpeg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 1,
+            "type": 1
+        },
+        "cdb9d07fe9292c0340c0f6d1f2f2594b": {
+            "format": "jpeg",
+            "id": "cdb9d07fe9292c0340c0f6d1f2f2594b",
+            "name": "ck0kn6xvv6ds10794waw8k1tx.jpeg",
+            "path": "file:/home/abhay_kashyap03/Desktop/github/smoke5/Data/Source_Images/Training_Images/vott-csv-export/ck0kn6xvv6ds10794waw8k1tx.jpeg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 2,
+            "type": 1
+        },
+        "8a30ef3b0c26c9d1e89c455d1c16a0ad": {
+            "format": "jpeg",
+            "id": "8a30ef3b0c26c9d1e89c455d1c16a0ad",
+            "name": "ck0kn8eh393ib0944lkiizn3w.jpeg",
+            "path": "file:/home/abhay_kashyap03/Desktop/github/smoke5/Data/Source_Images/Training_Images/vott-csv-export/ck0kn8eh393ib0944lkiizn3w.jpeg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 1,
+            "type": 1
+        },
+        "aa0b9d9f878041232603480fbcb26dfe": {
+            "format": "jpeg",
+            "id": "aa0b9d9f878041232603480fbcb26dfe",
+            "name": "ck0kn8y5y9y3507018k5p06ma.jpeg",
+            "path": "file:/home/abhay_kashyap03/Desktop/github/smoke5/Data/Source_Images/Training_Images/vott-csv-export/ck0kn8y5y9y3507018k5p06ma.jpeg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 2,
+            "type": 1
+        },
+        "7dd1260fa41690ed1c83d2a99488b748": {
+            "format": "jpeg",
+            "id": "7dd1260fa41690ed1c83d2a99488b748",
+            "name": "ck0kn966blrt008482afk6mhy.jpeg",
+            "path": "file:/home/abhay_kashyap03/Desktop/github/smoke5/Data/Source_Images/Training_Images/vott-csv-export/ck0kn966blrt008482afk6mhy.jpeg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 2,
+            "type": 1
+        },
+        "837635be2767e75f5b774544efdb0c31": {
+            "format": "jpeg",
+            "id": "837635be2767e75f5b774544efdb0c31",
+            "name": "ck0kn9jfn6eb50794lzp777i0.jpeg",
+            "path": "file:/home/abhay_kashyap03/Desktop/github/smoke5/Data/Source_Images/Training_Images/vott-csv-export/ck0kn9jfn6eb50794lzp777i0.jpeg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 1,
+            "type": 1
+        },
+        "73749ee339b48365bf96fb3630aacfb3": {
+            "format": "jpeg",
+            "id": "73749ee339b48365bf96fb3630aacfb3",
+            "name": "ck0knae84lryw08485s94co4s.jpeg",
+            "path": "file:/home/abhay_kashyap03/Desktop/github/smoke5/Data/Source_Images/Training_Images/vott-csv-export/ck0knae84lryw08485s94co4s.jpeg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 2,
+            "type": 1
+        },
+        "b6e5e56ec18f58e5fb7e08f6db980b69": {
+            "format": "jpeg",
+            "id": "b6e5e56ec18f58e5fb7e08f6db980b69",
+            "name": "ck0knam319ybv0701clozevt3.jpeg",
+            "path": "file:/home/abhay_kashyap03/Desktop/github/smoke5/Data/Source_Images/Training_Images/vott-csv-export/ck0knam319ybv0701clozevt3.jpeg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 2,
+            "type": 1
+        },
+        "52e9e2fb3ff6b7957532fdf3aa1648bd": {
+            "format": "jpeg",
+            "id": "52e9e2fb3ff6b7957532fdf3aa1648bd",
+            "name": "ck0knvsi36h390794sjhcf0ri.jpeg",
+            "path": "file:/home/abhay_kashyap03/Desktop/github/smoke5/Data/Source_Images/Training_Images/vott-csv-export/ck0knvsi36h390794sjhcf0ri.jpeg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 2,
+            "type": 1
+        },
+        "2b284b5b0fc7464fe1d3af98210fe7b2": {
+            "format": "jpeg",
+            "id": "2b284b5b0fc7464fe1d3af98210fe7b2",
+            "name": "ck0knw1mc96cu09446iq0ugae.jpeg",
+            "path": "file:/home/abhay_kashyap03/Desktop/github/smoke5/Data/Source_Images/Training_Images/vott-csv-export/ck0knw1mc96cu09446iq0ugae.jpeg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 2,
+            "type": 1
+        },
+        "463aea193c1172e9ae864f18a6a093b3": {
+            "format": "jpeg",
+            "id": "463aea193c1172e9ae864f18a6a093b3",
+            "name": "ck0koqfpl6g0x0863mmghhzwg.jpeg",
+            "path": "file:/home/abhay_kashyap03/Desktop/github/smoke5/Data/Source_Images/Training_Images/vott-csv-export/ck0koqfpl6g0x0863mmghhzwg.jpeg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 2,
+            "type": 1
+        },
+        "03ca2c7e5503489734c8421634e5a1db": {
+            "format": "jpeg",
+            "id": "03ca2c7e5503489734c8421634e5a1db",
+            "name": "ck0koqsqta39h0701f6xas96g.jpeg",
+            "path": "file:/home/abhay_kashyap03/Desktop/github/smoke5/Data/Source_Images/Training_Images/vott-csv-export/ck0koqsqta39h0701f6xas96g.jpeg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 2,
+            "type": 1
+        },
+        "46279adbd2eb8bfe7a637107a0cbebda": {
+            "format": "jpeg",
+            "id": "46279adbd2eb8bfe7a637107a0cbebda",
+            "name": "ck0korwq7kq730a465vnctqhc.jpeg",
+            "path": "file:/home/abhay_kashyap03/Desktop/github/smoke5/Data/Source_Images/Training_Images/vott-csv-export/ck0korwq7kq730a465vnctqhc.jpeg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 2,
+            "type": 1
+        },
+        "0b276d2f45976c61cb6ec860988da9c9": {
+            "format": "jpeg",
+            "id": "0b276d2f45976c61cb6ec860988da9c9",
+            "name": "ck0kosbce7vpn0838c5telfw3.jpeg",
+            "path": "file:/home/abhay_kashyap03/Desktop/github/smoke5/Data/Source_Images/Training_Images/vott-csv-export/ck0kosbce7vpn0838c5telfw3.jpeg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 2,
+            "type": 1
+        },
+        "5e10d4d661e4c4afb99ae25d1c2b7795": {
+            "format": "jpeg",
+            "id": "5e10d4d661e4c4afb99ae25d1c2b7795",
+            "name": "ck0kosmizkqdq0a46xgz65fgt.jpeg",
+            "path": "file:/home/abhay_kashyap03/Desktop/github/smoke5/Data/Source_Images/Training_Images/vott-csv-export/ck0kosmizkqdq0a46xgz65fgt.jpeg",
+            "size": {
+                "width": 640,
+                "height": 480
+            },
+            "state": 2,
+            "type": 1
+        }
+        "28230ce0b9ad1c3ad4b7a334a8e09af2": {
+            "format": "jpg",
+            "id": "28230ce0b9ad1c3ad4b7a334a8e09af2",
+            "name": "CameraHPWREN_MirrorSmoke3549.jpg",
+            "path": "file:/home/abhay_kashyap03/Desktop/github/smoke5/Data/Source_Images/Training_Images/vott-csv-export/vott-csv-export/CameraHPWREN_MirrorSmoke3549.jpg",
+            "size": {
+                "width": 480,
+                "height": 360
+            },
+            "state": 2,
+            "type": 1
+        },
+        "8a8b8ff6b6213b20df0cac0adbb25e22": {
+            "format": "jpg",
+            "id": "8a8b8ff6b6213b20df0cac0adbb25e22",
+            "name": "CameraHPWREN_MirrorSmoke3550.jpg",
+            "path": "file:/home/abhay_kashyap03/Desktop/github/smoke5/Data/Source_Images/Training_Images/vott-csv-export/vott-csv-export/CameraHPWREN_MirrorSmoke3550.jpg",
+            "size": {
+                "width": 480,
+                "height": 360
+            },
+            "state": 2,
+            "type": 1
+        },
+        "ebef209c02c33d96403d5f4c3f8b475e": {
+            "format": "jpg",
+            "id": "ebef209c02c33d96403d5f4c3f8b475e",
+            "name": "CameraHPWREN_MirrorSmoke3551.jpg",
+            "path": "file:/home/abhay_kashyap03/Desktop/github/smoke5/Data/Source_Images/Training_Images/vott-csv-export/vott-csv-export/CameraHPWREN_MirrorSmoke3551.jpg",
+            "size": {
+                "width": 480,
+                "height": 360
+            },
+            "state": 2,
+            "type": 1
+        },
+        "f263ab830f91b80094d1de663cd46b4c": {
+            "format": "jpg",
+            "id": "f263ab830f91b80094d1de663cd46b4c",
+            "name": "CameraHPWREN_MirrorSmoke3552.jpg",
+            "path": "file:/home/abhay_kashyap03/Desktop/github/smoke5/Data/Source_Images/Training_Images/vott-csv-export/vott-csv-export/CameraHPWREN_MirrorSmoke3552.jpg",
+            "size": {
+                "width": 480,
+                "height": 360
+            },
+            "state": 2,
+            "type": 1
+        },
+        "046385977c4ac31494c204f826e1b277": {
+            "format": "jpg",
+            "id": "046385977c4ac31494c204f826e1b277",
+            "name": "CameraHPWREN_MirrorSmoke3553.jpg",
+            "path": "file:/home/abhay_kashyap03/Desktop/github/smoke5/Data/Source_Images/Training_Images/vott-csv-export/vott-csv-export/CameraHPWREN_MirrorSmoke3553.jpg",
+            "size": {
+                "width": 480,
+                "height": 360
+            },
+            "state": 1,
+            "type": 1
+        },
+        "247a83ed268f641aec4c6817305f6894": {
+            "format": "jpg",
+            "id": "247a83ed268f641aec4c6817305f6894",
+            "name": "CameraHPWREN_MirrorSmoke3554.jpg",
+            "path": "file:/home/abhay_kashyap03/Desktop/github/smoke5/Data/Source_Images/Training_Images/vott-csv-export/vott-csv-export/CameraHPWREN_MirrorSmoke3554.jpg",
+            "size": {
+                "width": 480,
+                "height": 360
+            },
+            "state": 1,
+            "type": 1
+        },
+        "8292d8187ae7487c4eed98fe8aaebae4": {
+            "format": "jpg",
+            "id": "8292d8187ae7487c4eed98fe8aaebae4",
+            "name": "CameraHPWREN_MirrorSmoke3555.jpg",
+            "path": "file:/home/abhay_kashyap03/Desktop/github/smoke5/Data/Source_Images/Training_Images/vott-csv-export/vott-csv-export/CameraHPWREN_MirrorSmoke3555.jpg",
+            "size": {
+                "width": 480,
+                "height": 360
+            },
+            "state": 2,
+            "type": 1
+        },
+        "f0dca3ac0f6214cb8060c2de92b5737a": {
+            "format": "jpg",
+            "id": "f0dca3ac0f6214cb8060c2de92b5737a",
+            "name": "CameraHPWREN_MirrorSmoke3556.jpg",
+            "path": "file:/home/abhay_kashyap03/Desktop/github/smoke5/Data/Source_Images/Training_Images/vott-csv-export/vott-csv-export/CameraHPWREN_MirrorSmoke3556.jpg",
+            "size": {
+                "width": 480,
+                "height": 360
+            },
+            "state": 2,
+            "type": 1
+        },
+        "9c4981e08a5a8ff7591535752d6a2ee6": {
+            "format": "jpg",
+            "id": "9c4981e08a5a8ff7591535752d6a2ee6",
+            "name": "CameraHPWREN_MirrorSmoke3557.jpg",
+            "path": "file:/home/abhay_kashyap03/Desktop/github/smoke5/Data/Source_Images/Training_Images/vott-csv-export/vott-csv-export/CameraHPWREN_MirrorSmoke3557.jpg",
+            "size": {
+                "width": 480,
+                "height": 360
+            },
+            "state": 2,
+            "type": 1
+        },
+        "1ab0e771403223bc6ab37cf0e608d215": {
+            "format": "jpg",
+            "id": "1ab0e771403223bc6ab37cf0e608d215",
+            "name": "CameraHPWREN_MirrorSmoke3558.jpg",
+            "path": "file:/home/abhay_kashyap03/Desktop/github/smoke5/Data/Source_Images/Training_Images/vott-csv-export/vott-csv-export/CameraHPWREN_MirrorSmoke3558.jpg",
+            "size": {
+                "width": 480,
+                "height": 360
+            },
+            "state": 2,
+            "type": 1
+        },
+        "b7e42598e6c4a9000d333d9a3f070e03": {
+            "format": "jpg",
+            "id": "b7e42598e6c4a9000d333d9a3f070e03",
+            "name": "CameraHPWREN_MirrorSmoke3559.jpg",
+            "path": "file:/home/abhay_kashyap03/Desktop/github/smoke5/Data/Source_Images/Training_Images/vott-csv-export/vott-csv-export/CameraHPWREN_MirrorSmoke3559.jpg",
+            "size": {
+                "width": 480,
+                "height": 360
+            },
+            "state": 2,
+            "type": 1
+        },
+        "47ac0f7ced59ec375b7d627b81573d4d": {
+            "format": "jpg",
+            "id": "47ac0f7ced59ec375b7d627b81573d4d",
+            "name": "CameraHPWREN_MirrorSmoke3562.jpg",
+            "path": "file:/home/abhay_kashyap03/Desktop/github/smoke5/Data/Source_Images/Training_Images/vott-csv-export/vott-csv-export/CameraHPWREN_MirrorSmoke3562.jpg",
+            "size": {
+                "width": 480,
+                "height": 360
+            },
+            "state": 2,
+            "type": 1
+        },
+        "643841773234cfdc068bef4f04e16738": {
+            "format": "jpg",
+            "id": "643841773234cfdc068bef4f04e16738",
+            "name": "CameraHPWREN_MirrorSmoke3563.jpg",
+            "path": "file:/home/abhay_kashyap03/Desktop/github/smoke5/Data/Source_Images/Training_Images/vott-csv-export/vott-csv-export/CameraHPWREN_MirrorSmoke3563.jpg",
+            "size": {
+                "width": 480,
+                "height": 360
+            },
+            "state": 2,
+            "type": 1
+        },
+        "f7914dae52b1754fb4ac6da926183f37": {
+            "format": "jpg",
+            "id": "f7914dae52b1754fb4ac6da926183f37",
+            "name": "CameraHPWREN_MirrorSmoke3565.jpg",
+            "path": "file:/home/abhay_kashyap03/Desktop/github/smoke5/Data/Source_Images/Training_Images/vott-csv-export/vott-csv-export/CameraHPWREN_MirrorSmoke3565.jpg",
+            "size": {
+                "width": 480,
+                "height": 360
+            },
+            "state": 2,
+            "type": 1
+        },
+        "22baf2e00a2a643e81ecc59606490469": {
+            "format": "jpg",
+            "id": "22baf2e00a2a643e81ecc59606490469",
+            "name": "CameraHPWREN_MirrorSmoke3566.jpg",
+            "path": "file:/home/abhay_kashyap03/Desktop/github/smoke5/Data/Source_Images/Training_Images/vott-csv-export/vott-csv-export/CameraHPWREN_MirrorSmoke3566.jpg",
+            "size": {
+                "width": 480,
+                "height": 360
+            },
+            "state": 2,
+            "type": 1
+        },
+        "db2fffab9c345d6a2c3c8548c0d0f527": {
+            "format": "jpg",
+            "id": "db2fffab9c345d6a2c3c8548c0d0f527",
+            "name": "CameraHPWREN_MirrorSmoke3567.jpg",
+            "path": "file:/home/abhay_kashyap03/Desktop/github/smoke5/Data/Source_Images/Training_Images/vott-csv-export/vott-csv-export/CameraHPWREN_MirrorSmoke3567.jpg",
+            "size": {
+                "width": 480,
+                "height": 360
+            },
+            "state": 2,
+            "type": 1
+        },
+        "cbda0b0b1f9c85f945c4c5dcb4bccb73": {
+            "format": "jpg",
+            "id": "cbda0b0b1f9c85f945c4c5dcb4bccb73",
+            "name": "CameraHPWREN_MirrorSmoke3570.jpg",
+            "path": "file:/home/abhay_kashyap03/Desktop/github/smoke5/Data/Source_Images/Training_Images/vott-csv-export/vott-csv-export/CameraHPWREN_MirrorSmoke3570.jpg",
+            "size": {
+                "width": 480,
+                "height": 360
+            },
+            "state": 2,
+            "type": 1
+        },
+        "fdaa8362d9c696693a47814a5a44ae32": {
+            "format": "jpg",
+            "id": "fdaa8362d9c696693a47814a5a44ae32",
+            "name": "CameraHPWREN_MirrorSmoke3569.jpg",
+            "path": "file:/home/abhay_kashyap03/Desktop/github/smoke5/Data/Source_Images/Training_Images/vott-csv-export/vott-csv-export/CameraHPWREN_MirrorSmoke3569.jpg",
+            "size": {
+                "width": 480,
+                "height": 360
+            },
+            "state": 2,
+            "type": 1
+        },
+        "cf1301cb5cf2e63289bcaaaa71f3c4ba": {
+            "format": "jpg",
+            "id": "cf1301cb5cf2e63289bcaaaa71f3c4ba",
+            "name": "CameraHPWREN_MirrorSmoke3574.jpg",
+            "path": "file:/home/abhay_kashyap03/Desktop/github/smoke5/Data/Source_Images/Training_Images/vott-csv-export/vott-csv-export/CameraHPWREN_MirrorSmoke3574.jpg",
+            "size": {
+                "width": 480,
+                "height": 360
+            },
+            "state": 2,
+            "type": 1
+        },
+        "bd4e4d1b9f945686f6871986986996e6": {
+            "format": "jpg",
+            "id": "bd4e4d1b9f945686f6871986986996e6",
+            "name": "CameraHPWREN_MirrorSmoke3575.jpg",
+            "path": "file:/home/abhay_kashyap03/Desktop/github/smoke5/Data/Source_Images/Training_Images/vott-csv-export/vott-csv-export/CameraHPWREN_MirrorSmoke3575.jpg",
+            "size": {
+                "width": 480,
+                "height": 360
+            },
+            "state": 2,
+            "type": 1
+        },
+        "aa66fc3a366397f32a263f132ceb3b1a": {
+            "format": "jpg",
+            "id": "aa66fc3a366397f32a263f132ceb3b1a",
+            "name": "CameraHPWREN_MirrorSmoke3576.jpg",
+            "path": "file:/home/abhay_kashyap03/Desktop/github/smoke5/Data/Source_Images/Training_Images/vott-csv-export/vott-csv-export/CameraHPWREN_MirrorSmoke3576.jpg",
+            "size": {
+                "width": 480,
+                "height": 360
+            },
+            "state": 2,
+            "type": 1
+        },
+        "1a905990e7ac0a8af1ca8a2d9c63eab2": {
+            "format": "jpg",
+            "id": "1a905990e7ac0a8af1ca8a2d9c63eab2",
+            "name": "CameraHPWREN_MirrorSmoke3579.jpg",
+            "path": "file:/home/abhay_kashyap03/Desktop/github/smoke5/Data/Source_Images/Training_Images/vott-csv-export/vott-csv-export/CameraHPWREN_MirrorSmoke3579.jpg",
+            "size": {
+                "width": 480,
+                "height": 360
+            },
+            "state": 2,
+            "type": 1
+        },
+        "ec6c87cd3c50fd73faddad57c2e070ba": {
+            "format": "jpg",
+            "id": "ec6c87cd3c50fd73faddad57c2e070ba",
+            "name": "CameraHPWREN_MirrorSmoke3580.jpg",
+            "path": "file:/home/abhay_kashyap03/Desktop/github/smoke5/Data/Source_Images/Training_Images/vott-csv-export/vott-csv-export/CameraHPWREN_MirrorSmoke3580.jpg",
+            "size": {
+                "width": 480,
+                "height": 360
+            },
+            "state": 2,
+            "type": 1
+        },
+        "b73d6716a1c60b29bb11e3d66841d4d1": {
+            "format": "jpg",
+            "id": "b73d6716a1c60b29bb11e3d66841d4d1",
+            "name": "CameraHPWREN_MirrorSmoke3581.jpg",
+            "path": "file:/home/abhay_kashyap03/Desktop/github/smoke5/Data/Source_Images/Training_Images/vott-csv-export/vott-csv-export/CameraHPWREN_MirrorSmoke3581.jpg",
+            "size": {
+                "width": 480,
+                "height": 360
+            },
+            "state": 2,
+            "type": 1
+        },
+        "a4e376822744e03953519c0772cfffe1": {
+            "format": "jpg",
+            "id": "a4e376822744e03953519c0772cfffe1",
+            "name": "CameraHPWREN_MirrorSmoke3582.jpg",
+            "path": "file:/home/abhay_kashyap03/Desktop/github/smoke5/Data/Source_Images/Training_Images/vott-csv-export/vott-csv-export/CameraHPWREN_MirrorSmoke3582.jpg",
+            "size": {
+                "width": 480,
+                "height": 360
+            },
+            "state": 2,
+            "type": 1
+        },
+        "74183888226acdb00753987a5b712ca3": {
+            "format": "jpg",
+            "id": "74183888226acdb00753987a5b712ca3",
+            "name": "CameraHPWREN_MirrorSmoke3583.jpg",
+            "path": "file:/home/abhay_kashyap03/Desktop/github/smoke5/Data/Source_Images/Training_Images/vott-csv-export/vott-csv-export/CameraHPWREN_MirrorSmoke3583.jpg",
+            "size": {
+                "width": 480,
+                "height": 360
+            },
+            "state": 2,
+            "type": 1
+        },
+        "a64d6d15bf5fc3797719a393b6f4c526": {
+            "format": "jpg",
+            "id": "a64d6d15bf5fc3797719a393b6f4c526",
+            "name": "CameraHPWREN_MirrorSmoke3584.jpg",
+            "path": "file:/home/abhay_kashyap03/Desktop/github/smoke5/Data/Source_Images/Training_Images/vott-csv-export/vott-csv-export/CameraHPWREN_MirrorSmoke3584.jpg",
+            "size": {
+                "width": 480,
+                "height": 360
+            },
+            "state": 1,
+            "type": 1
+        },
+        "d898b55d9c3df8646a6eda99d63c7c96": {
+            "format": "jpg",
+            "id": "d898b55d9c3df8646a6eda99d63c7c96",
+            "name": "CameraHPWREN_MirrorSmoke3585.jpg",
+            "path": "file:/home/abhay_kashyap03/Desktop/github/smoke5/Data/Source_Images/Training_Images/vott-csv-export/vott-csv-export/CameraHPWREN_MirrorSmoke3585.jpg",
+            "size": {
+                "width": 480,
+                "height": 360
+            },
+            "state": 1,
+            "type": 1
+        },
+        "5240287aa588e4c6119c534a355f8faa": {
+            "format": "jpg",
+            "id": "5240287aa588e4c6119c534a355f8faa",
+            "name": "CameraHPWREN_MirrorSmoke3586.jpg",
+            "path": "file:/home/abhay_kashyap03/Desktop/github/smoke5/Data/Source_Images/Training_Images/vott-csv-export/vott-csv-export/CameraHPWREN_MirrorSmoke3586.jpg",
+            "size": {
+                "width": 480,
+                "height": 360
+            },
+            "state": 2,
+            "type": 1
+        },
+        "1a31813545940655b62899a5d9e72b23": {
+            "format": "jpg",
+            "id": "1a31813545940655b62899a5d9e72b23",
+            "name": "CameraHPWREN_MirrorSmoke3587.jpg",
+            "path": "file:/home/abhay_kashyap03/Desktop/github/smoke5/Data/Source_Images/Training_Images/vott-csv-export/vott-csv-export/CameraHPWREN_MirrorSmoke3587.jpg",
+            "size": {
+                "width": 480,
+                "height": 360
+            },
+            "state": 1,
+            "type": 1
+        },
+        "57ac0ff1c5b0d9e2e33834d7c078d353": {
+            "format": "jpg",
+            "id": "57ac0ff1c5b0d9e2e33834d7c078d353",
+            "name": "CameraHPWREN_MirrorSmoke3589.jpg",
+            "path": "file:/home/abhay_kashyap03/Desktop/github/smoke5/Data/Source_Images/Training_Images/vott-csv-export/vott-csv-export/CameraHPWREN_MirrorSmoke3589.jpg",
+            "size": {
+                "width": 480,
+                "height": 360
+            },
+            "state": 2,
+            "type": 1
+        },
+        "012e1be3d2efd4d1ee62e45d0b75183d": {
+            "format": "jpg",
+            "id": "012e1be3d2efd4d1ee62e45d0b75183d",
+            "name": "CameraHPWREN_MirrorSmoke3590.jpg",
+            "path": "file:/home/abhay_kashyap03/Desktop/github/smoke5/Data/Source_Images/Training_Images/vott-csv-export/vott-csv-export/CameraHPWREN_MirrorSmoke3590.jpg",
+            "size": {
+                "width": 480,
+                "height": 360
+            },
+            "state": 1,
+            "type": 1
+        },
+        "d76af89598749952e45c86df47541898": {
+            "format": "jpg",
+            "id": "d76af89598749952e45c86df47541898",
+            "name": "CameraHPWREN_MirrorSmoke3591.jpg",
+            "path": "file:/home/abhay_kashyap03/Desktop/github/smoke5/Data/Source_Images/Training_Images/vott-csv-export/vott-csv-export/CameraHPWREN_MirrorSmoke3591.jpg",
+            "size": {
+                "width": 480,
+                "height": 360
+            },
+            "state": 2,
+            "type": 1
+        },
+        "4664fef018e75d919b8e019f00886a20": {
+            "format": "jpg",
+            "id": "4664fef018e75d919b8e019f00886a20",
+            "name": "CameraHPWREN_MirrorSmoke3593.jpg",
+            "path": "file:/home/abhay_kashyap03/Desktop/github/smoke5/Data/Source_Images/Training_Images/vott-csv-export/vott-csv-export/CameraHPWREN_MirrorSmoke3593.jpg",
+            "size": {
+                "width": 480,
+                "height": 360
+            },
+            "state": 2,
+            "type": 1
+        },
+        "8a6830514ec124035cedeaccc4d3fd03": {
+            "format": "jpg",
+            "id": "8a6830514ec124035cedeaccc4d3fd03",
+            "name": "CameraHPWREN_MirrorSmoke3594.jpg",
+            "path": "file:/home/abhay_kashyap03/Desktop/github/smoke5/Data/Source_Images/Training_Images/vott-csv-export/vott-csv-export/CameraHPWREN_MirrorSmoke3594.jpg",
+            "size": {
+                "width": 480,
+                "height": 360
+            },
+            "state": 2,
+            "type": 1
+        },
+        "7536d4a967e4ab59e7252cf266f198d5": {
+            "format": "jpg",
+            "id": "7536d4a967e4ab59e7252cf266f198d5",
+            "name": "CameraHPWREN_MirrorSmoke3596.jpg",
+            "path": "file:/home/abhay_kashyap03/Desktop/github/smoke5/Data/Source_Images/Training_Images/vott-csv-export/vott-csv-export/CameraHPWREN_MirrorSmoke3596.jpg",
+            "size": {
+                "width": 480,
+                "height": 360
+            },
+            "state": 2,
+            "type": 1
+        },
+        "d0be03aa96e90c2ca8da5e4ded65f075": {
+            "format": "jpg",
+            "id": "d0be03aa96e90c2ca8da5e4ded65f075",
+            "name": "CameraHPWREN_MirrorSmoke3597.jpg",
+            "path": "file:/home/abhay_kashyap03/Desktop/github/smoke5/Data/Source_Images/Training_Images/vott-csv-export/vott-csv-export/CameraHPWREN_MirrorSmoke3597.jpg",
+            "size": {
+                "width": 480,
+                "height": 360
+            },
+            "state": 2,
+            "type": 1
+        },
+        "1621dec5fdced813522181a893bbfc01": {
+            "format": "jpg",
+            "id": "1621dec5fdced813522181a893bbfc01",
+            "name": "CameraHPWREN_MirrorSmoke3602.jpg",
+            "path": "file:/home/abhay_kashyap03/Desktop/github/smoke5/Data/Source_Images/Training_Images/vott-csv-export/vott-csv-export/CameraHPWREN_MirrorSmoke3602.jpg",
+            "size": {
+                "width": 480,
+                "height": 360
+            },
+            "state": 1,
+            "type": 1
+        },
+        "f14d8321871765704fca35a97070935a": {
+            "format": "jpg",
+            "id": "f14d8321871765704fca35a97070935a",
+            "name": "CameraHPWREN_MirrorSmoke3603.jpg",
+            "path": "file:/home/abhay_kashyap03/Desktop/github/smoke5/Data/Source_Images/Training_Images/vott-csv-export/vott-csv-export/CameraHPWREN_MirrorSmoke3603.jpg",
+            "size": {
+                "width": 480,
+                "height": 360
+            },
+            "state": 2,
+            "type": 1
+        },
+        "a628d164fa64943cd51583eb759cb0a9": {
+            "format": "jpg",
+            "id": "a628d164fa64943cd51583eb759cb0a9",
+            "name": "CameraHPWREN_MirrorSmoke3611.jpg",
+            "path": "file:/home/abhay_kashyap03/Desktop/github/smoke5/Data/Source_Images/Training_Images/vott-csv-export/vott-csv-export/CameraHPWREN_MirrorSmoke3611.jpg",
+            "size": {
+                "width": 480,
+                "height": 360
+            },
+            "state": 2,
+            "type": 1
+        },
+        "8992455bf5912aaa197da661e04e0d81": {
+            "format": "jpg",
+            "id": "8992455bf5912aaa197da661e04e0d81",
+            "name": "CameraHPWREN_MirrorSmoke3617.jpg",
+            "path": "file:/home/abhay_kashyap03/Desktop/github/smoke5/Data/Source_Images/Training_Images/vott-csv-export/vott-csv-export/CameraHPWREN_MirrorSmoke3617.jpg",
+            "size": {
+                "width": 480,
+                "height": 360
+            },
+            "state": 2,
+            "type": 1
+        },
+        "67f6d0cf8d22026cc5bfdea209fa123b": {
+            "format": "jpg",
+            "id": "67f6d0cf8d22026cc5bfdea209fa123b",
+            "name": "CameraHPWREN_MirrorSmoke3618.jpg",
+            "path": "file:/home/abhay_kashyap03/Desktop/github/smoke5/Data/Source_Images/Training_Images/vott-csv-export/vott-csv-export/CameraHPWREN_MirrorSmoke3618.jpg",
+            "size": {
+                "width": 480,
+                "height": 360
+            },
+            "state": 1,
+            "type": 1
+        },
+        "700d9015a8af67ef73e75f9d8c855d26": {
+            "format": "jpg",
+            "id": "700d9015a8af67ef73e75f9d8c855d26",
+            "name": "CameraHPWREN_MirrorSmoke3619.jpg",
+            "path": "file:/home/abhay_kashyap03/Desktop/github/smoke5/Data/Source_Images/Training_Images/vott-csv-export/vott-csv-export/CameraHPWREN_MirrorSmoke3619.jpg",
+            "size": {
+                "width": 480,
+                "height": 360
+            },
+            "state": 1,
+            "type": 1
+        },
+        "c347ec597bd5e7c9845819d47a353ae6": {
+            "format": "jpg",
+            "id": "c347ec597bd5e7c9845819d47a353ae6",
+            "name": "CameraHPWREN_MirrorSmoke3620.jpg",
+            "path": "file:/home/abhay_kashyap03/Desktop/github/smoke5/Data/Source_Images/Training_Images/vott-csv-export/vott-csv-export/CameraHPWREN_MirrorSmoke3620.jpg",
+            "size": {
+                "width": 480,
+                "height": 360
+            },
+            "state": 1,
+            "type": 1
+        },
+        "2ddc1efe152b98e8f38f36483a88c1e3": {
+            "format": "jpg",
+            "id": "2ddc1efe152b98e8f38f36483a88c1e3",
+            "name": "CameraHPWREN_MirrorSmoke3621.jpg",
+            "path": "file:/home/abhay_kashyap03/Desktop/github/smoke5/Data/Source_Images/Training_Images/vott-csv-export/vott-csv-export/CameraHPWREN_MirrorSmoke3621.jpg",
+            "size": {
+                "width": 480,
+                "height": 360
+            },
+            "state": 2,
+            "type": 1
+        },
+        "276f1135491e66a2422fa203de2c8747": {
+            "format": "jpg",
+            "id": "276f1135491e66a2422fa203de2c8747",
+            "name": "CameraHPWREN_MirrorSmoke3622.jpg",
+            "path": "file:/home/abhay_kashyap03/Desktop/github/smoke5/Data/Source_Images/Training_Images/vott-csv-export/vott-csv-export/CameraHPWREN_MirrorSmoke3622.jpg",
+            "size": {
+                "width": 480,
+                "height": 360
+            },
+            "state": 2,
+            "type": 1
+        },
+        "c816810cf00d3682cc52a810dff1a36c": {
+            "format": "jpg",
+            "id": "c816810cf00d3682cc52a810dff1a36c",
+            "name": "CameraHPWREN_MirrorSmoke3627.jpg",
+            "path": "file:/home/abhay_kashyap03/Desktop/github/smoke5/Data/Source_Images/Training_Images/vott-csv-export/vott-csv-export/CameraHPWREN_MirrorSmoke3627.jpg",
+            "size": {
+                "width": 480,
+                "height": 360
+            },
+            "state": 2,
+            "type": 1
+        },
+        "90674ee889e1b6368ca6bae47eb9468c": {
+            "format": "jpg",
+            "id": "90674ee889e1b6368ca6bae47eb9468c",
+            "name": "CameraHPWREN_MirrorSmoke3628.jpg",
+            "path": "file:/home/abhay_kashyap03/Desktop/github/smoke5/Data/Source_Images/Training_Images/vott-csv-export/vott-csv-export/CameraHPWREN_MirrorSmoke3628.jpg",
+            "size": {
+                "width": 480,
+                "height": 360
+            },
+            "state": 2,
+            "type": 1
+        },
+        "af5c32251a117358b29f24e9598db623": {
+            "format": "jpg",
+            "id": "af5c32251a117358b29f24e9598db623",
+            "name": "CameraHPWREN_MirrorSmoke3633.jpg",
+            "path": "file:/home/abhay_kashyap03/Desktop/github/smoke5/Data/Source_Images/Training_Images/vott-csv-export/vott-csv-export/CameraHPWREN_MirrorSmoke3633.jpg",
+            "size": {
+                "width": 480,
+                "height": 360
+            },
+            "state": 1,
+            "type": 1
+        },
+        "9839cbcfaf3b6fb049f6e0cd4687a576": {
+            "format": "jpg",
+            "id": "9839cbcfaf3b6fb049f6e0cd4687a576",
+            "name": "CameraHPWREN_MirrorSmoke3634.jpg",
+            "path": "file:/home/abhay_kashyap03/Desktop/github/smoke5/Data/Source_Images/Training_Images/vott-csv-export/vott-csv-export/CameraHPWREN_MirrorSmoke3634.jpg",
+            "size": {
+                "width": 480,
+                "height": 360
+            },
+            "state": 2,
+            "type": 1
+        },
+        "74d31a05797179b2ed936c9e4ecd7edc": {
+            "format": "jpg",
+            "id": "74d31a05797179b2ed936c9e4ecd7edc",
+            "name": "CameraHPWREN_MirrorSmoke3635.jpg",
+            "path": "file:/home/abhay_kashyap03/Desktop/github/smoke5/Data/Source_Images/Training_Images/vott-csv-export/vott-csv-export/CameraHPWREN_MirrorSmoke3635.jpg",
+            "size": {
+                "width": 480,
+                "height": 360
+            },
+            "state": 2,
+            "type": 1
+        },
+        "4ba7f5cded5d9f8ef6c89888f722bb50": {
+            "format": "jpg",
+            "id": "4ba7f5cded5d9f8ef6c89888f722bb50",
+            "name": "CameraHPWREN_MirrorSmoke3636.jpg",
+            "path": "file:/home/abhay_kashyap03/Desktop/github/smoke5/Data/Source_Images/Training_Images/vott-csv-export/vott-csv-export/CameraHPWREN_MirrorSmoke3636.jpg",
+            "size": {
+                "width": 480,
+                "height": 360
+            },
+            "state": 2,
+            "type": 1
+        },
+        "ea1bc8558879188c1c7be11633dd7ad0": {
+            "format": "jpg",
+            "id": "ea1bc8558879188c1c7be11633dd7ad0",
+            "name": "CameraHPWREN_MirrorSmoke3638.jpg",
+            "path": "file:/home/abhay_kashyap03/Desktop/github/smoke5/Data/Source_Images/Training_Images/vott-csv-export/vott-csv-export/CameraHPWREN_MirrorSmoke3638.jpg",
+            "size": {
+                "width": 480,
+                "height": 360
+            },
+            "state": 2,
+            "type": 1
+        },
+        "f44774519882c0efd744c23cfd54d2c9": {
+            "format": "jpg",
+            "id": "f44774519882c0efd744c23cfd54d2c9",
+            "name": "CameraHPWREN_MirrorSmoke3641.jpg",
+            "path": "file:/home/abhay_kashyap03/Desktop/github/smoke5/Data/Source_Images/Training_Images/vott-csv-export/vott-csv-export/CameraHPWREN_MirrorSmoke3641.jpg",
+            "size": {
+                "width": 480,
+                "height": 360
+            },
+            "state": 2,
+            "type": 1
+        },
+        "208f0b6f214e864139ddecf1502b59ab": {
+            "format": "jpg",
+            "id": "208f0b6f214e864139ddecf1502b59ab",
+            "name": "CameraHPWREN_MirrorSmoke3643.jpg",
+            "path": "file:/home/abhay_kashyap03/Desktop/github/smoke5/Data/Source_Images/Training_Images/vott-csv-export/vott-csv-export/CameraHPWREN_MirrorSmoke3643.jpg",
+            "size": {
+                "width": 480,
+                "height": 360
+            },
+            "state": 2,
+            "type": 1
+        },
+        "fcccc7d2682309952701ff16775ada79": {
+            "format": "jpg",
+            "id": "fcccc7d2682309952701ff16775ada79",
+            "name": "CameraHPWREN_MirrorSmoke3644.jpg",
+            "path": "file:/home/abhay_kashyap03/Desktop/github/smoke5/Data/Source_Images/Training_Images/vott-csv-export/vott-csv-export/CameraHPWREN_MirrorSmoke3644.jpg",
+            "size": {
+                "width": 480,
+                "height": 360
+            },
+            "state": 2,
+            "type": 1
+        },
+        "48328e76bb9167e09c4f142cf84f945f": {
+            "format": "jpg",
+            "id": "48328e76bb9167e09c4f142cf84f945f",
+            "name": "CameraHPWREN_MirrorSmoke3649.jpg",
+            "path": "file:/home/abhay_kashyap03/Desktop/github/smoke5/Data/Source_Images/Training_Images/vott-csv-export/vott-csv-export/CameraHPWREN_MirrorSmoke3649.jpg",
+            "size": {
+                "width": 480,
+                "height": 360
+            },
+            "state": 2,
+            "type": 1
+        },
+        "82332a8ee48ebbfb4f471dca73c140d8": {
+            "format": "jpg",
+            "id": "82332a8ee48ebbfb4f471dca73c140d8",
+            "name": "CameraHPWREN_MirrorSmoke3650.jpg",
+            "path": "file:/home/abhay_kashyap03/Desktop/github/smoke5/Data/Source_Images/Training_Images/vott-csv-export/vott-csv-export/CameraHPWREN_MirrorSmoke3650.jpg",
+            "size": {
+                "width": 480,
+                "height": 360
+            },
+            "state": 2,
+            "type": 1
+        },
+        "4a138e9fcf0b7990607b40448606ba68": {
+            "format": "jpg",
+            "id": "4a138e9fcf0b7990607b40448606ba68",
+            "name": "CameraHPWREN_MirrorSmoke3652.jpg",
+            "path": "file:/home/abhay_kashyap03/Desktop/github/smoke5/Data/Source_Images/Training_Images/vott-csv-export/vott-csv-export/CameraHPWREN_MirrorSmoke3652.jpg",
+            "size": {
+                "width": 480,
+                "height": 360
+            },
+            "state": 2,
+            "type": 1
+        },
+        "08b0e88f223af1ab7af125606dfb4dac": {
+            "format": "jpg",
+            "id": "08b0e88f223af1ab7af125606dfb4dac",
+            "name": "CameraHPWREN_MirrorSmoke3655.jpg",
+            "path": "file:/home/abhay_kashyap03/Desktop/github/smoke5/Data/Source_Images/Training_Images/vott-csv-export/vott-csv-export/CameraHPWREN_MirrorSmoke3655.jpg",
+            "size": {
+                "width": 480,
+                "height": 360
+            },
+            "state": 2,
+            "type": 1
+        },
+        "1a74bf31dea6f09aa9091e67fb0dfa39": {
+            "format": "jpg",
+            "id": "1a74bf31dea6f09aa9091e67fb0dfa39",
+            "name": "CameraHPWREN_MirrorSmoke3662.jpg",
+            "path": "file:/home/abhay_kashyap03/Desktop/github/smoke5/Data/Source_Images/Training_Images/vott-csv-export/vott-csv-export/CameraHPWREN_MirrorSmoke3662.jpg",
+            "size": {
+                "width": 480,
+                "height": 360
+            },
+            "state": 2,
+            "type": 1
+        },
+        "ea52d31af8f4d827232aae4d3095cfe9": {
+            "format": "jpg",
+            "id": "ea52d31af8f4d827232aae4d3095cfe9",
+            "name": "CameraHPWREN_MirrorSmoke3661.jpg",
+            "path": "file:/home/abhay_kashyap03/Desktop/github/smoke5/Data/Source_Images/Training_Images/vott-csv-export/vott-csv-export/CameraHPWREN_MirrorSmoke3661.jpg",
+            "size": {
+                "width": 480,
+                "height": 360
+            },
+            "state": 2,
+            "type": 1
+        },
+        "f6d4711ede9b54cbdba1a242e87a5e1d": {
+            "format": "jpg",
+            "id": "f6d4711ede9b54cbdba1a242e87a5e1d",
+            "name": "CameraHPWREN_MirrorSmoke3665.jpg",
+            "path": "file:/home/abhay_kashyap03/Desktop/github/smoke5/Data/Source_Images/Training_Images/vott-csv-export/vott-csv-export/CameraHPWREN_MirrorSmoke3665.jpg",
+            "size": {
+                "width": 480,
+                "height": 360
+            },
+            "state": 2,
+            "type": 1
+        },
+        "601282975dd05322ecdc66b40fe8f2d3": {
+            "format": "jpg",
+            "id": "601282975dd05322ecdc66b40fe8f2d3",
+            "name": "CameraHPWREN_MirrorSmoke3668.jpg",
+            "path": "file:/home/abhay_kashyap03/Desktop/github/smoke5/Data/Source_Images/Training_Images/vott-csv-export/vott-csv-export/CameraHPWREN_MirrorSmoke3668.jpg",
+            "size": {
+                "width": 480,
+                "height": 360
+            },
+            "state": 2,
+            "type": 1
+        },
+        "d7d6f7db37e6c8811dbca3330063c642": {
+            "format": "jpg",
+            "id": "d7d6f7db37e6c8811dbca3330063c642",
+            "name": "CameraHPWREN_MirrorSmoke3669.jpg",
+            "path": "file:/home/abhay_kashyap03/Desktop/github/smoke5/Data/Source_Images/Training_Images/vott-csv-export/vott-csv-export/CameraHPWREN_MirrorSmoke3669.jpg",
+            "size": {
+                "width": 480,
+                "height": 360
+            },
+            "state": 2,
+            "type": 1
+        },
+        "224b6b0a9da4ae41b1496c1ea167b52c": {
+            "format": "jpg",
+            "id": "224b6b0a9da4ae41b1496c1ea167b52c",
+            "name": "CameraHPWREN_MirrorSmoke3672.jpg",
+            "path": "file:/home/abhay_kashyap03/Desktop/github/smoke5/Data/Source_Images/Training_Images/vott-csv-export/vott-csv-export/CameraHPWREN_MirrorSmoke3672.jpg",
+            "size": {
+                "width": 480,
+                "height": 360
+            },
+            "state": 1,
+            "type": 1
+        },
+        "fdfc61ac4bd50d48c1a52fe932a04e70": {
+            "format": "jpg",
+            "id": "fdfc61ac4bd50d48c1a52fe932a04e70",
+            "name": "CameraHPWREN_MirrorSmoke3674.jpg",
+            "path": "file:/home/abhay_kashyap03/Desktop/github/smoke5/Data/Source_Images/Training_Images/vott-csv-export/vott-csv-export/CameraHPWREN_MirrorSmoke3674.jpg",
+            "size": {
+                "width": 480,
+                "height": 360
+            },
+            "state": 2,
+            "type": 1
+        },
+        "0825caafb41a5d9982172484abeda346": {
+            "format": "jpg",
+            "id": "0825caafb41a5d9982172484abeda346",
+            "name": "CameraHPWREN_MirrorSmoke3675.jpg",
+            "path": "file:/home/abhay_kashyap03/Desktop/github/smoke5/Data/Source_Images/Training_Images/vott-csv-export/vott-csv-export/CameraHPWREN_MirrorSmoke3675.jpg",
+            "size": {
+                "width": 480,
+                "height": 360
+            },
+            "state": 2,
+            "type": 1
+        },
+        "94ecf869d71523f08ea5895fdaa959c8": {
+            "format": "jpg",
+            "id": "94ecf869d71523f08ea5895fdaa959c8",
+            "name": "CameraHPWREN_MirrorSmoke3676.jpg",
+            "path": "file:/home/abhay_kashyap03/Desktop/github/smoke5/Data/Source_Images/Training_Images/vott-csv-export/vott-csv-export/CameraHPWREN_MirrorSmoke3676.jpg",
+            "size": {
+                "width": 480,
+                "height": 360
+            },
+            "state": 2,
+            "type": 1
+        },
+        "e3dce28a05a5695e3dfb0f4043a1d028": {
+            "format": "jpg",
+            "id": "e3dce28a05a5695e3dfb0f4043a1d028",
+            "name": "CameraHPWREN_MirrorSmoke3677.jpg",
+            "path": "file:/home/abhay_kashyap03/Desktop/github/smoke5/Data/Source_Images/Training_Images/vott-csv-export/vott-csv-export/CameraHPWREN_MirrorSmoke3677.jpg",
+            "size": {
+                "width": 480,
+                "height": 360
+            },
+            "state": 1,
+            "type": 1
+        },
+        "d4ffd20b3d1bf85982fee5f998e1f7bd": {
+            "format": "jpg",
+            "id": "d4ffd20b3d1bf85982fee5f998e1f7bd",
+            "name": "CameraHPWREN_MirrorSmoke3678.jpg",
+            "path": "file:/home/abhay_kashyap03/Desktop/github/smoke5/Data/Source_Images/Training_Images/vott-csv-export/vott-csv-export/CameraHPWREN_MirrorSmoke3678.jpg",
+            "size": {
+                "width": 480,
+                "height": 360
+            },
+            "state": 2,
+            "type": 1
+        },
+        "7b279dab56ce10a99d7959ae341faca3": {
+            "format": "jpg",
+            "id": "7b279dab56ce10a99d7959ae341faca3",
+            "name": "CameraHPWREN_MirrorSmoke3680.jpg",
+            "path": "file:/home/abhay_kashyap03/Desktop/github/smoke5/Data/Source_Images/Training_Images/vott-csv-export/vott-csv-export/CameraHPWREN_MirrorSmoke3680.jpg",
+            "size": {
+                "width": 480,
+                "height": 360
+            },
+            "state": 2,
+            "type": 1
+        },
+        "e304cf0e63f75f574ad00233691b48ad": {
+            "format": "jpg",
+            "id": "e304cf0e63f75f574ad00233691b48ad",
+            "name": "CameraHPWREN_MirrorSmoke3682.jpg",
+            "path": "file:/home/abhay_kashyap03/Desktop/github/smoke5/Data/Source_Images/Training_Images/vott-csv-export/vott-csv-export/CameraHPWREN_MirrorSmoke3682.jpg",
+            "size": {
+                "width": 480,
+                "height": 360
+            },
+            "state": 2,
+            "type": 1
+        },
+        "6eafe8fdcbf0c764b32112f71e262ef6": {
+            "format": "jpg",
+            "id": "6eafe8fdcbf0c764b32112f71e262ef6",
+            "name": "CameraHPWREN_MirrorSmoke3686.jpg",
+            "path": "file:/home/abhay_kashyap03/Desktop/github/smoke5/Data/Source_Images/Training_Images/vott-csv-export/vott-csv-export/CameraHPWREN_MirrorSmoke3686.jpg",
+            "size": {
+                "width": 480,
+                "height": 360
+            },
+            "state": 2,
+            "type": 1
+        },
+        "89fe4be465615139c5914247a7dad967": {
+            "format": "jpg",
+            "id": "89fe4be465615139c5914247a7dad967",
+            "name": "CameraHPWREN_MirrorSmoke3691.jpg",
+            "path": "file:/home/abhay_kashyap03/Desktop/github/smoke5/Data/Source_Images/Training_Images/vott-csv-export/vott-csv-export/CameraHPWREN_MirrorSmoke3691.jpg",
+            "size": {
+                "width": 480,
+                "height": 360
+            },
+            "state": 2,
+            "type": 1
+        },
+        "12f0211a619f95f96cb54533acdaee27": {
+            "format": "jpg",
+            "id": "12f0211a619f95f96cb54533acdaee27",
+            "name": "CameraHPWREN_MirrorSmoke3696.jpg",
+            "path": "file:/home/abhay_kashyap03/Desktop/github/smoke5/Data/Source_Images/Training_Images/vott-csv-export/vott-csv-export/CameraHPWREN_MirrorSmoke3696.jpg",
+            "size": {
+                "width": 480,
+                "height": 360
+            },
+            "state": 1,
+            "type": 1
+        },
+        "52b3daf16a17a18d3a7ef862a2936a94": {
+            "format": "jpg",
+            "id": "52b3daf16a17a18d3a7ef862a2936a94",
+            "name": "CameraHPWREN_MirrorSmoke3697.jpg",
+            "path": "file:/home/abhay_kashyap03/Desktop/github/smoke5/Data/Source_Images/Training_Images/vott-csv-export/vott-csv-export/CameraHPWREN_MirrorSmoke3697.jpg",
+            "size": {
+                "width": 480,
+                "height": 360
+            },
+            "state": 1,
+            "type": 1
+        },
+        "54c274b409bef8affbc63d37b89a8e6b": {
+            "format": "jpg",
+            "id": "54c274b409bef8affbc63d37b89a8e6b",
+            "name": "CameraHPWREN_MirrorSmoke3698.jpg",
+            "path": "file:/home/abhay_kashyap03/Desktop/github/smoke5/Data/Source_Images/Training_Images/vott-csv-export/vott-csv-export/CameraHPWREN_MirrorSmoke3698.jpg",
+            "size": {
+                "width": 480,
+                "height": 360
+            },
+            "state": 1,
+            "type": 1
+        },
+        "35661365daaf7c955918e38ccc13d640": {
+            "format": "jpg",
+            "id": "35661365daaf7c955918e38ccc13d640",
+            "name": "CameraHPWREN_MirrorSmoke3703.jpg",
+            "path": "file:/home/abhay_kashyap03/Desktop/github/smoke5/Data/Source_Images/Training_Images/vott-csv-export/vott-csv-export/CameraHPWREN_MirrorSmoke3703.jpg",
+            "size": {
+                "width": 480,
+                "height": 360
+            },
+            "state": 2,
+            "type": 1
+        },
+        "b46b97d27f31ad4a12f686d6b619b6ec": {
+            "format": "jpg",
+            "id": "b46b97d27f31ad4a12f686d6b619b6ec",
+            "name": "CameraHPWREN_MirrorSmoke3706.jpg",
+            "path": "file:/home/abhay_kashyap03/Desktop/github/smoke5/Data/Source_Images/Training_Images/vott-csv-export/vott-csv-export/CameraHPWREN_MirrorSmoke3706.jpg",
+            "size": {
+                "width": 480,
+                "height": 360
+            },
+            "state": 2,
+            "type": 1
+        },
+        "9deabc88a82bcdc3458ead5e3e4efd47": {
+            "format": "jpg",
+            "id": "9deabc88a82bcdc3458ead5e3e4efd47",
+            "name": "CameraHPWREN_MirrorSmoke3708.jpg",
+            "path": "file:/home/abhay_kashyap03/Desktop/github/smoke5/Data/Source_Images/Training_Images/vott-csv-export/vott-csv-export/CameraHPWREN_MirrorSmoke3708.jpg",
+            "size": {
+                "width": 480,
+                "height": 360
+            },
+            "state": 2,
+            "type": 1
+        },
+        "eca1ccace827eca4a1408d2269633b6b": {
+            "format": "jpg",
+            "id": "eca1ccace827eca4a1408d2269633b6b",
+            "name": "CameraHPWREN_MirrorSmoke3709.jpg",
+            "path": "file:/home/abhay_kashyap03/Desktop/github/smoke5/Data/Source_Images/Training_Images/vott-csv-export/vott-csv-export/CameraHPWREN_MirrorSmoke3709.jpg",
+            "size": {
+                "width": 480,
+                "height": 360
+            },
+            "state": 2,
+            "type": 1
+        },
+        "6db38335d334cd63e47be4a215d116e5": {
+            "format": "jpg",
+            "id": "6db38335d334cd63e47be4a215d116e5",
+            "name": "CameraHPWREN_MirrorSmoke3710.jpg",
+            "path": "file:/home/abhay_kashyap03/Desktop/github/smoke5/Data/Source_Images/Training_Images/vott-csv-export/vott-csv-export/CameraHPWREN_MirrorSmoke3710.jpg",
+            "size": {
+                "width": 480,
+                "height": 360
+            },
+            "state": 2,
+            "type": 1
+        },
+        "da78781f185e7fa6481c9a232a4e13e8": {
+            "format": "jpg",
+            "id": "da78781f185e7fa6481c9a232a4e13e8",
+            "name": "CameraHPWREN_MirrorSmoke3712.jpg",
+            "path": "file:/home/abhay_kashyap03/Desktop/github/smoke5/Data/Source_Images/Training_Images/vott-csv-export/vott-csv-export/CameraHPWREN_MirrorSmoke3712.jpg",
+            "size": {
+                "width": 480,
+                "height": 360
+            },
+            "state": 1,
+            "type": 1
+        },
+        "c15af71b27cca79e5c6759f2da228614": {
+            "format": "jpg",
+            "id": "c15af71b27cca79e5c6759f2da228614",
+            "name": "CameraHPWREN_MirrorSmoke3713.jpg",
+            "path": "file:/home/abhay_kashyap03/Desktop/github/smoke5/Data/Source_Images/Training_Images/vott-csv-export/vott-csv-export/CameraHPWREN_MirrorSmoke3713.jpg",
+            "size": {
+                "width": 480,
+                "height": 360
+            },
+            "state": 1,
+            "type": 1
+        },
+        "267fe80caff68720e87f6ca792971bff": {
+            "format": "jpg",
+            "id": "267fe80caff68720e87f6ca792971bff",
+            "name": "CameraHPWREN_MirrorSmoke3714.jpg",
+            "path": "file:/home/abhay_kashyap03/Desktop/github/smoke5/Data/Source_Images/Training_Images/vott-csv-export/vott-csv-export/CameraHPWREN_MirrorSmoke3714.jpg",
+            "size": {
+                "width": 480,
+                "height": 360
+            },
+            "state": 1,
+            "type": 1
+        },
+        "63b21062708e9bacc18dba0b8379eddf": {
+            "format": "jpg",
+            "id": "63b21062708e9bacc18dba0b8379eddf",
+            "name": "CameraHPWREN_MirrorSmoke3715.jpg",
+            "path": "file:/home/abhay_kashyap03/Desktop/github/smoke5/Data/Source_Images/Training_Images/vott-csv-export/vott-csv-export/CameraHPWREN_MirrorSmoke3715.jpg",
+            "size": {
+                "width": 480,
+                "height": 360
+            },
+            "state": 1,
+            "type": 1
+        },
+        "10129fb8ad19bfa34621a7391acccc99": {
+            "format": "jpg",
+            "id": "10129fb8ad19bfa34621a7391acccc99",
+            "name": "CameraHPWREN_MirrorSmoke3718.jpg",
+            "path": "file:/home/abhay_kashyap03/Desktop/github/smoke5/Data/Source_Images/Training_Images/vott-csv-export/vott-csv-export/CameraHPWREN_MirrorSmoke3718.jpg",
+            "size": {
+                "width": 480,
+                "height": 360
+            },
+            "state": 2,
+            "type": 1
+        },
+        "1dbe8e3e7a48e994a0bc5cdcd7f889aa": {
+            "format": "jpg",
+            "id": "1dbe8e3e7a48e994a0bc5cdcd7f889aa",
+            "name": "CameraHPWREN_MirrorSmoke3717.jpg",
+            "path": "file:/home/abhay_kashyap03/Desktop/github/smoke5/Data/Source_Images/Training_Images/vott-csv-export/vott-csv-export/CameraHPWREN_MirrorSmoke3717.jpg",
+            "size": {
+                "width": 480,
+                "height": 360
+            },
+            "state": 2,
+            "type": 1
+        },
+        "be2818a0ee2bfc1a45e484af1154ff51": {
+            "format": "jpg",
+            "id": "be2818a0ee2bfc1a45e484af1154ff51",
+            "name": "CameraHPWREN_MirrorSmoke3719.jpg",
+            "path": "file:/home/abhay_kashyap03/Desktop/github/smoke5/Data/Source_Images/Training_Images/vott-csv-export/vott-csv-export/CameraHPWREN_MirrorSmoke3719.jpg",
+            "size": {
+                "width": 480,
+                "height": 360
+            },
+            "state": 1,
+            "type": 1
+        },
+        "ffd8157c15df48406221f3df84bdb999": {
+            "format": "jpg",
+            "id": "ffd8157c15df48406221f3df84bdb999",
+            "name": "CameraHPWREN_MirrorSmoke3720.jpg",
+            "path": "file:/home/abhay_kashyap03/Desktop/github/smoke5/Data/Source_Images/Training_Images/vott-csv-export/vott-csv-export/CameraHPWREN_MirrorSmoke3720.jpg",
+            "size": {
+                "width": 480,
+                "height": 360
+            },
+            "state": 2,
+            "type": 1
+        },
+        "c7c5f9f42f85521113df7157c6d886df": {
+            "format": "jpg",
+            "id": "c7c5f9f42f85521113df7157c6d886df",
+            "name": "CameraHPWREN_MirrorSmoke3724.jpg",
+            "path": "file:/home/abhay_kashyap03/Desktop/github/smoke5/Data/Source_Images/Training_Images/vott-csv-export/vott-csv-export/CameraHPWREN_MirrorSmoke3724.jpg",
+            "size": {
+                "width": 480,
+                "height": 360
+            },
+            "state": 2,
+            "type": 1
+        },
+        "63eba40a11aba9b43d7247595894c202": {
+            "format": "jpg",
+            "id": "63eba40a11aba9b43d7247595894c202",
+            "name": "CameraHPWREN_MirrorSmoke3734.jpg",
+            "path": "file:/home/abhay_kashyap03/Desktop/github/smoke5/Data/Source_Images/Training_Images/vott-csv-export/vott-csv-export/CameraHPWREN_MirrorSmoke3734.jpg",
+            "size": {
+                "width": 480,
+                "height": 360
+            },
+            "state": 2,
+            "type": 1
+        },
+        "b2c7bf4660f229768dfca1a056d816ee": {
+            "format": "jpg",
+            "id": "b2c7bf4660f229768dfca1a056d816ee",
+            "name": "CameraHPWREN_MirrorSmoke3737.jpg",
+            "path": "file:/home/abhay_kashyap03/Desktop/github/smoke5/Data/Source_Images/Training_Images/vott-csv-export/vott-csv-export/CameraHPWREN_MirrorSmoke3737.jpg",
+            "size": {
+                "width": 480,
+                "height": 360
+            },
+            "state": 2,
+            "type": 1
+        },
+        "a724ee39d35766c8113e956264fa0aed": {
+            "format": "jpg",
+            "id": "a724ee39d35766c8113e956264fa0aed",
+            "name": "CameraHPWREN_MirrorSmoke3736.jpg",
+            "path": "file:/home/abhay_kashyap03/Desktop/github/smoke5/Data/Source_Images/Training_Images/vott-csv-export/vott-csv-export/CameraHPWREN_MirrorSmoke3736.jpg",
+            "size": {
+                "width": 480,
+                "height": 360
+            },
+            "state": 2,
+            "type": 1
+        },
+        "ceaac6571d1f9ebf57cb843cf284b4ab": {
+            "format": "jpg",
+            "id": "ceaac6571d1f9ebf57cb843cf284b4ab",
+            "name": "CameraHPWREN_MirrorSmoke3746.jpg",
+            "path": "file:/home/abhay_kashyap03/Desktop/github/smoke5/Data/Source_Images/Training_Images/vott-csv-export/vott-csv-export/CameraHPWREN_MirrorSmoke3746.jpg",
+            "size": {
+                "width": 480,
+                "height": 360
+            },
+            "state": 2,
+            "type": 1
+        },
+        "79e143a0daa3e8aaf7a97e2924dfcb27": {
+            "format": "jpg",
+            "id": "79e143a0daa3e8aaf7a97e2924dfcb27",
+            "name": "CameraHPWREN_MirrorSmoke3745.jpg",
+            "path": "file:/home/abhay_kashyap03/Desktop/github/smoke5/Data/Source_Images/Training_Images/vott-csv-export/vott-csv-export/CameraHPWREN_MirrorSmoke3745.jpg",
+            "size": {
+                "width": 480,
+                "height": 360
+            },
+            "state": 2,
+            "type": 1
+        },
+        "966f0f8f0c7fecfbe007ff107cd7ebe3": {
+            "format": "jpg",
+            "id": "966f0f8f0c7fecfbe007ff107cd7ebe3",
+            "name": "CameraHPWREN_MirrorSmoke3749.jpg",
+            "path": "file:/home/abhay_kashyap03/Desktop/github/smoke5/Data/Source_Images/Training_Images/vott-csv-export/vott-csv-export/CameraHPWREN_MirrorSmoke3749.jpg",
+            "size": {
+                "width": 480,
+                "height": 360
+            },
+            "state": 2,
+            "type": 1
+        },
+        "5b09b3dd6ec3435bccdcbe83367e78f4": {
+            "format": "jpg",
+            "id": "5b09b3dd6ec3435bccdcbe83367e78f4",
+            "name": "CameraHPWREN_MirrorSmoke3750.jpg",
+            "path": "file:/home/abhay_kashyap03/Desktop/github/smoke5/Data/Source_Images/Training_Images/vott-csv-export/vott-csv-export/CameraHPWREN_MirrorSmoke3750.jpg",
+            "size": {
+                "width": 480,
+                "height": 360
+            },
+            "state": 2,
+            "type": 1
+        },
+        "96f104b41df2a343d1cdd77bd3ae7868": {
+            "format": "jpg",
+            "id": "96f104b41df2a343d1cdd77bd3ae7868",
+            "name": "CameraHPWREN_MirrorSmoke3752.jpg",
+            "path": "file:/home/abhay_kashyap03/Desktop/github/smoke5/Data/Source_Images/Training_Images/vott-csv-export/vott-csv-export/CameraHPWREN_MirrorSmoke3752.jpg",
+            "size": {
+                "width": 480,
+                "height": 360
+            },
+            "state": 2,
+            "type": 1
+        },
+        "35e98bb06e7cdf219c18deeaecc99dd9": {
+            "format": "jpg",
+            "id": "35e98bb06e7cdf219c18deeaecc99dd9",
+            "name": "CameraHPWREN_MirrorSmoke3756.jpg",
+            "path": "file:/home/abhay_kashyap03/Desktop/github/smoke5/Data/Source_Images/Training_Images/vott-csv-export/vott-csv-export/CameraHPWREN_MirrorSmoke3756.jpg",
+            "size": {
+                "width": 480,
+                "height": 360
+            },
+            "state": 2,
+            "type": 1
+        },
+        "bfdd8f8acb6f969d05a0182b903e5afb": {
+            "format": "jpg",
+            "id": "bfdd8f8acb6f969d05a0182b903e5afb",
+            "name": "CameraHPWREN_MirrorSmoke3757.jpg",
+            "path": "file:/home/abhay_kashyap03/Desktop/github/smoke5/Data/Source_Images/Training_Images/vott-csv-export/vott-csv-export/CameraHPWREN_MirrorSmoke3757.jpg",
+            "size": {
+                "width": 480,
+                "height": 360
+            },
+            "state": 2,
+            "type": 1
+        },
+        "4da87b5b1eba612a8dea798feca08b3d": {
+            "format": "jpg",
+            "id": "4da87b5b1eba612a8dea798feca08b3d",
+            "name": "CameraHPWREN_MirrorSmoke3761.jpg",
+            "path": "file:/home/abhay_kashyap03/Desktop/github/smoke5/Data/Source_Images/Training_Images/vott-csv-export/vott-csv-export/CameraHPWREN_MirrorSmoke3761.jpg",
+            "size": {
+                "width": 480,
+                "height": 360
+            },
+            "state": 2,
+            "type": 1
+        },
+        "044e56b49f2c0d834430f2013cebd4af": {
+            "format": "jpg",
+            "id": "044e56b49f2c0d834430f2013cebd4af",
+            "name": "CameraHPWREN_MirrorSmoke3765.jpg",
+            "path": "file:/home/abhay_kashyap03/Desktop/github/smoke5/Data/Source_Images/Training_Images/vott-csv-export/vott-csv-export/CameraHPWREN_MirrorSmoke3765.jpg",
+            "size": {
+                "width": 480,
+                "height": 360
+            },
+            "state": 2,
+            "type": 1
+        },
+        "842e488463763b3e008b8d2dfe8637dd": {
+            "format": "jpg",
+            "id": "842e488463763b3e008b8d2dfe8637dd",
+            "name": "CameraHPWREN_MirrorSmoke3767.jpg",
+            "path": "file:/home/abhay_kashyap03/Desktop/github/smoke5/Data/Source_Images/Training_Images/vott-csv-export/vott-csv-export/CameraHPWREN_MirrorSmoke3767.jpg",
+            "size": {
+                "width": 480,
+                "height": 360
+            },
+            "state": 2,
+            "type": 1
+        },
+        "205e2f6f55025b96e1725f1c9b3fcbf2": {
+            "format": "jpg",
+            "id": "205e2f6f55025b96e1725f1c9b3fcbf2",
+            "name": "CameraHPWREN_MirrorSmoke3768.jpg",
+            "path": "file:/home/abhay_kashyap03/Desktop/github/smoke5/Data/Source_Images/Training_Images/vott-csv-export/vott-csv-export/CameraHPWREN_MirrorSmoke3768.jpg",
+            "size": {
+                "width": 480,
+                "height": 360
+            },
+            "state": 2,
+            "type": 1
+        },
+        "1893d13d9bf685c7f2ad108b5cf6f8d8": {
+            "format": "jpg",
+            "id": "1893d13d9bf685c7f2ad108b5cf6f8d8",
+            "name": "CameraHPWREN_MirrorSmoke3769.jpg",
+            "path": "file:/home/abhay_kashyap03/Desktop/github/smoke5/Data/Source_Images/Training_Images/vott-csv-export/vott-csv-export/CameraHPWREN_MirrorSmoke3769.jpg",
+            "size": {
+                "width": 480,
+                "height": 360
+            },
+            "state": 2,
+            "type": 1
+        },
+        "134ab518c68577afd65610acff22637f": {
+            "format": "jpg",
+            "id": "134ab518c68577afd65610acff22637f",
+            "name": "CameraHPWREN_MirrorSmoke3766.jpg",
+            "path": "file:/home/abhay_kashyap03/Desktop/github/smoke5/Data/Source_Images/Training_Images/vott-csv-export/vott-csv-export/CameraHPWREN_MirrorSmoke3766.jpg",
+            "size": {
+                "width": 480,
+                "height": 360
+            },
+            "state": 2,
+            "type": 1
+        },
+        "8de259aed3943dabc06555770025ba90": {
+            "format": "jpg",
+            "id": "8de259aed3943dabc06555770025ba90",
+            "name": "CameraHPWREN_MirrorSmoke3771.jpg",
+            "path": "file:/home/abhay_kashyap03/Desktop/github/smoke5/Data/Source_Images/Training_Images/vott-csv-export/vott-csv-export/CameraHPWREN_MirrorSmoke3771.jpg",
+            "size": {
+                "width": 480,
+                "height": 360
+            },
+            "state": 2,
+            "type": 1
+        },
+        "4b1656bfde9f1f31030777df87d9f424": {
+            "format": "jpg",
+            "id": "4b1656bfde9f1f31030777df87d9f424",
+            "name": "CameraHPWREN_MirrorSmoke3772.jpg",
+            "path": "file:/home/abhay_kashyap03/Desktop/github/smoke5/Data/Source_Images/Training_Images/vott-csv-export/vott-csv-export/CameraHPWREN_MirrorSmoke3772.jpg",
+            "size": {
+                "width": 480,
+                "height": 360
+            },
+            "state": 2,
+            "type": 1
+        },
+        "d999267333b2ef4f84833ec2b8bb01df": {
+            "format": "jpg",
+            "id": "d999267333b2ef4f84833ec2b8bb01df",
+            "name": "CameraHPWREN_MirrorSmoke3776.jpg",
+            "path": "file:/home/abhay_kashyap03/Desktop/github/smoke5/Data/Source_Images/Training_Images/vott-csv-export/vott-csv-export/CameraHPWREN_MirrorSmoke3776.jpg",
+            "size": {
+                "width": 480,
+                "height": 360
+            },
+            "state": 2,
+            "type": 1
+        },
+        "88044b51d0978f31b2add1e506e8f3b8": {
+            "format": "jpg",
+            "id": "88044b51d0978f31b2add1e506e8f3b8",
+            "name": "CameraHPWREN_MirrorSmoke3774.jpg",
+            "path": "file:/home/abhay_kashyap03/Desktop/github/smoke5/Data/Source_Images/Training_Images/vott-csv-export/vott-csv-export/CameraHPWREN_MirrorSmoke3774.jpg",
+            "size": {
+                "width": 480,
+                "height": 360
+            },
+            "state": 1,
+            "type": 1
+        },
+        "d1f02ffbd327fd6cfcc9bc9043b49d12": {
+            "format": "jpg",
+            "id": "d1f02ffbd327fd6cfcc9bc9043b49d12",
+            "name": "CameraHPWREN_MirrorSmoke3777.jpg",
+            "path": "file:/home/abhay_kashyap03/Desktop/github/smoke5/Data/Source_Images/Training_Images/vott-csv-export/vott-csv-export/CameraHPWREN_MirrorSmoke3777.jpg",
+            "size": {
+                "width": 480,
+                "height": 360
+            },
+            "state": 2,
+            "type": 1
+        },
+        "d7172a4f3bfdc2e242780026a92197c8": {
+            "format": "jpg",
+            "id": "d7172a4f3bfdc2e242780026a92197c8",
+            "name": "CameraHPWREN_MirrorSmoke3780.jpg",
+            "path": "file:/home/abhay_kashyap03/Desktop/github/smoke5/Data/Source_Images/Training_Images/vott-csv-export/vott-csv-export/CameraHPWREN_MirrorSmoke3780.jpg",
+            "size": {
+                "width": 480,
+                "height": 360
+            },
+            "state": 2,
+            "type": 1
+        },
+        "d8e1174f29f4e0bcac0db4e02040a129": {
+            "format": "jpg",
+            "id": "d8e1174f29f4e0bcac0db4e02040a129",
+            "name": "CameraHPWREN_MirrorSmoke3781.jpg",
+            "path": "file:/home/abhay_kashyap03/Desktop/github/smoke5/Data/Source_Images/Training_Images/vott-csv-export/vott-csv-export/CameraHPWREN_MirrorSmoke3781.jpg",
+            "size": {
+                "width": 480,
+                "height": 360
+            },
+            "state": 2,
+            "type": 1
+        },
+        "54438589790234c6d8ebd204647ec492": {
+            "format": "jpg",
+            "id": "54438589790234c6d8ebd204647ec492",
+            "name": "CameraHPWREN_MirrorSmoke3782.jpg",
+            "path": "file:/home/abhay_kashyap03/Desktop/github/smoke5/Data/Source_Images/Training_Images/vott-csv-export/vott-csv-export/CameraHPWREN_MirrorSmoke3782.jpg",
+            "size": {
+                "width": 480,
+                "height": 360
+            },
+            "state": 2,
+            "type": 1
+        },
+        "74fa1ad13e081caf7dd34a15f91d10c3": {
+            "format": "jpg",
+            "id": "74fa1ad13e081caf7dd34a15f91d10c3",
+            "name": "CameraHPWREN_MirrorSmoke3783.jpg",
+            "path": "file:/home/abhay_kashyap03/Desktop/github/smoke5/Data/Source_Images/Training_Images/vott-csv-export/vott-csv-export/CameraHPWREN_MirrorSmoke3783.jpg",
+            "size": {
+                "width": 480,
+                "height": 360
+            },
+            "state": 2,
+            "type": 1
+        },
+        "550778fe98e7b77c8772eb910238f83b": {
+            "format": "jpg",
+            "id": "550778fe98e7b77c8772eb910238f83b",
+            "name": "CameraHPWREN_MirrorSmoke3784.jpg",
+            "path": "file:/home/abhay_kashyap03/Desktop/github/smoke5/Data/Source_Images/Training_Images/vott-csv-export/vott-csv-export/CameraHPWREN_MirrorSmoke3784.jpg",
+            "size": {
+                "width": 480,
+                "height": 360
+            },
+            "state": 1,
+            "type": 1
+        },
+        "15756001abba1b148a6fd4d552927ed4": {
+            "format": "jpg",
+            "id": "15756001abba1b148a6fd4d552927ed4",
+            "name": "CameraHPWREN_MirrorSmoke3785.jpg",
+            "path": "file:/home/abhay_kashyap03/Desktop/github/smoke5/Data/Source_Images/Training_Images/vott-csv-export/vott-csv-export/CameraHPWREN_MirrorSmoke3785.jpg",
+            "size": {
+                "width": 480,
+                "height": 360
+            },
+            "state": 2,
+            "type": 1
+        },
+        "70acf6b96215a204934752e5aceba6c7": {
+            "format": "jpg",
+            "id": "70acf6b96215a204934752e5aceba6c7",
+            "name": "CameraHPWREN_MirrorSmoke3786.jpg",
+            "path": "file:/home/abhay_kashyap03/Desktop/github/smoke5/Data/Source_Images/Training_Images/vott-csv-export/vott-csv-export/CameraHPWREN_MirrorSmoke3786.jpg",
+            "size": {
+                "width": 480,
+                "height": 360
+            },
+            "state": 2,
+            "type": 1
+        },
+        "d5f0305426093021271b30f722546e11": {
+            "format": "jpg",
+            "id": "d5f0305426093021271b30f722546e11",
+            "name": "CameraHPWREN_MirrorSmoke3787.jpg",
+            "path": "file:/home/abhay_kashyap03/Desktop/github/smoke5/Data/Source_Images/Training_Images/vott-csv-export/vott-csv-export/CameraHPWREN_MirrorSmoke3787.jpg",
+            "size": {
+                "width": 480,
+                "height": 360
+            },
+            "state": 2,
+            "type": 1
+        },
+        "28123a481d43cdfc09e0f5db9c6de19f": {
+            "format": "jpg",
+            "id": "28123a481d43cdfc09e0f5db9c6de19f",
+            "name": "CameraHPWREN_MirrorSmoke3789.jpg",
+            "path": "file:/home/abhay_kashyap03/Desktop/github/smoke5/Data/Source_Images/Training_Images/vott-csv-export/vott-csv-export/CameraHPWREN_MirrorSmoke3789.jpg",
+            "size": {
+                "width": 480,
+                "height": 360
+            },
+            "state": 2,
+            "type": 1
+        },
+        "8e103f01d262f02b528f991192501534": {
+            "format": "jpg",
+            "id": "8e103f01d262f02b528f991192501534",
+            "name": "CameraHPWREN_MirrorSmoke3794.jpg",
+            "path": "file:/home/abhay_kashyap03/Desktop/github/smoke5/Data/Source_Images/Training_Images/vott-csv-export/vott-csv-export/CameraHPWREN_MirrorSmoke3794.jpg",
+            "size": {
+                "width": 480,
+                "height": 360
+            },
+            "state": 2,
+            "type": 1
+        },
+        "f433f3df14d2c55261683901f4706779": {
+            "format": "jpg",
+            "id": "f433f3df14d2c55261683901f4706779",
+            "name": "CameraHPWREN_MirrorSmoke3793.jpg",
+            "path": "file:/home/abhay_kashyap03/Desktop/github/smoke5/Data/Source_Images/Training_Images/vott-csv-export/vott-csv-export/CameraHPWREN_MirrorSmoke3793.jpg",
+            "size": {
+                "width": 480,
+                "height": 360
+            },
+            "state": 2,
+            "type": 1
+        },
+        "2bbd03d2b8c3545f8268491e4497953c": {
+            "format": "jpg",
+            "id": "2bbd03d2b8c3545f8268491e4497953c",
+            "name": "CameraHPWREN_MirrorSmoke3792.jpg",
+            "path": "file:/home/abhay_kashyap03/Desktop/github/smoke5/Data/Source_Images/Training_Images/vott-csv-export/vott-csv-export/CameraHPWREN_MirrorSmoke3792.jpg",
+            "size": {
+                "width": 480,
+                "height": 360
+            },
+            "state": 2,
+            "type": 1
+        },
+        "483b5d371671644c612a36a9daf9c0c3": {
+            "format": "jpg",
+            "id": "483b5d371671644c612a36a9daf9c0c3",
+            "name": "CameraHPWREN_MirrorSmoke3795.jpg",
+            "path": "file:/home/abhay_kashyap03/Desktop/github/smoke5/Data/Source_Images/Training_Images/vott-csv-export/vott-csv-export/CameraHPWREN_MirrorSmoke3795.jpg",
+            "size": {
+                "width": 480,
+                "height": 360
+            },
+            "state": 2,
+            "type": 1
+        },
+        "4a3199b17db074e3c1b057ee83de533b": {
+            "format": "jpg",
+            "id": "4a3199b17db074e3c1b057ee83de533b",
+            "name": "CameraHPWREN_MirrorSmoke3799.jpg",
+            "path": "file:/home/abhay_kashyap03/Desktop/github/smoke5/Data/Source_Images/Training_Images/vott-csv-export/vott-csv-export/CameraHPWREN_MirrorSmoke3799.jpg",
+            "size": {
+                "width": 480,
+                "height": 360
+            },
+            "state": 2,
+            "type": 1
+        },
+        "34ff9c44bece092da316498ec2150d3e": {
+            "format": "jpg",
+            "id": "34ff9c44bece092da316498ec2150d3e",
+            "name": "CameraHPWREN_MirrorSmoke3798.jpg",
+            "path": "file:/home/abhay_kashyap03/Desktop/github/smoke5/Data/Source_Images/Training_Images/vott-csv-export/vott-csv-export/CameraHPWREN_MirrorSmoke3798.jpg",
+            "size": {
+                "width": 480,
+                "height": 360
+            },
+            "state": 2,
+            "type": 1
+        },
+        "e25a07c343e6389195110cf20ffd55cc": {
+            "format": "jpg",
+            "id": "e25a07c343e6389195110cf20ffd55cc",
+            "name": "CameraHPWREN_MirrorSmoke3797.jpg",
+            "path": "file:/home/abhay_kashyap03/Desktop/github/smoke5/Data/Source_Images/Training_Images/vott-csv-export/vott-csv-export/CameraHPWREN_MirrorSmoke3797.jpg",
+            "size": {
+                "width": 480,
+                "height": 360
+            },
+            "state": 2,
+            "type": 1
+        },
+        "7075fbd4d21340762edad2fc86fcb2ab": {
+            "format": "jpg",
+            "id": "7075fbd4d21340762edad2fc86fcb2ab",
+            "name": "CameraHPWREN_MirrorSmoke3796.jpg",
+            "path": "file:/home/abhay_kashyap03/Desktop/github/smoke5/Data/Source_Images/Training_Images/vott-csv-export/vott-csv-export/CameraHPWREN_MirrorSmoke3796.jpg",
+            "size": {
+                "width": 480,
+                "height": 360
+            },
+            "state": 2,
+            "type": 1
+        },
+        "fe8a772aa79e599c9246bb7c28e53c51": {
+            "format": "jpg",
+            "id": "fe8a772aa79e599c9246bb7c28e53c51",
+            "name": "CameraHPWREN_MirrorSmoke3800.jpg",
+            "path": "file:/home/abhay_kashyap03/Desktop/github/smoke5/Data/Source_Images/Training_Images/vott-csv-export/vott-csv-export/CameraHPWREN_MirrorSmoke3800.jpg",
+            "size": {
+                "width": 480,
+                "height": 360
+            },
+            "state": 2,
+            "type": 1
+        },
+        "db752ad6f63979428f429460f0797bb8": {
+            "format": "jpg",
+            "id": "db752ad6f63979428f429460f0797bb8",
+            "name": "CameraHPWREN_MirrorSmoke3801.jpg",
+            "path": "file:/home/abhay_kashyap03/Desktop/github/smoke5/Data/Source_Images/Training_Images/vott-csv-export/vott-csv-export/CameraHPWREN_MirrorSmoke3801.jpg",
+            "size": {
+                "width": 480,
+                "height": 360
+            },
+            "state": 2,
+            "type": 1
+        },
+        "ee7e86ff1d74465096888cb1dd977a27": {
+            "format": "jpg",
+            "id": "ee7e86ff1d74465096888cb1dd977a27",
+            "name": "CameraHPWREN_MirrorSmoke3805.jpg",
+            "path": "file:/home/abhay_kashyap03/Desktop/github/smoke5/Data/Source_Images/Training_Images/vott-csv-export/vott-csv-export/CameraHPWREN_MirrorSmoke3805.jpg",
+            "size": {
+                "width": 480,
+                "height": 360
+            },
+            "state": 2,
+            "type": 1
+        },
+        "9910aa45345f62a41250ba335f20c98d": {
+            "format": "jpg",
+            "id": "9910aa45345f62a41250ba335f20c98d",
+            "name": "CameraHPWREN_MirrorSmoke3811.jpg",
+            "path": "file:/home/abhay_kashyap03/Desktop/github/smoke5/Data/Source_Images/Training_Images/vott-csv-export/vott-csv-export/CameraHPWREN_MirrorSmoke3811.jpg",
+            "size": {
+                "width": 480,
+                "height": 360
+            },
+            "state": 2,
+            "type": 1
+        },
+        "1392a34c362d886a6d319e8f240f6714": {
+            "format": "jpg",
+            "id": "1392a34c362d886a6d319e8f240f6714",
+            "name": "CameraHPWREN_MirrorSmoke3809.jpg",
+            "path": "file:/home/abhay_kashyap03/Desktop/github/smoke5/Data/Source_Images/Training_Images/vott-csv-export/vott-csv-export/CameraHPWREN_MirrorSmoke3809.jpg",
+            "size": {
+                "width": 480,
+                "height": 360
+            },
+            "state": 2,
+            "type": 1
+        },
+        "48775a3736a95091a91349662573a7e9": {
+            "format": "jpg",
+            "id": "48775a3736a95091a91349662573a7e9",
+            "name": "CameraHPWREN_MirrorSmoke3812.jpg",
+            "path": "file:/home/abhay_kashyap03/Desktop/github/smoke5/Data/Source_Images/Training_Images/vott-csv-export/vott-csv-export/CameraHPWREN_MirrorSmoke3812.jpg",
+            "size": {
+                "width": 480,
+                "height": 360
+            },
+            "state": 2,
+            "type": 1
+        },
+        "ef055a049aec355039b7c050e7384f9e": {
+            "format": "jpg",
+            "id": "ef055a049aec355039b7c050e7384f9e",
+            "name": "CameraHPWREN_MirrorSmoke3813.jpg",
+            "path": "file:/home/abhay_kashyap03/Desktop/github/smoke5/Data/Source_Images/Training_Images/vott-csv-export/vott-csv-export/CameraHPWREN_MirrorSmoke3813.jpg",
+            "size": {
+                "width": 480,
+                "height": 360
+            },
+            "state": 2,
+            "type": 1
+        },
+        "39212f81578f562477076c7cdc2aea26": {
+            "format": "jpg",
+            "id": "39212f81578f562477076c7cdc2aea26",
+            "name": "CameraHPWREN_MirrorSmoke3814.jpg",
+            "path": "file:/home/abhay_kashyap03/Desktop/github/smoke5/Data/Source_Images/Training_Images/vott-csv-export/vott-csv-export/CameraHPWREN_MirrorSmoke3814.jpg",
+            "size": {
+                "width": 480,
+                "height": 360
+            },
+            "state": 2,
+            "type": 1
+        },
+        "9e76c4498cb25c21c7349282be756634": {
+            "format": "jpg",
+            "id": "9e76c4498cb25c21c7349282be756634",
+            "name": "CameraHPWREN_MirrorSmoke3821.jpg",
+            "path": "file:/home/abhay_kashyap03/Desktop/github/smoke5/Data/Source_Images/Training_Images/vott-csv-export/vott-csv-export/CameraHPWREN_MirrorSmoke3821.jpg",
+            "size": {
+                "width": 480,
+                "height": 360
+            },
+            "state": 2,
+            "type": 1
+        },
+        "8d7b9bbd66c0595b4b62244802943d1e": {
+            "format": "jpg",
+            "id": "8d7b9bbd66c0595b4b62244802943d1e",
+            "name": "CameraHPWREN_MirrorSmoke3820.jpg",
+            "path": "file:/home/abhay_kashyap03/Desktop/github/smoke5/Data/Source_Images/Training_Images/vott-csv-export/vott-csv-export/CameraHPWREN_MirrorSmoke3820.jpg",
+            "size": {
+                "width": 480,
+                "height": 360
+            },
+            "state": 2,
+            "type": 1
+        },
+        "586424e045061a8ff83af34a5ca421e9": {
+            "format": "jpg",
+            "id": "586424e045061a8ff83af34a5ca421e9",
+            "name": "CameraHPWREN_MirrorSmoke3822.jpg",
+            "path": "file:/home/abhay_kashyap03/Desktop/github/smoke5/Data/Source_Images/Training_Images/vott-csv-export/vott-csv-export/CameraHPWREN_MirrorSmoke3822.jpg",
+            "size": {
+                "width": 480,
+                "height": 360
+            },
+            "state": 2,
+            "type": 1
+        },
+        "89a9276d4fb04682335a75ba11dffcdd": {
+            "format": "jpg",
+            "id": "89a9276d4fb04682335a75ba11dffcdd",
+            "name": "CameraHPWREN_MirrorSmoke3823.jpg",
+            "path": "file:/home/abhay_kashyap03/Desktop/github/smoke5/Data/Source_Images/Training_Images/vott-csv-export/vott-csv-export/CameraHPWREN_MirrorSmoke3823.jpg",
+            "size": {
+                "width": 480,
+                "height": 360
+            },
+            "state": 2,
+            "type": 1
+        },
+        "1844752f7d21d194a407b06de8d0ec01": {
+            "format": "jpg",
+            "id": "1844752f7d21d194a407b06de8d0ec01",
+            "name": "CameraHPWREN_MirrorSmoke3824.jpg",
+            "path": "file:/home/abhay_kashyap03/Desktop/github/smoke5/Data/Source_Images/Training_Images/vott-csv-export/vott-csv-export/CameraHPWREN_MirrorSmoke3824.jpg",
+            "size": {
+                "width": 480,
+                "height": 360
+            },
+            "state": 2,
+            "type": 1
+        },
+        "5e2952a7cab148fd21d7684878c6f61a": {
+            "format": "jpg",
+            "id": "5e2952a7cab148fd21d7684878c6f61a",
+            "name": "CameraHPWREN_MirrorSmoke3825.jpg",
+            "path": "file:/home/abhay_kashyap03/Desktop/github/smoke5/Data/Source_Images/Training_Images/vott-csv-export/vott-csv-export/CameraHPWREN_MirrorSmoke3825.jpg",
+            "size": {
+                "width": 480,
+                "height": 360
+            },
+            "state": 2,
+            "type": 1
+        },
+        "1ca0138b5cb2ee2256eac7ac45b9778c": {
+            "format": "jpg",
+            "id": "1ca0138b5cb2ee2256eac7ac45b9778c",
+            "name": "CameraHPWREN_MirrorSmoke3826.jpg",
+            "path": "file:/home/abhay_kashyap03/Desktop/github/smoke5/Data/Source_Images/Training_Images/vott-csv-export/vott-csv-export/CameraHPWREN_MirrorSmoke3826.jpg",
+            "size": {
+                "width": 480,
+                "height": 360
+            },
+            "state": 2,
+            "type": 1
+        },
+        "93a26f9dcafae0c5e2e960d477c0acc9": {
+            "format": "jpg",
+            "id": "93a26f9dcafae0c5e2e960d477c0acc9",
+            "name": "CameraHPWREN_MirrorSmoke3829.jpg",
+            "path": "file:/home/abhay_kashyap03/Desktop/github/smoke5/Data/Source_Images/Training_Images/vott-csv-export/vott-csv-export/CameraHPWREN_MirrorSmoke3829.jpg",
+            "size": {
+                "width": 480,
+                "height": 360
+            },
+            "state": 2,
+            "type": 1
+        },
+        "3b64ddc3806bc75351fd3ccb79ae4502": {
+            "format": "jpg",
+            "id": "3b64ddc3806bc75351fd3ccb79ae4502",
+            "name": "CameraHPWREN_MirrorSmoke3831.jpg",
+            "path": "file:/home/abhay_kashyap03/Desktop/github/smoke5/Data/Source_Images/Training_Images/vott-csv-export/vott-csv-export/CameraHPWREN_MirrorSmoke3831.jpg",
+            "size": {
+                "width": 480,
+                "height": 360
+            },
+            "state": 2,
+            "type": 1
+        },
+        "ff4ddb6d1f15510dbf205666d436eaa4": {
+            "format": "jpg",
+            "id": "ff4ddb6d1f15510dbf205666d436eaa4",
+            "name": "CameraHPWREN_MirrorSmoke3834.jpg",
+            "path": "file:/home/abhay_kashyap03/Desktop/github/smoke5/Data/Source_Images/Training_Images/vott-csv-export/vott-csv-export/CameraHPWREN_MirrorSmoke3834.jpg",
+            "size": {
+                "width": 480,
+                "height": 360
+            },
+            "state": 1,
+            "type": 1
+        },
+        "ab7f0baf23a76ecca95661d767b29e3b": {
+            "format": "jpg",
+            "id": "ab7f0baf23a76ecca95661d767b29e3b",
+            "name": "CameraHPWREN_MirrorSmoke3835.jpg",
+            "path": "file:/home/abhay_kashyap03/Desktop/github/smoke5/Data/Source_Images/Training_Images/vott-csv-export/vott-csv-export/CameraHPWREN_MirrorSmoke3835.jpg",
+            "size": {
+                "width": 480,
+                "height": 360
+            },
+            "state": 1,
+            "type": 1
+        },
+        "f11a30651957cf6d870aa42431273669": {
+            "format": "jpg",
+            "id": "f11a30651957cf6d870aa42431273669",
+            "name": "CameraHPWREN_MirrorSmoke3836.jpg",
+            "path": "file:/home/abhay_kashyap03/Desktop/github/smoke5/Data/Source_Images/Training_Images/vott-csv-export/vott-csv-export/CameraHPWREN_MirrorSmoke3836.jpg",
+            "size": {
+                "width": 480,
+                "height": 360
+            },
+            "state": 1,
+            "type": 1
+        },
+        "4c179c8f81fc9ffb5ae76f171485fa52": {
+            "format": "jpg",
+            "id": "4c179c8f81fc9ffb5ae76f171485fa52",
+            "name": "CameraHPWREN_MirrorSmoke3837.jpg",
+            "path": "file:/home/abhay_kashyap03/Desktop/github/smoke5/Data/Source_Images/Training_Images/vott-csv-export/vott-csv-export/CameraHPWREN_MirrorSmoke3837.jpg",
+            "size": {
+                "width": 480,
+                "height": 360
+            },
+            "state": 1,
+            "type": 1
+        },
+        "cbb2f8682b65680b901ac52db77b0260": {
+            "format": "jpg",
+            "id": "cbb2f8682b65680b901ac52db77b0260",
+            "name": "CameraHPWREN_MirrorSmoke3833.jpg",
+            "path": "file:/home/abhay_kashyap03/Desktop/github/smoke5/Data/Source_Images/Training_Images/vott-csv-export/vott-csv-export/CameraHPWREN_MirrorSmoke3833.jpg",
+            "size": {
+                "width": 480,
+                "height": 360
+            },
+            "state": 1,
+            "type": 1
+        },
+        "64bee77e2679bf710938ad8792bf9933": {
+            "format": "jpg",
+            "id": "64bee77e2679bf710938ad8792bf9933",
+            "name": "CameraHPWREN_MirrorSmoke3838.jpg",
+            "path": "file:/home/abhay_kashyap03/Desktop/github/smoke5/Data/Source_Images/Training_Images/vott-csv-export/vott-csv-export/CameraHPWREN_MirrorSmoke3838.jpg",
+            "size": {
+                "width": 480,
+                "height": 360
+            },
+            "state": 2,
+            "type": 1
+        },
+        "8ce16e4013b1ea1bb235d70f43efb246": {
+            "format": "jpg",
+            "id": "8ce16e4013b1ea1bb235d70f43efb246",
+            "name": "CameraHPWREN_MirrorSmoke3839.jpg",
+            "path": "file:/home/abhay_kashyap03/Desktop/github/smoke5/Data/Source_Images/Training_Images/vott-csv-export/vott-csv-export/CameraHPWREN_MirrorSmoke3839.jpg",
+            "size": {
+                "width": 480,
+                "height": 360
+            },
+            "state": 1,
+            "type": 1
+        },
+        "cfc6c119db299b9b3eb7b45d51073322": {
+            "format": "jpg",
+            "id": "cfc6c119db299b9b3eb7b45d51073322",
+            "name": "CameraHPWREN_MirrorSmoke3840.jpg",
+            "path": "file:/home/abhay_kashyap03/Desktop/github/smoke5/Data/Source_Images/Training_Images/vott-csv-export/vott-csv-export/CameraHPWREN_MirrorSmoke3840.jpg",
+            "size": {
+                "width": 480,
+                "height": 360
+            },
+            "state": 2,
+            "type": 1
+        },
+        "1d9cb60cc0e3cd314223732f70f149c0": {
+            "format": "jpg",
+            "id": "1d9cb60cc0e3cd314223732f70f149c0",
+            "name": "CameraHPWREN_MirrorSmoke3841.jpg",
+            "path": "file:/home/abhay_kashyap03/Desktop/github/smoke5/Data/Source_Images/Training_Images/vott-csv-export/vott-csv-export/CameraHPWREN_MirrorSmoke3841.jpg",
+            "size": {
+                "width": 480,
+                "height": 360
+            },
+            "state": 1,
+            "type": 1
+        },
+        "56e7c7d0395a7bfe7fd94682a5a378d0": {
+            "format": "jpg",
+            "id": "56e7c7d0395a7bfe7fd94682a5a378d0",
+            "name": "CameraHPWREN_MirrorSmoke3842.jpg",
+            "path": "file:/home/abhay_kashyap03/Desktop/github/smoke5/Data/Source_Images/Training_Images/vott-csv-export/vott-csv-export/CameraHPWREN_MirrorSmoke3842.jpg",
+            "size": {
+                "width": 480,
+                "height": 360
+            },
+            "state": 1,
+            "type": 1
+        },
+        "e5fb2b2e2f6a85d7c8c80e79f8122781": {
+            "format": "jpg",
+            "id": "e5fb2b2e2f6a85d7c8c80e79f8122781",
+            "name": "CameraHPWREN_MirrorSmoke3843.jpg",
+            "path": "file:/home/abhay_kashyap03/Desktop/github/smoke5/Data/Source_Images/Training_Images/vott-csv-export/vott-csv-export/CameraHPWREN_MirrorSmoke3843.jpg",
+            "size": {
+                "width": 480,
+                "height": 360
+            },
+            "state": 2,
+            "type": 1
+        },
+        "4f70baeb88b297e3e7e51b22357e0b9e": {
+            "format": "jpg",
+            "id": "4f70baeb88b297e3e7e51b22357e0b9e",
+            "name": "CameraHPWREN_MirrorSmoke3844.jpg",
+            "path": "file:/home/abhay_kashyap03/Desktop/github/smoke5/Data/Source_Images/Training_Images/vott-csv-export/vott-csv-export/CameraHPWREN_MirrorSmoke3844.jpg",
+            "size": {
+                "width": 480,
+                "height": 360
+            },
+            "state": 1,
+            "type": 1
+        },
+        "28773f21c4197be37df1530e18f95167": {
+            "format": "jpg",
+            "id": "28773f21c4197be37df1530e18f95167",
+            "name": "CameraHPWREN_MirrorSmoke3845.jpg",
+            "path": "file:/home/abhay_kashyap03/Desktop/github/smoke5/Data/Source_Images/Training_Images/vott-csv-export/vott-csv-export/CameraHPWREN_MirrorSmoke3845.jpg",
+            "size": {
+                "width": 480,
+                "height": 360
+            },
+            "state": 2,
+            "type": 1
+        },
+        "051fd169ed5582ed95457d1100577a0c": {
+            "format": "jpg",
+            "id": "051fd169ed5582ed95457d1100577a0c",
+            "name": "CameraHPWREN_MirrorSmoke3846.jpg",
+            "path": "file:/home/abhay_kashyap03/Desktop/github/smoke5/Data/Source_Images/Training_Images/vott-csv-export/vott-csv-export/CameraHPWREN_MirrorSmoke3846.jpg",
+            "size": {
+                "width": 480,
+                "height": 360
+            },
+            "state": 1,
+            "type": 1
+        },
+        "30a3e3c87879bd3f0bdc905851bcd51c": {
+            "format": "jpg",
+            "id": "30a3e3c87879bd3f0bdc905851bcd51c",
+            "name": "CameraHPWREN_MirrorSmoke3847.jpg",
+            "path": "file:/home/abhay_kashyap03/Desktop/github/smoke5/Data/Source_Images/Training_Images/vott-csv-export/vott-csv-export/CameraHPWREN_MirrorSmoke3847.jpg",
+            "size": {
+                "width": 480,
+                "height": 360
+            },
+            "state": 1,
+            "type": 1
+        },
+        "b5d0511eba262c7a40c0394544e36aa7": {
+            "format": "jpg",
+            "id": "b5d0511eba262c7a40c0394544e36aa7",
+            "name": "CameraHPWREN_MirrorSmoke3848.jpg",
+            "path": "file:/home/abhay_kashyap03/Desktop/github/smoke5/Data/Source_Images/Training_Images/vott-csv-export/vott-csv-export/CameraHPWREN_MirrorSmoke3848.jpg",
+            "size": {
+                "width": 480,
+                "height": 360
+            },
+            "state": 1,
+            "type": 1
+        },
+        "5455ff8883f95e2073a0985878b9166c": {
+            "format": "jpg",
+            "id": "5455ff8883f95e2073a0985878b9166c",
+            "name": "CameraHPWREN_MirrorSmoke3849.jpg",
+            "path": "file:/home/abhay_kashyap03/Desktop/github/smoke5/Data/Source_Images/Training_Images/vott-csv-export/vott-csv-export/CameraHPWREN_MirrorSmoke3849.jpg",
+            "size": {
+                "width": 480,
+                "height": 360
+            },
+            "state": 2,
+            "type": 1
+        },
+        "1c9ae65d0eb5c907c164d823d756d866": {
+            "format": "jpg",
+            "id": "1c9ae65d0eb5c907c164d823d756d866",
+            "name": "CameraHPWREN_MirrorSmoke3850.jpg",
+            "path": "file:/home/abhay_kashyap03/Desktop/github/smoke5/Data/Source_Images/Training_Images/vott-csv-export/vott-csv-export/CameraHPWREN_MirrorSmoke3850.jpg",
+            "size": {
+                "width": 480,
+                "height": 360
+            },
+            "state": 1,
+            "type": 1
+        },
+        "99c6b8c70fc4e40029713afbd8fb304c": {
+            "format": "jpg",
+            "id": "99c6b8c70fc4e40029713afbd8fb304c",
+            "name": "CameraHPWREN_MirrorSmoke3851.jpg",
+            "path": "file:/home/abhay_kashyap03/Desktop/github/smoke5/Data/Source_Images/Training_Images/vott-csv-export/vott-csv-export/CameraHPWREN_MirrorSmoke3851.jpg",
+            "size": {
+                "width": 480,
+                "height": 360
+            },
+            "state": 1,
+            "type": 1
+        },
+        "9b927a5a31e858176e8bfcd5ec0afdd9": {
+            "format": "jpg",
+            "id": "9b927a5a31e858176e8bfcd5ec0afdd9",
+            "name": "CameraHPWREN_MirrorSmoke3852.jpg",
+            "path": "file:/home/abhay_kashyap03/Desktop/github/smoke5/Data/Source_Images/Training_Images/vott-csv-export/vott-csv-export/CameraHPWREN_MirrorSmoke3852.jpg",
+            "size": {
+                "width": 480,
+                "height": 360
+            },
+            "state": 1,
+            "type": 1
+        },
+        "fe638b3831da0668a6ecbf86598a6f1d": {
+            "format": "jpg",
+            "id": "fe638b3831da0668a6ecbf86598a6f1d",
+            "name": "CameraHPWREN_MirrorSmoke3853.jpg",
+            "path": "file:/home/abhay_kashyap03/Desktop/github/smoke5/Data/Source_Images/Training_Images/vott-csv-export/vott-csv-export/CameraHPWREN_MirrorSmoke3853.jpg",
+            "size": {
+                "width": 480,
+                "height": 360
+            },
+            "state": 2,
+            "type": 1
+        },
+        "32bc47cd61be34dc9231d336163bbb5b": {
+            "format": "jpg",
+            "id": "32bc47cd61be34dc9231d336163bbb5b",
+            "name": "CameraHPWREN_MirrorSmoke3854.jpg",
+            "path": "file:/home/abhay_kashyap03/Desktop/github/smoke5/Data/Source_Images/Training_Images/vott-csv-export/vott-csv-export/CameraHPWREN_MirrorSmoke3854.jpg",
+            "size": {
+                "width": 480,
+                "height": 360
+            },
+            "state": 2,
+            "type": 1
+        },
+        "427cbb33ba459b401b26a43215fff140": {
+            "format": "jpg",
+            "id": "427cbb33ba459b401b26a43215fff140",
+            "name": "CameraHPWREN_MirrorSmoke3859.jpg",
+            "path": "file:/home/abhay_kashyap03/Desktop/github/smoke5/Data/Source_Images/Training_Images/vott-csv-export/vott-csv-export/CameraHPWREN_MirrorSmoke3859.jpg",
+            "size": {
+                "width": 480,
+                "height": 360
+            },
+            "state": 2,
+            "type": 1
+        },
+        "76d9a7a87c9e153cadc92845459ae0fd": {
+            "format": "jpg",
+            "id": "76d9a7a87c9e153cadc92845459ae0fd",
+            "name": "CameraHPWREN_MirrorSmoke3861.jpg",
+            "path": "file:/home/abhay_kashyap03/Desktop/github/smoke5/Data/Source_Images/Training_Images/vott-csv-export/vott-csv-export/CameraHPWREN_MirrorSmoke3861.jpg",
+            "size": {
+                "width": 480,
+                "height": 360
+            },
+            "state": 2,
+            "type": 1
+        },
+        "bf0d84e265ea3331780b7cc0596ca42e": {
+            "format": "jpg",
+            "id": "bf0d84e265ea3331780b7cc0596ca42e",
+            "name": "CameraHPWREN_MirrorSmoke3869.jpg",
+            "path": "file:/home/abhay_kashyap03/Desktop/github/smoke5/Data/Source_Images/Training_Images/vott-csv-export/vott-csv-export/CameraHPWREN_MirrorSmoke3869.jpg",
+            "size": {
+                "width": 480,
+                "height": 360
+            },
+            "state": 2,
+            "type": 1
+        },
+        "affa7974bda52c3209ba130b77ef2ed9": {
+            "format": "jpg",
+            "id": "affa7974bda52c3209ba130b77ef2ed9",
+            "name": "CameraHPWREN_MirrorSmoke3872.jpg",
+            "path": "file:/home/abhay_kashyap03/Desktop/github/smoke5/Data/Source_Images/Training_Images/vott-csv-export/vott-csv-export/CameraHPWREN_MirrorSmoke3872.jpg",
+            "size": {
+                "width": 540,
+                "height": 360
+            },
+            "state": 2,
+            "type": 1
+        },
+        "9f8611e185bda2540c580c2d6bb98b70": {
+            "format": "jpg",
+            "id": "9f8611e185bda2540c580c2d6bb98b70",
+            "name": "CameraHPWREN_MirrorSmoke3873.jpg",
+            "path": "file:/home/abhay_kashyap03/Desktop/github/smoke5/Data/Source_Images/Training_Images/vott-csv-export/vott-csv-export/CameraHPWREN_MirrorSmoke3873.jpg",
+            "size": {
+                "width": 540,
+                "height": 360
+            },
+            "state": 2,
+            "type": 1
+        },
+        "2e10866b2478460b959ae27f845da5f8": {
+            "format": "jpg",
+            "id": "2e10866b2478460b959ae27f845da5f8",
+            "name": "CameraHPWREN_MirrorSmoke3874.jpg",
+            "path": "file:/home/abhay_kashyap03/Desktop/github/smoke5/Data/Source_Images/Training_Images/vott-csv-export/vott-csv-export/CameraHPWREN_MirrorSmoke3874.jpg",
+            "size": {
+                "width": 540,
+                "height": 360
+            },
+            "state": 1,
+            "type": 1
+        },
+        "eee42ce38cef9df826f36d4b9f4c8639": {
+            "format": "jpg",
+            "id": "eee42ce38cef9df826f36d4b9f4c8639",
+            "name": "CameraHPWREN_MirrorSmoke3875.jpg",
+            "path": "file:/home/abhay_kashyap03/Desktop/github/smoke5/Data/Source_Images/Training_Images/vott-csv-export/vott-csv-export/CameraHPWREN_MirrorSmoke3875.jpg",
+            "size": {
+                "width": 540,
+                "height": 360
+            },
+            "state": 1,
+            "type": 1
+        },
+        "a7802078419644114f10c309287ae82c": {
+            "format": "jpg",
+            "id": "a7802078419644114f10c309287ae82c",
+            "name": "CameraHPWREN_MirrorSmoke3876.jpg",
+            "path": "file:/home/abhay_kashyap03/Desktop/github/smoke5/Data/Source_Images/Training_Images/vott-csv-export/vott-csv-export/CameraHPWREN_MirrorSmoke3876.jpg",
+            "size": {
+                "width": 540,
+                "height": 360
+            },
+            "state": 2,
+            "type": 1
+        },
+        "3c78248e9bc7dff7dfaf483a1a38ecc9": {
+            "format": "jpg",
+            "id": "3c78248e9bc7dff7dfaf483a1a38ecc9",
+            "name": "CameraHPWREN_MirrorSmoke3877.jpg",
+            "path": "file:/home/abhay_kashyap03/Desktop/github/smoke5/Data/Source_Images/Training_Images/vott-csv-export/vott-csv-export/CameraHPWREN_MirrorSmoke3877.jpg",
+            "size": {
+                "width": 540,
+                "height": 360
+            },
+            "state": 2,
+            "type": 1
+        },
+        "2cf93a0fc56d626438bc91b403d79282": {
+            "format": "jpg",
+            "id": "2cf93a0fc56d626438bc91b403d79282",
+            "name": "CameraHPWREN_MirrorSmoke3878.jpg",
+            "path": "file:/home/abhay_kashyap03/Desktop/github/smoke5/Data/Source_Images/Training_Images/vott-csv-export/vott-csv-export/CameraHPWREN_MirrorSmoke3878.jpg",
+            "size": {
+                "width": 540,
+                "height": 360
+            },
+            "state": 1,
+            "type": 1
+        },
+        "9c347f176b4151575acbc462b63052ae": {
+            "format": "jpg",
+            "id": "9c347f176b4151575acbc462b63052ae",
+            "name": "CameraHPWREN_MirrorSmoke3879.jpg",
+            "path": "file:/home/abhay_kashyap03/Desktop/github/smoke5/Data/Source_Images/Training_Images/vott-csv-export/vott-csv-export/CameraHPWREN_MirrorSmoke3879.jpg",
+            "size": {
+                "width": 540,
+                "height": 360
+            },
+            "state": 1,
+            "type": 1
+        },
+        "e05ec32b27ae76edcb47a317802898fc": {
+            "format": "jpg",
+            "id": "e05ec32b27ae76edcb47a317802898fc",
+            "name": "CameraHPWREN_MirrorSmoke3880.jpg",
+            "path": "file:/home/abhay_kashyap03/Desktop/github/smoke5/Data/Source_Images/Training_Images/vott-csv-export/vott-csv-export/CameraHPWREN_MirrorSmoke3880.jpg",
+            "size": {
+                "width": 540,
+                "height": 360
+            },
+            "state": 1,
+            "type": 1
+        },
+        "d85853efe7910a05303e7caadbd6e882": {
+            "format": "jpg",
+            "id": "d85853efe7910a05303e7caadbd6e882",
+            "name": "CameraHPWREN_MirrorSmoke3881.jpg",
+            "path": "file:/home/abhay_kashyap03/Desktop/github/smoke5/Data/Source_Images/Training_Images/vott-csv-export/vott-csv-export/CameraHPWREN_MirrorSmoke3881.jpg",
+            "size": {
+                "width": 540,
+                "height": 360
+            },
+            "state": 1,
+            "type": 1
+        },
+        "05de0f656dce3d95a67e00c088906925": {
+            "format": "jpg",
+            "id": "05de0f656dce3d95a67e00c088906925",
+            "name": "CameraHPWREN_MirrorSmoke3906.jpg",
+            "path": "file:/home/abhay_kashyap03/Desktop/github/smoke5/Data/Source_Images/Training_Images/vott-csv-export/vott-csv-export/CameraHPWREN_MirrorSmoke3906.jpg",
+            "size": {
+                "width": 640,
+                "height": 360
+            },
+            "state": 2,
+            "type": 1
+        },
+        "68ab3833e4c7a3e7ef4dd07a0122d22a": {
+            "format": "jpg",
+            "id": "68ab3833e4c7a3e7ef4dd07a0122d22a",
+            "name": "CameraHPWREN_MirrorSmoke3907.jpg",
+            "path": "file:/home/abhay_kashyap03/Desktop/github/smoke5/Data/Source_Images/Training_Images/vott-csv-export/vott-csv-export/CameraHPWREN_MirrorSmoke3907.jpg",
+            "size": {
+                "width": 640,
+                "height": 360
+            },
+            "state": 2,
+            "type": 1
+        },
+        "947a81ca7911e7c9703723d1054604e6": {
+            "format": "jpg",
+            "id": "947a81ca7911e7c9703723d1054604e6",
+            "name": "CameraHPWREN_MirrorSmoke3982.jpg",
+            "path": "file:/home/abhay_kashyap03/Desktop/github/smoke5/Data/Source_Images/Training_Images/vott-csv-export/vott-csv-export/CameraHPWREN_MirrorSmoke3982.jpg",
+            "size": {
+                "width": 640,
+                "height": 360
+            },
+            "state": 2,
+            "type": 1
+        },
+        "4ffd6c95c3d1f053f5fbabadaa0f1c98": {
+            "format": "jpg",
+            "id": "4ffd6c95c3d1f053f5fbabadaa0f1c98",
+            "name": "CameraHPWREN_MirrorSmoke3983.jpg",
+            "path": "file:/home/abhay_kashyap03/Desktop/github/smoke5/Data/Source_Images/Training_Images/vott-csv-export/vott-csv-export/CameraHPWREN_MirrorSmoke3983.jpg",
+            "size": {
+                "width": 640,
+                "height": 360
+            },
+            "state": 2,
+            "type": 1
+        },
+        "b7d821da8858faf0e344538c3504dbbf": {
+            "format": "jpg",
+            "id": "b7d821da8858faf0e344538c3504dbbf",
+            "name": "CameraHPWREN_MirrorSmoke3986.jpg",
+            "path": "file:/home/abhay_kashyap03/Desktop/github/smoke5/Data/Source_Images/Training_Images/vott-csv-export/vott-csv-export/CameraHPWREN_MirrorSmoke3986.jpg",
+            "size": {
+                "width": 640,
+                "height": 360
+            },
+            "state": 2,
+            "type": 1
+        },
+        "f77b219b52fc1536780afce8eb277eae": {
+            "format": "jpg",
+            "id": "f77b219b52fc1536780afce8eb277eae",
+            "name": "CameraHPWREN_MirrorSmoke3989.jpg",
+            "path": "file:/home/abhay_kashyap03/Desktop/github/smoke5/Data/Source_Images/Training_Images/vott-csv-export/vott-csv-export/CameraHPWREN_MirrorSmoke3989.jpg",
+            "size": {
+                "width": 640,
+                "height": 360
+            },
+            "state": 2,
+            "type": 1
+        },
+        "708224a64dd21ebdb325a89ade9ae11b": {
+            "format": "jpg",
+            "id": "708224a64dd21ebdb325a89ade9ae11b",
+            "name": "CameraHPWREN_MirrorSmoke3993.jpg",
+            "path": "file:/home/abhay_kashyap03/Desktop/github/smoke5/Data/Source_Images/Training_Images/vott-csv-export/vott-csv-export/CameraHPWREN_MirrorSmoke3993.jpg",
+            "size": {
+                "width": 640,
+                "height": 360
+            },
+            "state": 2,
+            "type": 1
+        },
+        "7e3275f0452f265fcebdd7a70fdbfefb": {
+            "format": "jpg",
+            "id": "7e3275f0452f265fcebdd7a70fdbfefb",
+            "name": "CameraHPWREN_MirrorSmoke3995.jpg",
+            "path": "file:/home/abhay_kashyap03/Desktop/github/smoke5/Data/Source_Images/Training_Images/vott-csv-export/vott-csv-export/CameraHPWREN_MirrorSmoke3995.jpg",
+            "size": {
+                "width": 640,
+                "height": 360
+            },
+            "state": 2,
+            "type": 1
+        },
+        "b0182fb44b55816c43f6d24be23f14bc": {
+            "format": "jpg",
+            "id": "b0182fb44b55816c43f6d24be23f14bc",
+            "name": "CameraHPWREN_MirrorSmoke4000.jpg",
+            "path": "file:/home/abhay_kashyap03/Desktop/github/smoke5/Data/Source_Images/Training_Images/vott-csv-export/vott-csv-export/CameraHPWREN_MirrorSmoke4000.jpg",
+            "size": {
+                "width": 540,
+                "height": 360
+            },
+            "state": 2,
+            "type": 1
+        },
+        "4f8d960f2cbaee23c094ea9ac8202ee2": {
+            "format": "jpg",
+            "id": "4f8d960f2cbaee23c094ea9ac8202ee2",
+            "name": "CameraHPWREN_MirrorSmoke4001.jpg",
+            "path": "file:/home/abhay_kashyap03/Desktop/github/smoke5/Data/Source_Images/Training_Images/vott-csv-export/vott-csv-export/CameraHPWREN_MirrorSmoke4001.jpg",
+            "size": {
+                "width": 540,
+                "height": 360
+            },
+            "state": 1,
+            "type": 1
+        },
+        "88201a5c10a639029eaf8d1c292d6aaf": {
+            "format": "jpg",
+            "id": "88201a5c10a639029eaf8d1c292d6aaf",
+            "name": "CameraHPWREN_MirrorSmoke4003.jpg",
+            "path": "file:/home/abhay_kashyap03/Desktop/github/smoke5/Data/Source_Images/Training_Images/vott-csv-export/vott-csv-export/CameraHPWREN_MirrorSmoke4003.jpg",
+            "size": {
+                "width": 540,
+                "height": 360
+            },
+            "state": 2,
+            "type": 1
+        },
+        "09abe0bd631ab4de2eb8922ee5bc73f4": {
+            "format": "jpg",
+            "id": "09abe0bd631ab4de2eb8922ee5bc73f4",
+            "name": "CameraHPWREN_MirrorSmoke4007.jpg",
+            "path": "file:/home/abhay_kashyap03/Desktop/github/smoke5/Data/Source_Images/Training_Images/vott-csv-export/vott-csv-export/CameraHPWREN_MirrorSmoke4007.jpg",
+            "size": {
+                "width": 540,
+                "height": 360
+            },
+            "state": 2,
+            "type": 1
+        },
+        "37e3ae8ad62e96bb2e3b78de42bc018a": {
+            "format": "jpg",
+            "id": "37e3ae8ad62e96bb2e3b78de42bc018a",
+            "name": "CameraHPWREN_MirrorSmoke4009.jpg",
+            "path": "file:/home/abhay_kashyap03/Desktop/github/smoke5/Data/Source_Images/Training_Images/vott-csv-export/vott-csv-export/CameraHPWREN_MirrorSmoke4009.jpg",
+            "size": {
+                "width": 540,
+                "height": 360
+            },
+            "state": 2,
+            "type": 1
+        },
+        "4ea3b43fe27b309e8d0c8efdad2dc8e0": {
+            "format": "jpg",
+            "id": "4ea3b43fe27b309e8d0c8efdad2dc8e0",
+            "name": "CameraHPWREN_MirrorSmoke4013.jpg",
+            "path": "file:/home/abhay_kashyap03/Desktop/github/smoke5/Data/Source_Images/Training_Images/vott-csv-export/vott-csv-export/CameraHPWREN_MirrorSmoke4013.jpg",
+            "size": {
+                "width": 540,
+                "height": 360
+            },
+            "state": 2,
+            "type": 1
+        },
+        "f61c61e320d4215b75d471b159002737": {
+            "format": "jpg",
+            "id": "f61c61e320d4215b75d471b159002737",
+            "name": "CameraHPWREN_MirrorSmoke4014.jpg",
+            "path": "file:/home/abhay_kashyap03/Desktop/github/smoke5/Data/Source_Images/Training_Images/vott-csv-export/vott-csv-export/CameraHPWREN_MirrorSmoke4014.jpg",
+            "size": {
+                "width": 540,
+                "height": 360
+            },
+            "state": 2,
+            "type": 1
+        },
+        "b3c96f4b9cd0ead8aed23d2cbf27e683": {
+            "format": "jpg",
+            "id": "b3c96f4b9cd0ead8aed23d2cbf27e683",
+            "name": "CameraHPWREN_MirrorSmoke4015.jpg",
+            "path": "file:/home/abhay_kashyap03/Desktop/github/smoke5/Data/Source_Images/Training_Images/vott-csv-export/vott-csv-export/CameraHPWREN_MirrorSmoke4015.jpg",
+            "size": {
+                "width": 540,
+                "height": 360
+            },
+            "state": 2,
+            "type": 1
+        },
+        "404fb7184a89293cede5424074cd1f16": {
+            "format": "jpg",
+            "id": "404fb7184a89293cede5424074cd1f16",
+            "name": "CameraHPWREN_MirrorSmoke4017.jpg",
+            "path": "file:/home/abhay_kashyap03/Desktop/github/smoke5/Data/Source_Images/Training_Images/vott-csv-export/vott-csv-export/CameraHPWREN_MirrorSmoke4017.jpg",
+            "size": {
+                "width": 540,
+                "height": 360
+            },
+            "state": 2,
+            "type": 1
+        },
+        "5fd0be2390368ae39c12b2b1380e4932": {
+            "format": "jpg",
+            "id": "5fd0be2390368ae39c12b2b1380e4932",
+            "name": "CameraHPWREN_MirrorSmoke4016.jpg",
+            "path": "file:/home/abhay_kashyap03/Desktop/github/smoke5/Data/Source_Images/Training_Images/vott-csv-export/vott-csv-export/CameraHPWREN_MirrorSmoke4016.jpg",
+            "size": {
+                "width": 540,
+                "height": 360
+            },
+            "state": 2,
+            "type": 1
+        },
+        "c67d6731ecc6fd3c51e27ced0c2d7420": {
+            "format": "jpg",
+            "id": "c67d6731ecc6fd3c51e27ced0c2d7420",
+            "name": "CameraHPWREN_MirrorSmoke4018.jpg",
+            "path": "file:/home/abhay_kashyap03/Desktop/github/smoke5/Data/Source_Images/Training_Images/vott-csv-export/vott-csv-export/CameraHPWREN_MirrorSmoke4018.jpg",
+            "size": {
+                "width": 540,
+                "height": 360
+            },
+            "state": 2,
+            "type": 1
+        },
+        "1d6399f0fcf68307a7d9191027e9a92a": {
+            "format": "jpg",
+            "id": "1d6399f0fcf68307a7d9191027e9a92a",
+            "name": "CameraHPWREN_MirrorSmoke4019.jpg",
+            "path": "file:/home/abhay_kashyap03/Desktop/github/smoke5/Data/Source_Images/Training_Images/vott-csv-export/vott-csv-export/CameraHPWREN_MirrorSmoke4019.jpg",
+            "size": {
+                "width": 540,
+                "height": 360
+            },
+            "state": 2,
+            "type": 1
+        },
+        "86b117df87d9a7870bf36992dee6a42c": {
+            "format": "jpg",
+            "id": "86b117df87d9a7870bf36992dee6a42c",
+            "name": "CameraHPWREN_MirrorSmoke4029.jpg",
+            "path": "file:/home/abhay_kashyap03/Desktop/github/smoke5/Data/Source_Images/Training_Images/vott-csv-export/vott-csv-export/CameraHPWREN_MirrorSmoke4029.jpg",
+            "size": {
+                "width": 640,
+                "height": 360
+            },
+            "state": 2,
+            "type": 1
+        },
+        "94185da00d53ddfd99746536ecd54183": {
+            "format": "jpg",
+            "id": "94185da00d53ddfd99746536ecd54183",
+            "name": "CameraHPWREN_MirrorSmoke4031.jpg",
+            "path": "file:/home/abhay_kashyap03/Desktop/github/smoke5/Data/Source_Images/Training_Images/vott-csv-export/vott-csv-export/CameraHPWREN_MirrorSmoke4031.jpg",
+            "size": {
+                "width": 640,
+                "height": 360
+            },
+            "state": 2,
+            "type": 1
+        },
+        "b2e113e191d1d8deb2c7bb39984d7e91": {
+            "format": "jpg",
+            "id": "b2e113e191d1d8deb2c7bb39984d7e91",
+            "name": "CameraHPWREN_MirrorSmoke4034.jpg",
+            "path": "file:/home/abhay_kashyap03/Desktop/github/smoke5/Data/Source_Images/Training_Images/vott-csv-export/vott-csv-export/CameraHPWREN_MirrorSmoke4034.jpg",
+            "size": {
+                "width": 640,
+                "height": 360
+            },
+            "state": 2,
+            "type": 1
+        },
+        "ae02344e1851bf9a8b2e82404d80654f": {
+            "format": "jpg",
+            "id": "ae02344e1851bf9a8b2e82404d80654f",
+            "name": "CameraHPWREN_MirrorSmoke4047.jpg",
+            "path": "file:/home/abhay_kashyap03/Desktop/github/smoke5/Data/Source_Images/Training_Images/vott-csv-export/vott-csv-export/CameraHPWREN_MirrorSmoke4047.jpg",
+            "size": {
+                "width": 640,
+                "height": 360
+            },
+            "state": 1,
+            "type": 1
+        },
+        "ace51a1b6b3fc5b5f1a1d95e322e3ee9": {
+            "format": "jpg",
+            "id": "ace51a1b6b3fc5b5f1a1d95e322e3ee9",
+            "name": "CameraHPWREN_MirrorSmoke4048.jpg",
+            "path": "file:/home/abhay_kashyap03/Desktop/github/smoke5/Data/Source_Images/Training_Images/vott-csv-export/vott-csv-export/CameraHPWREN_MirrorSmoke4048.jpg",
+            "size": {
+                "width": 640,
+                "height": 360
+            },
+            "state": 2,
+            "type": 1
+        },
+        "1ac1496103658ed966c3a1c5ff63f653": {
+            "format": "jpg",
+            "id": "1ac1496103658ed966c3a1c5ff63f653",
+            "name": "CameraHPWREN_MirrorSmoke4052.jpg",
+            "path": "file:/home/abhay_kashyap03/Desktop/github/smoke5/Data/Source_Images/Training_Images/vott-csv-export/vott-csv-export/CameraHPWREN_MirrorSmoke4052.jpg",
+            "size": {
+                "width": 640,
+                "height": 360
+            },
+            "state": 2,
+            "type": 1
+        },
+        "51dfc9e3291abda516aac33ccfd0b3b6": {
+            "format": "jpg",
+            "id": "51dfc9e3291abda516aac33ccfd0b3b6",
+            "name": "CameraHPWREN_MirrorSmoke4070.jpg",
+            "path": "file:/home/abhay_kashyap03/Desktop/github/smoke5/Data/Source_Images/Training_Images/vott-csv-export/vott-csv-export/CameraHPWREN_MirrorSmoke4070.jpg",
+            "size": {
+                "width": 640,
+                "height": 360
+            },
+            "state": 2,
+            "type": 1
+        },
+        "c3d556b73931530ce00f1d1b11ccb046": {
+            "format": "jpg",
+            "id": "c3d556b73931530ce00f1d1b11ccb046",
+            "name": "CameraHPWREN_MirrorSmoke4076.jpg",
+            "path": "file:/home/abhay_kashyap03/Desktop/github/smoke5/Data/Source_Images/Training_Images/vott-csv-export/vott-csv-export/CameraHPWREN_MirrorSmoke4076.jpg",
+            "size": {
+                "width": 640,
+                "height": 360
+            },
+            "state": 2,
+            "type": 1
+        }
+    }
+}

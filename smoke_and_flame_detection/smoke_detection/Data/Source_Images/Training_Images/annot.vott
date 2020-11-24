@@ -1,0 +1,2565 @@
+{
+    "name": "annot",
+    "securityToken": "annot Token",
+    "sourceConnection": {
+        "name": "annot",
+        "providerType": "localFileSystemProxy",
+        "providerOptions": {
+            "encrypted": "eyJjaXBoZXJ0ZXh0IjoiOTdlODY0ZmJhMzNmOTU3MWYwMmZjNzg3ODUzOTVkZjkwN2FmNmFkN2U3NjEyM2JkMzRjNDk3YzczMjQ0ZDRmNTczMjkzZjcyZjBkY2E0YmU5ODZiZjE5NDRjMzA3NGZkMGJlNTgwMGExNTc1MGEwZGZmNDNkN2ViOTBmYzk3MTUiLCJpdiI6ImE0NjAzYWRhYTVlYmQ5NTU1MDJkYjZlZjQ5MTQzMDhmNjFkMzk1NWQ1YmEwZDhiNyJ9"
+        },
+        "id": "3Bisn_res"
+    },
+    "targetConnection": {
+        "name": "annot",
+        "providerType": "localFileSystemProxy",
+        "providerOptions": {
+            "encrypted": "eyJjaXBoZXJ0ZXh0IjoiMjdkNmU5ZGNjZWZkMGYyZDIxOWU2OGM5ZjIxMzAxZDdiZDFmNWQ5MTRmZTZmNDEzMDdmZTQ4NmUwNjMzYTA4NWVmY2Y0NGI4N2ZiZjYxNzMxNTcwZjllYzg2ZTU3OGNhNGIyMjNlZjBmZjUxNWRhZjU2YjYyMWNmMTEzMWQ0ZGQiLCJpdiI6ImQ0ZGNkMzUxYzUyZDdkNGMzY2FlMDc3OTNiMGRmMGZiYzNhMDJiNDM3MDc2MDY1ZSJ9"
+        },
+        "id": "3Bisn_res"
+    },
+    "videoSettings": {
+        "frameExtractionRate": 15
+    },
+    "tags": [
+        {
+            "name": "smoke",
+            "color": "#5db300"
+        }
+    ],
+    "id": "I1CT00OMM",
+    "activeLearningSettings": {
+        "autoDetect": false,
+        "predictTag": true,
+        "modelPathType": "coco"
+    },
+    "exportFormat": {
+        "providerType": "csv",
+        "providerOptions": {
+            "encrypted": "eyJjaXBoZXJ0ZXh0IjoiZmIzODk3ZjNjMzIyMWJjZmVmNWQ5ZTkzODNhMTM2Y2Q0MGExZGJhNDUyMDIzZjAyMzE0ZjAyZWY4ZDFhZjk5MGE0ZjQ1NGExZTg4NjAwMWUyM2UxMDgwYThhNzVlZjQ0IiwiaXYiOiIyZWQyMTY1NWIxMDAwOWM5MzRjOWY3NjY5MGQ5NmI0ZTNiNTdmMDI4NDA0MDAwYWUifQ=="
+        }
+    },
+    "version": "2.1.0",
+    "lastVisitedAssetId": "c3d556b73931530ce00f1d1b11ccb046",
+    "assets": {
+        "28230ce0b9ad1c3ad4b7a334a8e09af2": {
+            "format": "jpg",
+            "id": "28230ce0b9ad1c3ad4b7a334a8e09af2",
+            "name": "CameraHPWREN_MirrorSmoke3549.jpg",
+            "path": "file:/home/abhay_kashyap03/Downloads/smokee/CameraHPWREN_MirrorSmoke3549.jpg",
+            "size": {
+                "width": 480,
+                "height": 360
+            },
+            "state": 2,
+            "type": 1
+        },
+        "8a8b8ff6b6213b20df0cac0adbb25e22": {
+            "format": "jpg",
+            "id": "8a8b8ff6b6213b20df0cac0adbb25e22",
+            "name": "CameraHPWREN_MirrorSmoke3550.jpg",
+            "path": "file:/home/abhay_kashyap03/Downloads/smokee/CameraHPWREN_MirrorSmoke3550.jpg",
+            "size": {
+                "width": 480,
+                "height": 360
+            },
+            "state": 2,
+            "type": 1
+        },
+        "ebef209c02c33d96403d5f4c3f8b475e": {
+            "format": "jpg",
+            "id": "ebef209c02c33d96403d5f4c3f8b475e",
+            "name": "CameraHPWREN_MirrorSmoke3551.jpg",
+            "path": "file:/home/abhay_kashyap03/Downloads/smokee/CameraHPWREN_MirrorSmoke3551.jpg",
+            "size": {
+                "width": 480,
+                "height": 360
+            },
+            "state": 2,
+            "type": 1
+        },
+        "f263ab830f91b80094d1de663cd46b4c": {
+            "format": "jpg",
+            "id": "f263ab830f91b80094d1de663cd46b4c",
+            "name": "CameraHPWREN_MirrorSmoke3552.jpg",
+            "path": "file:/home/abhay_kashyap03/Downloads/smokee/CameraHPWREN_MirrorSmoke3552.jpg",
+            "size": {
+                "width": 480,
+                "height": 360
+            },
+            "state": 2,
+            "type": 1
+        },
+        "046385977c4ac31494c204f826e1b277": {
+            "format": "jpg",
+            "id": "046385977c4ac31494c204f826e1b277",
+            "name": "CameraHPWREN_MirrorSmoke3553.jpg",
+            "path": "file:/home/abhay_kashyap03/Downloads/smokee/CameraHPWREN_MirrorSmoke3553.jpg",
+            "size": {
+                "width": 480,
+                "height": 360
+            },
+            "state": 1,
+            "type": 1
+        },
+        "247a83ed268f641aec4c6817305f6894": {
+            "format": "jpg",
+            "id": "247a83ed268f641aec4c6817305f6894",
+            "name": "CameraHPWREN_MirrorSmoke3554.jpg",
+            "path": "file:/home/abhay_kashyap03/Downloads/smokee/CameraHPWREN_MirrorSmoke3554.jpg",
+            "size": {
+                "width": 480,
+                "height": 360
+            },
+            "state": 1,
+            "type": 1
+        },
+        "8292d8187ae7487c4eed98fe8aaebae4": {
+            "format": "jpg",
+            "id": "8292d8187ae7487c4eed98fe8aaebae4",
+            "name": "CameraHPWREN_MirrorSmoke3555.jpg",
+            "path": "file:/home/abhay_kashyap03/Downloads/smokee/CameraHPWREN_MirrorSmoke3555.jpg",
+            "size": {
+                "width": 480,
+                "height": 360
+            },
+            "state": 2,
+            "type": 1
+        },
+        "f0dca3ac0f6214cb8060c2de92b5737a": {
+            "format": "jpg",
+            "id": "f0dca3ac0f6214cb8060c2de92b5737a",
+            "name": "CameraHPWREN_MirrorSmoke3556.jpg",
+            "path": "file:/home/abhay_kashyap03/Downloads/smokee/CameraHPWREN_MirrorSmoke3556.jpg",
+            "size": {
+                "width": 480,
+                "height": 360
+            },
+            "state": 2,
+            "type": 1
+        },
+        "9c4981e08a5a8ff7591535752d6a2ee6": {
+            "format": "jpg",
+            "id": "9c4981e08a5a8ff7591535752d6a2ee6",
+            "name": "CameraHPWREN_MirrorSmoke3557.jpg",
+            "path": "file:/home/abhay_kashyap03/Downloads/smokee/CameraHPWREN_MirrorSmoke3557.jpg",
+            "size": {
+                "width": 480,
+                "height": 360
+            },
+            "state": 2,
+            "type": 1
+        },
+        "1ab0e771403223bc6ab37cf0e608d215": {
+            "format": "jpg",
+            "id": "1ab0e771403223bc6ab37cf0e608d215",
+            "name": "CameraHPWREN_MirrorSmoke3558.jpg",
+            "path": "file:/home/abhay_kashyap03/Downloads/smokee/CameraHPWREN_MirrorSmoke3558.jpg",
+            "size": {
+                "width": 480,
+                "height": 360
+            },
+            "state": 2,
+            "type": 1
+        },
+        "b7e42598e6c4a9000d333d9a3f070e03": {
+            "format": "jpg",
+            "id": "b7e42598e6c4a9000d333d9a3f070e03",
+            "name": "CameraHPWREN_MirrorSmoke3559.jpg",
+            "path": "file:/home/abhay_kashyap03/Downloads/smokee/CameraHPWREN_MirrorSmoke3559.jpg",
+            "size": {
+                "width": 480,
+                "height": 360
+            },
+            "state": 2,
+            "type": 1
+        },
+        "47ac0f7ced59ec375b7d627b81573d4d": {
+            "format": "jpg",
+            "id": "47ac0f7ced59ec375b7d627b81573d4d",
+            "name": "CameraHPWREN_MirrorSmoke3562.jpg",
+            "path": "file:/home/abhay_kashyap03/Downloads/smokee/CameraHPWREN_MirrorSmoke3562.jpg",
+            "size": {
+                "width": 480,
+                "height": 360
+            },
+            "state": 2,
+            "type": 1
+        },
+        "643841773234cfdc068bef4f04e16738": {
+            "format": "jpg",
+            "id": "643841773234cfdc068bef4f04e16738",
+            "name": "CameraHPWREN_MirrorSmoke3563.jpg",
+            "path": "file:/home/abhay_kashyap03/Downloads/smokee/CameraHPWREN_MirrorSmoke3563.jpg",
+            "size": {
+                "width": 480,
+                "height": 360
+            },
+            "state": 2,
+            "type": 1
+        },
+        "f7914dae52b1754fb4ac6da926183f37": {
+            "format": "jpg",
+            "id": "f7914dae52b1754fb4ac6da926183f37",
+            "name": "CameraHPWREN_MirrorSmoke3565.jpg",
+            "path": "file:/home/abhay_kashyap03/Downloads/smokee/CameraHPWREN_MirrorSmoke3565.jpg",
+            "size": {
+                "width": 480,
+                "height": 360
+            },
+            "state": 2,
+            "type": 1
+        },
+        "22baf2e00a2a643e81ecc59606490469": {
+            "format": "jpg",
+            "id": "22baf2e00a2a643e81ecc59606490469",
+            "name": "CameraHPWREN_MirrorSmoke3566.jpg",
+            "path": "file:/home/abhay_kashyap03/Downloads/smokee/CameraHPWREN_MirrorSmoke3566.jpg",
+            "size": {
+                "width": 480,
+                "height": 360
+            },
+            "state": 2,
+            "type": 1
+        },
+        "db2fffab9c345d6a2c3c8548c0d0f527": {
+            "format": "jpg",
+            "id": "db2fffab9c345d6a2c3c8548c0d0f527",
+            "name": "CameraHPWREN_MirrorSmoke3567.jpg",
+            "path": "file:/home/abhay_kashyap03/Downloads/smokee/CameraHPWREN_MirrorSmoke3567.jpg",
+            "size": {
+                "width": 480,
+                "height": 360
+            },
+            "state": 2,
+            "type": 1
+        },
+        "cbda0b0b1f9c85f945c4c5dcb4bccb73": {
+            "format": "jpg",
+            "id": "cbda0b0b1f9c85f945c4c5dcb4bccb73",
+            "name": "CameraHPWREN_MirrorSmoke3570.jpg",
+            "path": "file:/home/abhay_kashyap03/Downloads/smokee/CameraHPWREN_MirrorSmoke3570.jpg",
+            "size": {
+                "width": 480,
+                "height": 360
+            },
+            "state": 2,
+            "type": 1
+        },
+        "fdaa8362d9c696693a47814a5a44ae32": {
+            "format": "jpg",
+            "id": "fdaa8362d9c696693a47814a5a44ae32",
+            "name": "CameraHPWREN_MirrorSmoke3569.jpg",
+            "path": "file:/home/abhay_kashyap03/Downloads/smokee/CameraHPWREN_MirrorSmoke3569.jpg",
+            "size": {
+                "width": 480,
+                "height": 360
+            },
+            "state": 2,
+            "type": 1
+        },
+        "cf1301cb5cf2e63289bcaaaa71f3c4ba": {
+            "format": "jpg",
+            "id": "cf1301cb5cf2e63289bcaaaa71f3c4ba",
+            "name": "CameraHPWREN_MirrorSmoke3574.jpg",
+            "path": "file:/home/abhay_kashyap03/Downloads/smokee/CameraHPWREN_MirrorSmoke3574.jpg",
+            "size": {
+                "width": 480,
+                "height": 360
+            },
+            "state": 2,
+            "type": 1
+        },
+        "bd4e4d1b9f945686f6871986986996e6": {
+            "format": "jpg",
+            "id": "bd4e4d1b9f945686f6871986986996e6",
+            "name": "CameraHPWREN_MirrorSmoke3575.jpg",
+            "path": "file:/home/abhay_kashyap03/Downloads/smokee/CameraHPWREN_MirrorSmoke3575.jpg",
+            "size": {
+                "width": 480,
+                "height": 360
+            },
+            "state": 2,
+            "type": 1
+        },
+        "aa66fc3a366397f32a263f132ceb3b1a": {
+            "format": "jpg",
+            "id": "aa66fc3a366397f32a263f132ceb3b1a",
+            "name": "CameraHPWREN_MirrorSmoke3576.jpg",
+            "path": "file:/home/abhay_kashyap03/Downloads/smokee/CameraHPWREN_MirrorSmoke3576.jpg",
+            "size": {
+                "width": 480,
+                "height": 360
+            },
+            "state": 2,
+            "type": 1
+        },
+        "1a905990e7ac0a8af1ca8a2d9c63eab2": {
+            "format": "jpg",
+            "id": "1a905990e7ac0a8af1ca8a2d9c63eab2",
+            "name": "CameraHPWREN_MirrorSmoke3579.jpg",
+            "path": "file:/home/abhay_kashyap03/Downloads/smokee/CameraHPWREN_MirrorSmoke3579.jpg",
+            "size": {
+                "width": 480,
+                "height": 360
+            },
+            "state": 2,
+            "type": 1
+        },
+        "ec6c87cd3c50fd73faddad57c2e070ba": {
+            "format": "jpg",
+            "id": "ec6c87cd3c50fd73faddad57c2e070ba",
+            "name": "CameraHPWREN_MirrorSmoke3580.jpg",
+            "path": "file:/home/abhay_kashyap03/Downloads/smokee/CameraHPWREN_MirrorSmoke3580.jpg",
+            "size": {
+                "width": 480,
+                "height": 360
+            },
+            "state": 2,
+            "type": 1
+        },
+        "b73d6716a1c60b29bb11e3d66841d4d1": {
+            "format": "jpg",
+            "id": "b73d6716a1c60b29bb11e3d66841d4d1",
+            "name": "CameraHPWREN_MirrorSmoke3581.jpg",
+            "path": "file:/home/abhay_kashyap03/Downloads/smokee/CameraHPWREN_MirrorSmoke3581.jpg",
+            "size": {
+                "width": 480,
+                "height": 360
+            },
+            "state": 2,
+            "type": 1
+        },
+        "a4e376822744e03953519c0772cfffe1": {
+            "format": "jpg",
+            "id": "a4e376822744e03953519c0772cfffe1",
+            "name": "CameraHPWREN_MirrorSmoke3582.jpg",
+            "path": "file:/home/abhay_kashyap03/Downloads/smokee/CameraHPWREN_MirrorSmoke3582.jpg",
+            "size": {
+                "width": 480,
+                "height": 360
+            },
+            "state": 2,
+            "type": 1
+        },
+        "74183888226acdb00753987a5b712ca3": {
+            "format": "jpg",
+            "id": "74183888226acdb00753987a5b712ca3",
+            "name": "CameraHPWREN_MirrorSmoke3583.jpg",
+            "path": "file:/home/abhay_kashyap03/Downloads/smokee/CameraHPWREN_MirrorSmoke3583.jpg",
+            "size": {
+                "width": 480,
+                "height": 360
+            },
+            "state": 2,
+            "type": 1
+        },
+        "a64d6d15bf5fc3797719a393b6f4c526": {
+            "format": "jpg",
+            "id": "a64d6d15bf5fc3797719a393b6f4c526",
+            "name": "CameraHPWREN_MirrorSmoke3584.jpg",
+            "path": "file:/home/abhay_kashyap03/Downloads/smokee/CameraHPWREN_MirrorSmoke3584.jpg",
+            "size": {
+                "width": 480,
+                "height": 360
+            },
+            "state": 1,
+            "type": 1
+        },
+        "d898b55d9c3df8646a6eda99d63c7c96": {
+            "format": "jpg",
+            "id": "d898b55d9c3df8646a6eda99d63c7c96",
+            "name": "CameraHPWREN_MirrorSmoke3585.jpg",
+            "path": "file:/home/abhay_kashyap03/Downloads/smokee/CameraHPWREN_MirrorSmoke3585.jpg",
+            "size": {
+                "width": 480,
+                "height": 360
+            },
+            "state": 1,
+            "type": 1
+        },
+        "5240287aa588e4c6119c534a355f8faa": {
+            "format": "jpg",
+            "id": "5240287aa588e4c6119c534a355f8faa",
+            "name": "CameraHPWREN_MirrorSmoke3586.jpg",
+            "path": "file:/home/abhay_kashyap03/Downloads/smokee/CameraHPWREN_MirrorSmoke3586.jpg",
+            "size": {
+                "width": 480,
+                "height": 360
+            },
+            "state": 2,
+            "type": 1
+        },
+        "1a31813545940655b62899a5d9e72b23": {
+            "format": "jpg",
+            "id": "1a31813545940655b62899a5d9e72b23",
+            "name": "CameraHPWREN_MirrorSmoke3587.jpg",
+            "path": "file:/home/abhay_kashyap03/Downloads/smokee/CameraHPWREN_MirrorSmoke3587.jpg",
+            "size": {
+                "width": 480,
+                "height": 360
+            },
+            "state": 1,
+            "type": 1
+        },
+        "57ac0ff1c5b0d9e2e33834d7c078d353": {
+            "format": "jpg",
+            "id": "57ac0ff1c5b0d9e2e33834d7c078d353",
+            "name": "CameraHPWREN_MirrorSmoke3589.jpg",
+            "path": "file:/home/abhay_kashyap03/Downloads/smokee/CameraHPWREN_MirrorSmoke3589.jpg",
+            "size": {
+                "width": 480,
+                "height": 360
+            },
+            "state": 2,
+            "type": 1
+        },
+        "012e1be3d2efd4d1ee62e45d0b75183d": {
+            "format": "jpg",
+            "id": "012e1be3d2efd4d1ee62e45d0b75183d",
+            "name": "CameraHPWREN_MirrorSmoke3590.jpg",
+            "path": "file:/home/abhay_kashyap03/Downloads/smokee/CameraHPWREN_MirrorSmoke3590.jpg",
+            "size": {
+                "width": 480,
+                "height": 360
+            },
+            "state": 1,
+            "type": 1
+        },
+        "d76af89598749952e45c86df47541898": {
+            "format": "jpg",
+            "id": "d76af89598749952e45c86df47541898",
+            "name": "CameraHPWREN_MirrorSmoke3591.jpg",
+            "path": "file:/home/abhay_kashyap03/Downloads/smokee/CameraHPWREN_MirrorSmoke3591.jpg",
+            "size": {
+                "width": 480,
+                "height": 360
+            },
+            "state": 2,
+            "type": 1
+        },
+        "4664fef018e75d919b8e019f00886a20": {
+            "format": "jpg",
+            "id": "4664fef018e75d919b8e019f00886a20",
+            "name": "CameraHPWREN_MirrorSmoke3593.jpg",
+            "path": "file:/home/abhay_kashyap03/Downloads/smokee/CameraHPWREN_MirrorSmoke3593.jpg",
+            "size": {
+                "width": 480,
+                "height": 360
+            },
+            "state": 2,
+            "type": 1
+        },
+        "8a6830514ec124035cedeaccc4d3fd03": {
+            "format": "jpg",
+            "id": "8a6830514ec124035cedeaccc4d3fd03",
+            "name": "CameraHPWREN_MirrorSmoke3594.jpg",
+            "path": "file:/home/abhay_kashyap03/Downloads/smokee/CameraHPWREN_MirrorSmoke3594.jpg",
+            "size": {
+                "width": 480,
+                "height": 360
+            },
+            "state": 2,
+            "type": 1
+        },
+        "7536d4a967e4ab59e7252cf266f198d5": {
+            "format": "jpg",
+            "id": "7536d4a967e4ab59e7252cf266f198d5",
+            "name": "CameraHPWREN_MirrorSmoke3596.jpg",
+            "path": "file:/home/abhay_kashyap03/Downloads/smokee/CameraHPWREN_MirrorSmoke3596.jpg",
+            "size": {
+                "width": 480,
+                "height": 360
+            },
+            "state": 2,
+            "type": 1
+        },
+        "d0be03aa96e90c2ca8da5e4ded65f075": {
+            "format": "jpg",
+            "id": "d0be03aa96e90c2ca8da5e4ded65f075",
+            "name": "CameraHPWREN_MirrorSmoke3597.jpg",
+            "path": "file:/home/abhay_kashyap03/Downloads/smokee/CameraHPWREN_MirrorSmoke3597.jpg",
+            "size": {
+                "width": 480,
+                "height": 360
+            },
+            "state": 2,
+            "type": 1
+        },
+        "1621dec5fdced813522181a893bbfc01": {
+            "format": "jpg",
+            "id": "1621dec5fdced813522181a893bbfc01",
+            "name": "CameraHPWREN_MirrorSmoke3602.jpg",
+            "path": "file:/home/abhay_kashyap03/Downloads/smokee/CameraHPWREN_MirrorSmoke3602.jpg",
+            "size": {
+                "width": 480,
+                "height": 360
+            },
+            "state": 1,
+            "type": 1
+        },
+        "f14d8321871765704fca35a97070935a": {
+            "format": "jpg",
+            "id": "f14d8321871765704fca35a97070935a",
+            "name": "CameraHPWREN_MirrorSmoke3603.jpg",
+            "path": "file:/home/abhay_kashyap03/Downloads/smokee/CameraHPWREN_MirrorSmoke3603.jpg",
+            "size": {
+                "width": 480,
+                "height": 360
+            },
+            "state": 2,
+            "type": 1
+        },
+        "a628d164fa64943cd51583eb759cb0a9": {
+            "format": "jpg",
+            "id": "a628d164fa64943cd51583eb759cb0a9",
+            "name": "CameraHPWREN_MirrorSmoke3611.jpg",
+            "path": "file:/home/abhay_kashyap03/Downloads/smokee/CameraHPWREN_MirrorSmoke3611.jpg",
+            "size": {
+                "width": 480,
+                "height": 360
+            },
+            "state": 2,
+            "type": 1
+        },
+        "8992455bf5912aaa197da661e04e0d81": {
+            "format": "jpg",
+            "id": "8992455bf5912aaa197da661e04e0d81",
+            "name": "CameraHPWREN_MirrorSmoke3617.jpg",
+            "path": "file:/home/abhay_kashyap03/Downloads/smokee/CameraHPWREN_MirrorSmoke3617.jpg",
+            "size": {
+                "width": 480,
+                "height": 360
+            },
+            "state": 2,
+            "type": 1
+        },
+        "67f6d0cf8d22026cc5bfdea209fa123b": {
+            "format": "jpg",
+            "id": "67f6d0cf8d22026cc5bfdea209fa123b",
+            "name": "CameraHPWREN_MirrorSmoke3618.jpg",
+            "path": "file:/home/abhay_kashyap03/Downloads/smokee/CameraHPWREN_MirrorSmoke3618.jpg",
+            "size": {
+                "width": 480,
+                "height": 360
+            },
+            "state": 1,
+            "type": 1
+        },
+        "700d9015a8af67ef73e75f9d8c855d26": {
+            "format": "jpg",
+            "id": "700d9015a8af67ef73e75f9d8c855d26",
+            "name": "CameraHPWREN_MirrorSmoke3619.jpg",
+            "path": "file:/home/abhay_kashyap03/Downloads/smokee/CameraHPWREN_MirrorSmoke3619.jpg",
+            "size": {
+                "width": 480,
+                "height": 360
+            },
+            "state": 1,
+            "type": 1
+        },
+        "c347ec597bd5e7c9845819d47a353ae6": {
+            "format": "jpg",
+            "id": "c347ec597bd5e7c9845819d47a353ae6",
+            "name": "CameraHPWREN_MirrorSmoke3620.jpg",
+            "path": "file:/home/abhay_kashyap03/Downloads/smokee/CameraHPWREN_MirrorSmoke3620.jpg",
+            "size": {
+                "width": 480,
+                "height": 360
+            },
+            "state": 1,
+            "type": 1
+        },
+        "2ddc1efe152b98e8f38f36483a88c1e3": {
+            "format": "jpg",
+            "id": "2ddc1efe152b98e8f38f36483a88c1e3",
+            "name": "CameraHPWREN_MirrorSmoke3621.jpg",
+            "path": "file:/home/abhay_kashyap03/Downloads/smokee/CameraHPWREN_MirrorSmoke3621.jpg",
+            "size": {
+                "width": 480,
+                "height": 360
+            },
+            "state": 2,
+            "type": 1
+        },
+        "276f1135491e66a2422fa203de2c8747": {
+            "format": "jpg",
+            "id": "276f1135491e66a2422fa203de2c8747",
+            "name": "CameraHPWREN_MirrorSmoke3622.jpg",
+            "path": "file:/home/abhay_kashyap03/Downloads/smokee/CameraHPWREN_MirrorSmoke3622.jpg",
+            "size": {
+                "width": 480,
+                "height": 360
+            },
+            "state": 2,
+            "type": 1
+        },
+        "c816810cf00d3682cc52a810dff1a36c": {
+            "format": "jpg",
+            "id": "c816810cf00d3682cc52a810dff1a36c",
+            "name": "CameraHPWREN_MirrorSmoke3627.jpg",
+            "path": "file:/home/abhay_kashyap03/Downloads/smokee/CameraHPWREN_MirrorSmoke3627.jpg",
+            "size": {
+                "width": 480,
+                "height": 360
+            },
+            "state": 2,
+            "type": 1
+        },
+        "90674ee889e1b6368ca6bae47eb9468c": {
+            "format": "jpg",
+            "id": "90674ee889e1b6368ca6bae47eb9468c",
+            "name": "CameraHPWREN_MirrorSmoke3628.jpg",
+            "path": "file:/home/abhay_kashyap03/Downloads/smokee/CameraHPWREN_MirrorSmoke3628.jpg",
+            "size": {
+                "width": 480,
+                "height": 360
+            },
+            "state": 2,
+            "type": 1
+        },
+        "af5c32251a117358b29f24e9598db623": {
+            "format": "jpg",
+            "id": "af5c32251a117358b29f24e9598db623",
+            "name": "CameraHPWREN_MirrorSmoke3633.jpg",
+            "path": "file:/home/abhay_kashyap03/Downloads/smokee/CameraHPWREN_MirrorSmoke3633.jpg",
+            "size": {
+                "width": 480,
+                "height": 360
+            },
+            "state": 1,
+            "type": 1
+        },
+        "9839cbcfaf3b6fb049f6e0cd4687a576": {
+            "format": "jpg",
+            "id": "9839cbcfaf3b6fb049f6e0cd4687a576",
+            "name": "CameraHPWREN_MirrorSmoke3634.jpg",
+            "path": "file:/home/abhay_kashyap03/Downloads/smokee/CameraHPWREN_MirrorSmoke3634.jpg",
+            "size": {
+                "width": 480,
+                "height": 360
+            },
+            "state": 2,
+            "type": 1
+        },
+        "74d31a05797179b2ed936c9e4ecd7edc": {
+            "format": "jpg",
+            "id": "74d31a05797179b2ed936c9e4ecd7edc",
+            "name": "CameraHPWREN_MirrorSmoke3635.jpg",
+            "path": "file:/home/abhay_kashyap03/Downloads/smokee/CameraHPWREN_MirrorSmoke3635.jpg",
+            "size": {
+                "width": 480,
+                "height": 360
+            },
+            "state": 2,
+            "type": 1
+        },
+        "4ba7f5cded5d9f8ef6c89888f722bb50": {
+            "format": "jpg",
+            "id": "4ba7f5cded5d9f8ef6c89888f722bb50",
+            "name": "CameraHPWREN_MirrorSmoke3636.jpg",
+            "path": "file:/home/abhay_kashyap03/Downloads/smokee/CameraHPWREN_MirrorSmoke3636.jpg",
+            "size": {
+                "width": 480,
+                "height": 360
+            },
+            "state": 2,
+            "type": 1
+        },
+        "ea1bc8558879188c1c7be11633dd7ad0": {
+            "format": "jpg",
+            "id": "ea1bc8558879188c1c7be11633dd7ad0",
+            "name": "CameraHPWREN_MirrorSmoke3638.jpg",
+            "path": "file:/home/abhay_kashyap03/Downloads/smokee/CameraHPWREN_MirrorSmoke3638.jpg",
+            "size": {
+                "width": 480,
+                "height": 360
+            },
+            "state": 2,
+            "type": 1
+        },
+        "f44774519882c0efd744c23cfd54d2c9": {
+            "format": "jpg",
+            "id": "f44774519882c0efd744c23cfd54d2c9",
+            "name": "CameraHPWREN_MirrorSmoke3641.jpg",
+            "path": "file:/home/abhay_kashyap03/Downloads/smokee/CameraHPWREN_MirrorSmoke3641.jpg",
+            "size": {
+                "width": 480,
+                "height": 360
+            },
+            "state": 2,
+            "type": 1
+        },
+        "208f0b6f214e864139ddecf1502b59ab": {
+            "format": "jpg",
+            "id": "208f0b6f214e864139ddecf1502b59ab",
+            "name": "CameraHPWREN_MirrorSmoke3643.jpg",
+            "path": "file:/home/abhay_kashyap03/Downloads/smokee/CameraHPWREN_MirrorSmoke3643.jpg",
+            "size": {
+                "width": 480,
+                "height": 360
+            },
+            "state": 2,
+            "type": 1
+        },
+        "fcccc7d2682309952701ff16775ada79": {
+            "format": "jpg",
+            "id": "fcccc7d2682309952701ff16775ada79",
+            "name": "CameraHPWREN_MirrorSmoke3644.jpg",
+            "path": "file:/home/abhay_kashyap03/Downloads/smokee/CameraHPWREN_MirrorSmoke3644.jpg",
+            "size": {
+                "width": 480,
+                "height": 360
+            },
+            "state": 2,
+            "type": 1
+        },
+        "48328e76bb9167e09c4f142cf84f945f": {
+            "format": "jpg",
+            "id": "48328e76bb9167e09c4f142cf84f945f",
+            "name": "CameraHPWREN_MirrorSmoke3649.jpg",
+            "path": "file:/home/abhay_kashyap03/Downloads/smokee/CameraHPWREN_MirrorSmoke3649.jpg",
+            "size": {
+                "width": 480,
+                "height": 360
+            },
+            "state": 2,
+            "type": 1
+        },
+        "82332a8ee48ebbfb4f471dca73c140d8": {
+            "format": "jpg",
+            "id": "82332a8ee48ebbfb4f471dca73c140d8",
+            "name": "CameraHPWREN_MirrorSmoke3650.jpg",
+            "path": "file:/home/abhay_kashyap03/Downloads/smokee/CameraHPWREN_MirrorSmoke3650.jpg",
+            "size": {
+                "width": 480,
+                "height": 360
+            },
+            "state": 2,
+            "type": 1
+        },
+        "4a138e9fcf0b7990607b40448606ba68": {
+            "format": "jpg",
+            "id": "4a138e9fcf0b7990607b40448606ba68",
+            "name": "CameraHPWREN_MirrorSmoke3652.jpg",
+            "path": "file:/home/abhay_kashyap03/Downloads/smokee/CameraHPWREN_MirrorSmoke3652.jpg",
+            "size": {
+                "width": 480,
+                "height": 360
+            },
+            "state": 2,
+            "type": 1
+        },
+        "08b0e88f223af1ab7af125606dfb4dac": {
+            "format": "jpg",
+            "id": "08b0e88f223af1ab7af125606dfb4dac",
+            "name": "CameraHPWREN_MirrorSmoke3655.jpg",
+            "path": "file:/home/abhay_kashyap03/Downloads/smokee/CameraHPWREN_MirrorSmoke3655.jpg",
+            "size": {
+                "width": 480,
+                "height": 360
+            },
+            "state": 2,
+            "type": 1
+        },
+        "1a74bf31dea6f09aa9091e67fb0dfa39": {
+            "format": "jpg",
+            "id": "1a74bf31dea6f09aa9091e67fb0dfa39",
+            "name": "CameraHPWREN_MirrorSmoke3662.jpg",
+            "path": "file:/home/abhay_kashyap03/Downloads/smokee/CameraHPWREN_MirrorSmoke3662.jpg",
+            "size": {
+                "width": 480,
+                "height": 360
+            },
+            "state": 2,
+            "type": 1
+        },
+        "ea52d31af8f4d827232aae4d3095cfe9": {
+            "format": "jpg",
+            "id": "ea52d31af8f4d827232aae4d3095cfe9",
+            "name": "CameraHPWREN_MirrorSmoke3661.jpg",
+            "path": "file:/home/abhay_kashyap03/Downloads/smokee/CameraHPWREN_MirrorSmoke3661.jpg",
+            "size": {
+                "width": 480,
+                "height": 360
+            },
+            "state": 2,
+            "type": 1
+        },
+        "f6d4711ede9b54cbdba1a242e87a5e1d": {
+            "format": "jpg",
+            "id": "f6d4711ede9b54cbdba1a242e87a5e1d",
+            "name": "CameraHPWREN_MirrorSmoke3665.jpg",
+            "path": "file:/home/abhay_kashyap03/Downloads/smokee/CameraHPWREN_MirrorSmoke3665.jpg",
+            "size": {
+                "width": 480,
+                "height": 360
+            },
+            "state": 2,
+            "type": 1
+        },
+        "601282975dd05322ecdc66b40fe8f2d3": {
+            "format": "jpg",
+            "id": "601282975dd05322ecdc66b40fe8f2d3",
+            "name": "CameraHPWREN_MirrorSmoke3668.jpg",
+            "path": "file:/home/abhay_kashyap03/Downloads/smokee/CameraHPWREN_MirrorSmoke3668.jpg",
+            "size": {
+                "width": 480,
+                "height": 360
+            },
+            "state": 2,
+            "type": 1
+        },
+        "d7d6f7db37e6c8811dbca3330063c642": {
+            "format": "jpg",
+            "id": "d7d6f7db37e6c8811dbca3330063c642",
+            "name": "CameraHPWREN_MirrorSmoke3669.jpg",
+            "path": "file:/home/abhay_kashyap03/Downloads/smokee/CameraHPWREN_MirrorSmoke3669.jpg",
+            "size": {
+                "width": 480,
+                "height": 360
+            },
+            "state": 2,
+            "type": 1
+        },
+        "224b6b0a9da4ae41b1496c1ea167b52c": {
+            "format": "jpg",
+            "id": "224b6b0a9da4ae41b1496c1ea167b52c",
+            "name": "CameraHPWREN_MirrorSmoke3672.jpg",
+            "path": "file:/home/abhay_kashyap03/Downloads/smokee/CameraHPWREN_MirrorSmoke3672.jpg",
+            "size": {
+                "width": 480,
+                "height": 360
+            },
+            "state": 1,
+            "type": 1
+        },
+        "fdfc61ac4bd50d48c1a52fe932a04e70": {
+            "format": "jpg",
+            "id": "fdfc61ac4bd50d48c1a52fe932a04e70",
+            "name": "CameraHPWREN_MirrorSmoke3674.jpg",
+            "path": "file:/home/abhay_kashyap03/Downloads/smokee/CameraHPWREN_MirrorSmoke3674.jpg",
+            "size": {
+                "width": 480,
+                "height": 360
+            },
+            "state": 2,
+            "type": 1
+        },
+        "0825caafb41a5d9982172484abeda346": {
+            "format": "jpg",
+            "id": "0825caafb41a5d9982172484abeda346",
+            "name": "CameraHPWREN_MirrorSmoke3675.jpg",
+            "path": "file:/home/abhay_kashyap03/Downloads/smokee/CameraHPWREN_MirrorSmoke3675.jpg",
+            "size": {
+                "width": 480,
+                "height": 360
+            },
+            "state": 2,
+            "type": 1
+        },
+        "94ecf869d71523f08ea5895fdaa959c8": {
+            "format": "jpg",
+            "id": "94ecf869d71523f08ea5895fdaa959c8",
+            "name": "CameraHPWREN_MirrorSmoke3676.jpg",
+            "path": "file:/home/abhay_kashyap03/Downloads/smokee/CameraHPWREN_MirrorSmoke3676.jpg",
+            "size": {
+                "width": 480,
+                "height": 360
+            },
+            "state": 2,
+            "type": 1
+        },
+        "e3dce28a05a5695e3dfb0f4043a1d028": {
+            "format": "jpg",
+            "id": "e3dce28a05a5695e3dfb0f4043a1d028",
+            "name": "CameraHPWREN_MirrorSmoke3677.jpg",
+            "path": "file:/home/abhay_kashyap03/Downloads/smokee/CameraHPWREN_MirrorSmoke3677.jpg",
+            "size": {
+                "width": 480,
+                "height": 360
+            },
+            "state": 1,
+            "type": 1
+        },
+        "d4ffd20b3d1bf85982fee5f998e1f7bd": {
+            "format": "jpg",
+            "id": "d4ffd20b3d1bf85982fee5f998e1f7bd",
+            "name": "CameraHPWREN_MirrorSmoke3678.jpg",
+            "path": "file:/home/abhay_kashyap03/Downloads/smokee/CameraHPWREN_MirrorSmoke3678.jpg",
+            "size": {
+                "width": 480,
+                "height": 360
+            },
+            "state": 2,
+            "type": 1
+        },
+        "7b279dab56ce10a99d7959ae341faca3": {
+            "format": "jpg",
+            "id": "7b279dab56ce10a99d7959ae341faca3",
+            "name": "CameraHPWREN_MirrorSmoke3680.jpg",
+            "path": "file:/home/abhay_kashyap03/Downloads/smokee/CameraHPWREN_MirrorSmoke3680.jpg",
+            "size": {
+                "width": 480,
+                "height": 360
+            },
+            "state": 2,
+            "type": 1
+        },
+        "e304cf0e63f75f574ad00233691b48ad": {
+            "format": "jpg",
+            "id": "e304cf0e63f75f574ad00233691b48ad",
+            "name": "CameraHPWREN_MirrorSmoke3682.jpg",
+            "path": "file:/home/abhay_kashyap03/Downloads/smokee/CameraHPWREN_MirrorSmoke3682.jpg",
+            "size": {
+                "width": 480,
+                "height": 360
+            },
+            "state": 2,
+            "type": 1
+        },
+        "6eafe8fdcbf0c764b32112f71e262ef6": {
+            "format": "jpg",
+            "id": "6eafe8fdcbf0c764b32112f71e262ef6",
+            "name": "CameraHPWREN_MirrorSmoke3686.jpg",
+            "path": "file:/home/abhay_kashyap03/Downloads/smokee/CameraHPWREN_MirrorSmoke3686.jpg",
+            "size": {
+                "width": 480,
+                "height": 360
+            },
+            "state": 2,
+            "type": 1
+        },
+        "89fe4be465615139c5914247a7dad967": {
+            "format": "jpg",
+            "id": "89fe4be465615139c5914247a7dad967",
+            "name": "CameraHPWREN_MirrorSmoke3691.jpg",
+            "path": "file:/home/abhay_kashyap03/Downloads/smokee/CameraHPWREN_MirrorSmoke3691.jpg",
+            "size": {
+                "width": 480,
+                "height": 360
+            },
+            "state": 2,
+            "type": 1
+        },
+        "12f0211a619f95f96cb54533acdaee27": {
+            "format": "jpg",
+            "id": "12f0211a619f95f96cb54533acdaee27",
+            "name": "CameraHPWREN_MirrorSmoke3696.jpg",
+            "path": "file:/home/abhay_kashyap03/Downloads/smokee/CameraHPWREN_MirrorSmoke3696.jpg",
+            "size": {
+                "width": 480,
+                "height": 360
+            },
+            "state": 1,
+            "type": 1
+        },
+        "52b3daf16a17a18d3a7ef862a2936a94": {
+            "format": "jpg",
+            "id": "52b3daf16a17a18d3a7ef862a2936a94",
+            "name": "CameraHPWREN_MirrorSmoke3697.jpg",
+            "path": "file:/home/abhay_kashyap03/Downloads/smokee/CameraHPWREN_MirrorSmoke3697.jpg",
+            "size": {
+                "width": 480,
+                "height": 360
+            },
+            "state": 1,
+            "type": 1
+        },
+        "54c274b409bef8affbc63d37b89a8e6b": {
+            "format": "jpg",
+            "id": "54c274b409bef8affbc63d37b89a8e6b",
+            "name": "CameraHPWREN_MirrorSmoke3698.jpg",
+            "path": "file:/home/abhay_kashyap03/Downloads/smokee/CameraHPWREN_MirrorSmoke3698.jpg",
+            "size": {
+                "width": 480,
+                "height": 360
+            },
+            "state": 1,
+            "type": 1
+        },
+        "35661365daaf7c955918e38ccc13d640": {
+            "format": "jpg",
+            "id": "35661365daaf7c955918e38ccc13d640",
+            "name": "CameraHPWREN_MirrorSmoke3703.jpg",
+            "path": "file:/home/abhay_kashyap03/Downloads/smokee/CameraHPWREN_MirrorSmoke3703.jpg",
+            "size": {
+                "width": 480,
+                "height": 360
+            },
+            "state": 2,
+            "type": 1
+        },
+        "b46b97d27f31ad4a12f686d6b619b6ec": {
+            "format": "jpg",
+            "id": "b46b97d27f31ad4a12f686d6b619b6ec",
+            "name": "CameraHPWREN_MirrorSmoke3706.jpg",
+            "path": "file:/home/abhay_kashyap03/Downloads/smokee/CameraHPWREN_MirrorSmoke3706.jpg",
+            "size": {
+                "width": 480,
+                "height": 360
+            },
+            "state": 2,
+            "type": 1
+        },
+        "9deabc88a82bcdc3458ead5e3e4efd47": {
+            "format": "jpg",
+            "id": "9deabc88a82bcdc3458ead5e3e4efd47",
+            "name": "CameraHPWREN_MirrorSmoke3708.jpg",
+            "path": "file:/home/abhay_kashyap03/Downloads/smokee/CameraHPWREN_MirrorSmoke3708.jpg",
+            "size": {
+                "width": 480,
+                "height": 360
+            },
+            "state": 2,
+            "type": 1
+        },
+        "eca1ccace827eca4a1408d2269633b6b": {
+            "format": "jpg",
+            "id": "eca1ccace827eca4a1408d2269633b6b",
+            "name": "CameraHPWREN_MirrorSmoke3709.jpg",
+            "path": "file:/home/abhay_kashyap03/Downloads/smokee/CameraHPWREN_MirrorSmoke3709.jpg",
+            "size": {
+                "width": 480,
+                "height": 360
+            },
+            "state": 2,
+            "type": 1
+        },
+        "6db38335d334cd63e47be4a215d116e5": {
+            "format": "jpg",
+            "id": "6db38335d334cd63e47be4a215d116e5",
+            "name": "CameraHPWREN_MirrorSmoke3710.jpg",
+            "path": "file:/home/abhay_kashyap03/Downloads/smokee/CameraHPWREN_MirrorSmoke3710.jpg",
+            "size": {
+                "width": 480,
+                "height": 360
+            },
+            "state": 2,
+            "type": 1
+        },
+        "da78781f185e7fa6481c9a232a4e13e8": {
+            "format": "jpg",
+            "id": "da78781f185e7fa6481c9a232a4e13e8",
+            "name": "CameraHPWREN_MirrorSmoke3712.jpg",
+            "path": "file:/home/abhay_kashyap03/Downloads/smokee/CameraHPWREN_MirrorSmoke3712.jpg",
+            "size": {
+                "width": 480,
+                "height": 360
+            },
+            "state": 1,
+            "type": 1
+        },
+        "c15af71b27cca79e5c6759f2da228614": {
+            "format": "jpg",
+            "id": "c15af71b27cca79e5c6759f2da228614",
+            "name": "CameraHPWREN_MirrorSmoke3713.jpg",
+            "path": "file:/home/abhay_kashyap03/Downloads/smokee/CameraHPWREN_MirrorSmoke3713.jpg",
+            "size": {
+                "width": 480,
+                "height": 360
+            },
+            "state": 1,
+            "type": 1
+        },
+        "267fe80caff68720e87f6ca792971bff": {
+            "format": "jpg",
+            "id": "267fe80caff68720e87f6ca792971bff",
+            "name": "CameraHPWREN_MirrorSmoke3714.jpg",
+            "path": "file:/home/abhay_kashyap03/Downloads/smokee/CameraHPWREN_MirrorSmoke3714.jpg",
+            "size": {
+                "width": 480,
+                "height": 360
+            },
+            "state": 1,
+            "type": 1
+        },
+        "63b21062708e9bacc18dba0b8379eddf": {
+            "format": "jpg",
+            "id": "63b21062708e9bacc18dba0b8379eddf",
+            "name": "CameraHPWREN_MirrorSmoke3715.jpg",
+            "path": "file:/home/abhay_kashyap03/Downloads/smokee/CameraHPWREN_MirrorSmoke3715.jpg",
+            "size": {
+                "width": 480,
+                "height": 360
+            },
+            "state": 1,
+            "type": 1
+        },
+        "10129fb8ad19bfa34621a7391acccc99": {
+            "format": "jpg",
+            "id": "10129fb8ad19bfa34621a7391acccc99",
+            "name": "CameraHPWREN_MirrorSmoke3718.jpg",
+            "path": "file:/home/abhay_kashyap03/Downloads/smokee/CameraHPWREN_MirrorSmoke3718.jpg",
+            "size": {
+                "width": 480,
+                "height": 360
+            },
+            "state": 2,
+            "type": 1
+        },
+        "1dbe8e3e7a48e994a0bc5cdcd7f889aa": {
+            "format": "jpg",
+            "id": "1dbe8e3e7a48e994a0bc5cdcd7f889aa",
+            "name": "CameraHPWREN_MirrorSmoke3717.jpg",
+            "path": "file:/home/abhay_kashyap03/Downloads/smokee/CameraHPWREN_MirrorSmoke3717.jpg",
+            "size": {
+                "width": 480,
+                "height": 360
+            },
+            "state": 2,
+            "type": 1
+        },
+        "be2818a0ee2bfc1a45e484af1154ff51": {
+            "format": "jpg",
+            "id": "be2818a0ee2bfc1a45e484af1154ff51",
+            "name": "CameraHPWREN_MirrorSmoke3719.jpg",
+            "path": "file:/home/abhay_kashyap03/Downloads/smokee/CameraHPWREN_MirrorSmoke3719.jpg",
+            "size": {
+                "width": 480,
+                "height": 360
+            },
+            "state": 1,
+            "type": 1
+        },
+        "ffd8157c15df48406221f3df84bdb999": {
+            "format": "jpg",
+            "id": "ffd8157c15df48406221f3df84bdb999",
+            "name": "CameraHPWREN_MirrorSmoke3720.jpg",
+            "path": "file:/home/abhay_kashyap03/Downloads/smokee/CameraHPWREN_MirrorSmoke3720.jpg",
+            "size": {
+                "width": 480,
+                "height": 360
+            },
+            "state": 2,
+            "type": 1
+        },
+        "c7c5f9f42f85521113df7157c6d886df": {
+            "format": "jpg",
+            "id": "c7c5f9f42f85521113df7157c6d886df",
+            "name": "CameraHPWREN_MirrorSmoke3724.jpg",
+            "path": "file:/home/abhay_kashyap03/Downloads/smokee/CameraHPWREN_MirrorSmoke3724.jpg",
+            "size": {
+                "width": 480,
+                "height": 360
+            },
+            "state": 2,
+            "type": 1
+        },
+        "63eba40a11aba9b43d7247595894c202": {
+            "format": "jpg",
+            "id": "63eba40a11aba9b43d7247595894c202",
+            "name": "CameraHPWREN_MirrorSmoke3734.jpg",
+            "path": "file:/home/abhay_kashyap03/Downloads/smokee/CameraHPWREN_MirrorSmoke3734.jpg",
+            "size": {
+                "width": 480,
+                "height": 360
+            },
+            "state": 2,
+            "type": 1
+        },
+        "b2c7bf4660f229768dfca1a056d816ee": {
+            "format": "jpg",
+            "id": "b2c7bf4660f229768dfca1a056d816ee",
+            "name": "CameraHPWREN_MirrorSmoke3737.jpg",
+            "path": "file:/home/abhay_kashyap03/Downloads/smokee/CameraHPWREN_MirrorSmoke3737.jpg",
+            "size": {
+                "width": 480,
+                "height": 360
+            },
+            "state": 2,
+            "type": 1
+        },
+        "a724ee39d35766c8113e956264fa0aed": {
+            "format": "jpg",
+            "id": "a724ee39d35766c8113e956264fa0aed",
+            "name": "CameraHPWREN_MirrorSmoke3736.jpg",
+            "path": "file:/home/abhay_kashyap03/Downloads/smokee/CameraHPWREN_MirrorSmoke3736.jpg",
+            "size": {
+                "width": 480,
+                "height": 360
+            },
+            "state": 2,
+            "type": 1
+        },
+        "ceaac6571d1f9ebf57cb843cf284b4ab": {
+            "format": "jpg",
+            "id": "ceaac6571d1f9ebf57cb843cf284b4ab",
+            "name": "CameraHPWREN_MirrorSmoke3746.jpg",
+            "path": "file:/home/abhay_kashyap03/Downloads/smokee/CameraHPWREN_MirrorSmoke3746.jpg",
+            "size": {
+                "width": 480,
+                "height": 360
+            },
+            "state": 2,
+            "type": 1
+        },
+        "79e143a0daa3e8aaf7a97e2924dfcb27": {
+            "format": "jpg",
+            "id": "79e143a0daa3e8aaf7a97e2924dfcb27",
+            "name": "CameraHPWREN_MirrorSmoke3745.jpg",
+            "path": "file:/home/abhay_kashyap03/Downloads/smokee/CameraHPWREN_MirrorSmoke3745.jpg",
+            "size": {
+                "width": 480,
+                "height": 360
+            },
+            "state": 2,
+            "type": 1
+        },
+        "966f0f8f0c7fecfbe007ff107cd7ebe3": {
+            "format": "jpg",
+            "id": "966f0f8f0c7fecfbe007ff107cd7ebe3",
+            "name": "CameraHPWREN_MirrorSmoke3749.jpg",
+            "path": "file:/home/abhay_kashyap03/Downloads/smokee/CameraHPWREN_MirrorSmoke3749.jpg",
+            "size": {
+                "width": 480,
+                "height": 360
+            },
+            "state": 2,
+            "type": 1
+        },
+        "5b09b3dd6ec3435bccdcbe83367e78f4": {
+            "format": "jpg",
+            "id": "5b09b3dd6ec3435bccdcbe83367e78f4",
+            "name": "CameraHPWREN_MirrorSmoke3750.jpg",
+            "path": "file:/home/abhay_kashyap03/Downloads/smokee/CameraHPWREN_MirrorSmoke3750.jpg",
+            "size": {
+                "width": 480,
+                "height": 360
+            },
+            "state": 2,
+            "type": 1
+        },
+        "96f104b41df2a343d1cdd77bd3ae7868": {
+            "format": "jpg",
+            "id": "96f104b41df2a343d1cdd77bd3ae7868",
+            "name": "CameraHPWREN_MirrorSmoke3752.jpg",
+            "path": "file:/home/abhay_kashyap03/Downloads/smokee/CameraHPWREN_MirrorSmoke3752.jpg",
+            "size": {
+                "width": 480,
+                "height": 360
+            },
+            "state": 2,
+            "type": 1
+        },
+        "35e98bb06e7cdf219c18deeaecc99dd9": {
+            "format": "jpg",
+            "id": "35e98bb06e7cdf219c18deeaecc99dd9",
+            "name": "CameraHPWREN_MirrorSmoke3756.jpg",
+            "path": "file:/home/abhay_kashyap03/Downloads/smokee/CameraHPWREN_MirrorSmoke3756.jpg",
+            "size": {
+                "width": 480,
+                "height": 360
+            },
+            "state": 2,
+            "type": 1
+        },
+        "bfdd8f8acb6f969d05a0182b903e5afb": {
+            "format": "jpg",
+            "id": "bfdd8f8acb6f969d05a0182b903e5afb",
+            "name": "CameraHPWREN_MirrorSmoke3757.jpg",
+            "path": "file:/home/abhay_kashyap03/Downloads/smokee/CameraHPWREN_MirrorSmoke3757.jpg",
+            "size": {
+                "width": 480,
+                "height": 360
+            },
+            "state": 2,
+            "type": 1
+        },
+        "4da87b5b1eba612a8dea798feca08b3d": {
+            "format": "jpg",
+            "id": "4da87b5b1eba612a8dea798feca08b3d",
+            "name": "CameraHPWREN_MirrorSmoke3761.jpg",
+            "path": "file:/home/abhay_kashyap03/Downloads/smokee/CameraHPWREN_MirrorSmoke3761.jpg",
+            "size": {
+                "width": 480,
+                "height": 360
+            },
+            "state": 2,
+            "type": 1
+        },
+        "044e56b49f2c0d834430f2013cebd4af": {
+            "format": "jpg",
+            "id": "044e56b49f2c0d834430f2013cebd4af",
+            "name": "CameraHPWREN_MirrorSmoke3765.jpg",
+            "path": "file:/home/abhay_kashyap03/Downloads/smokee/CameraHPWREN_MirrorSmoke3765.jpg",
+            "size": {
+                "width": 480,
+                "height": 360
+            },
+            "state": 2,
+            "type": 1
+        },
+        "842e488463763b3e008b8d2dfe8637dd": {
+            "format": "jpg",
+            "id": "842e488463763b3e008b8d2dfe8637dd",
+            "name": "CameraHPWREN_MirrorSmoke3767.jpg",
+            "path": "file:/home/abhay_kashyap03/Downloads/smokee/CameraHPWREN_MirrorSmoke3767.jpg",
+            "size": {
+                "width": 480,
+                "height": 360
+            },
+            "state": 2,
+            "type": 1
+        },
+        "205e2f6f55025b96e1725f1c9b3fcbf2": {
+            "format": "jpg",
+            "id": "205e2f6f55025b96e1725f1c9b3fcbf2",
+            "name": "CameraHPWREN_MirrorSmoke3768.jpg",
+            "path": "file:/home/abhay_kashyap03/Downloads/smokee/CameraHPWREN_MirrorSmoke3768.jpg",
+            "size": {
+                "width": 480,
+                "height": 360
+            },
+            "state": 2,
+            "type": 1
+        },
+        "1893d13d9bf685c7f2ad108b5cf6f8d8": {
+            "format": "jpg",
+            "id": "1893d13d9bf685c7f2ad108b5cf6f8d8",
+            "name": "CameraHPWREN_MirrorSmoke3769.jpg",
+            "path": "file:/home/abhay_kashyap03/Downloads/smokee/CameraHPWREN_MirrorSmoke3769.jpg",
+            "size": {
+                "width": 480,
+                "height": 360
+            },
+            "state": 2,
+            "type": 1
+        },
+        "134ab518c68577afd65610acff22637f": {
+            "format": "jpg",
+            "id": "134ab518c68577afd65610acff22637f",
+            "name": "CameraHPWREN_MirrorSmoke3766.jpg",
+            "path": "file:/home/abhay_kashyap03/Downloads/smokee/CameraHPWREN_MirrorSmoke3766.jpg",
+            "size": {
+                "width": 480,
+                "height": 360
+            },
+            "state": 2,
+            "type": 1
+        },
+        "8de259aed3943dabc06555770025ba90": {
+            "format": "jpg",
+            "id": "8de259aed3943dabc06555770025ba90",
+            "name": "CameraHPWREN_MirrorSmoke3771.jpg",
+            "path": "file:/home/abhay_kashyap03/Downloads/smokee/CameraHPWREN_MirrorSmoke3771.jpg",
+            "size": {
+                "width": 480,
+                "height": 360
+            },
+            "state": 2,
+            "type": 1
+        },
+        "4b1656bfde9f1f31030777df87d9f424": {
+            "format": "jpg",
+            "id": "4b1656bfde9f1f31030777df87d9f424",
+            "name": "CameraHPWREN_MirrorSmoke3772.jpg",
+            "path": "file:/home/abhay_kashyap03/Downloads/smokee/CameraHPWREN_MirrorSmoke3772.jpg",
+            "size": {
+                "width": 480,
+                "height": 360
+            },
+            "state": 2,
+            "type": 1
+        },
+        "d999267333b2ef4f84833ec2b8bb01df": {
+            "format": "jpg",
+            "id": "d999267333b2ef4f84833ec2b8bb01df",
+            "name": "CameraHPWREN_MirrorSmoke3776.jpg",
+            "path": "file:/home/abhay_kashyap03/Downloads/smokee/CameraHPWREN_MirrorSmoke3776.jpg",
+            "size": {
+                "width": 480,
+                "height": 360
+            },
+            "state": 2,
+            "type": 1
+        },
+        "88044b51d0978f31b2add1e506e8f3b8": {
+            "format": "jpg",
+            "id": "88044b51d0978f31b2add1e506e8f3b8",
+            "name": "CameraHPWREN_MirrorSmoke3774.jpg",
+            "path": "file:/home/abhay_kashyap03/Downloads/smokee/CameraHPWREN_MirrorSmoke3774.jpg",
+            "size": {
+                "width": 480,
+                "height": 360
+            },
+            "state": 1,
+            "type": 1
+        },
+        "d1f02ffbd327fd6cfcc9bc9043b49d12": {
+            "format": "jpg",
+            "id": "d1f02ffbd327fd6cfcc9bc9043b49d12",
+            "name": "CameraHPWREN_MirrorSmoke3777.jpg",
+            "path": "file:/home/abhay_kashyap03/Downloads/smokee/CameraHPWREN_MirrorSmoke3777.jpg",
+            "size": {
+                "width": 480,
+                "height": 360
+            },
+            "state": 2,
+            "type": 1
+        },
+        "d7172a4f3bfdc2e242780026a92197c8": {
+            "format": "jpg",
+            "id": "d7172a4f3bfdc2e242780026a92197c8",
+            "name": "CameraHPWREN_MirrorSmoke3780.jpg",
+            "path": "file:/home/abhay_kashyap03/Downloads/smokee/CameraHPWREN_MirrorSmoke3780.jpg",
+            "size": {
+                "width": 480,
+                "height": 360
+            },
+            "state": 2,
+            "type": 1
+        },
+        "d8e1174f29f4e0bcac0db4e02040a129": {
+            "format": "jpg",
+            "id": "d8e1174f29f4e0bcac0db4e02040a129",
+            "name": "CameraHPWREN_MirrorSmoke3781.jpg",
+            "path": "file:/home/abhay_kashyap03/Downloads/smokee/CameraHPWREN_MirrorSmoke3781.jpg",
+            "size": {
+                "width": 480,
+                "height": 360
+            },
+            "state": 2,
+            "type": 1
+        },
+        "54438589790234c6d8ebd204647ec492": {
+            "format": "jpg",
+            "id": "54438589790234c6d8ebd204647ec492",
+            "name": "CameraHPWREN_MirrorSmoke3782.jpg",
+            "path": "file:/home/abhay_kashyap03/Downloads/smokee/CameraHPWREN_MirrorSmoke3782.jpg",
+            "size": {
+                "width": 480,
+                "height": 360
+            },
+            "state": 2,
+            "type": 1
+        },
+        "74fa1ad13e081caf7dd34a15f91d10c3": {
+            "format": "jpg",
+            "id": "74fa1ad13e081caf7dd34a15f91d10c3",
+            "name": "CameraHPWREN_MirrorSmoke3783.jpg",
+            "path": "file:/home/abhay_kashyap03/Downloads/smokee/CameraHPWREN_MirrorSmoke3783.jpg",
+            "size": {
+                "width": 480,
+                "height": 360
+            },
+            "state": 2,
+            "type": 1
+        },
+        "550778fe98e7b77c8772eb910238f83b": {
+            "format": "jpg",
+            "id": "550778fe98e7b77c8772eb910238f83b",
+            "name": "CameraHPWREN_MirrorSmoke3784.jpg",
+            "path": "file:/home/abhay_kashyap03/Downloads/smokee/CameraHPWREN_MirrorSmoke3784.jpg",
+            "size": {
+                "width": 480,
+                "height": 360
+            },
+            "state": 1,
+            "type": 1
+        },
+        "15756001abba1b148a6fd4d552927ed4": {
+            "format": "jpg",
+            "id": "15756001abba1b148a6fd4d552927ed4",
+            "name": "CameraHPWREN_MirrorSmoke3785.jpg",
+            "path": "file:/home/abhay_kashyap03/Downloads/smokee/CameraHPWREN_MirrorSmoke3785.jpg",
+            "size": {
+                "width": 480,
+                "height": 360
+            },
+            "state": 2,
+            "type": 1
+        },
+        "70acf6b96215a204934752e5aceba6c7": {
+            "format": "jpg",
+            "id": "70acf6b96215a204934752e5aceba6c7",
+            "name": "CameraHPWREN_MirrorSmoke3786.jpg",
+            "path": "file:/home/abhay_kashyap03/Downloads/smokee/CameraHPWREN_MirrorSmoke3786.jpg",
+            "size": {
+                "width": 480,
+                "height": 360
+            },
+            "state": 2,
+            "type": 1
+        },
+        "d5f0305426093021271b30f722546e11": {
+            "format": "jpg",
+            "id": "d5f0305426093021271b30f722546e11",
+            "name": "CameraHPWREN_MirrorSmoke3787.jpg",
+            "path": "file:/home/abhay_kashyap03/Downloads/smokee/CameraHPWREN_MirrorSmoke3787.jpg",
+            "size": {
+                "width": 480,
+                "height": 360
+            },
+            "state": 2,
+            "type": 1
+        },
+        "28123a481d43cdfc09e0f5db9c6de19f": {
+            "format": "jpg",
+            "id": "28123a481d43cdfc09e0f5db9c6de19f",
+            "name": "CameraHPWREN_MirrorSmoke3789.jpg",
+            "path": "file:/home/abhay_kashyap03/Downloads/smokee/CameraHPWREN_MirrorSmoke3789.jpg",
+            "size": {
+                "width": 480,
+                "height": 360
+            },
+            "state": 2,
+            "type": 1
+        },
+        "8e103f01d262f02b528f991192501534": {
+            "format": "jpg",
+            "id": "8e103f01d262f02b528f991192501534",
+            "name": "CameraHPWREN_MirrorSmoke3794.jpg",
+            "path": "file:/home/abhay_kashyap03/Downloads/smokee/CameraHPWREN_MirrorSmoke3794.jpg",
+            "size": {
+                "width": 480,
+                "height": 360
+            },
+            "state": 2,
+            "type": 1
+        },
+        "f433f3df14d2c55261683901f4706779": {
+            "format": "jpg",
+            "id": "f433f3df14d2c55261683901f4706779",
+            "name": "CameraHPWREN_MirrorSmoke3793.jpg",
+            "path": "file:/home/abhay_kashyap03/Downloads/smokee/CameraHPWREN_MirrorSmoke3793.jpg",
+            "size": {
+                "width": 480,
+                "height": 360
+            },
+            "state": 2,
+            "type": 1
+        },
+        "2bbd03d2b8c3545f8268491e4497953c": {
+            "format": "jpg",
+            "id": "2bbd03d2b8c3545f8268491e4497953c",
+            "name": "CameraHPWREN_MirrorSmoke3792.jpg",
+            "path": "file:/home/abhay_kashyap03/Downloads/smokee/CameraHPWREN_MirrorSmoke3792.jpg",
+            "size": {
+                "width": 480,
+                "height": 360
+            },
+            "state": 2,
+            "type": 1
+        },
+        "483b5d371671644c612a36a9daf9c0c3": {
+            "format": "jpg",
+            "id": "483b5d371671644c612a36a9daf9c0c3",
+            "name": "CameraHPWREN_MirrorSmoke3795.jpg",
+            "path": "file:/home/abhay_kashyap03/Downloads/smokee/CameraHPWREN_MirrorSmoke3795.jpg",
+            "size": {
+                "width": 480,
+                "height": 360
+            },
+            "state": 2,
+            "type": 1
+        },
+        "4a3199b17db074e3c1b057ee83de533b": {
+            "format": "jpg",
+            "id": "4a3199b17db074e3c1b057ee83de533b",
+            "name": "CameraHPWREN_MirrorSmoke3799.jpg",
+            "path": "file:/home/abhay_kashyap03/Downloads/smokee/CameraHPWREN_MirrorSmoke3799.jpg",
+            "size": {
+                "width": 480,
+                "height": 360
+            },
+            "state": 2,
+            "type": 1
+        },
+        "34ff9c44bece092da316498ec2150d3e": {
+            "format": "jpg",
+            "id": "34ff9c44bece092da316498ec2150d3e",
+            "name": "CameraHPWREN_MirrorSmoke3798.jpg",
+            "path": "file:/home/abhay_kashyap03/Downloads/smokee/CameraHPWREN_MirrorSmoke3798.jpg",
+            "size": {
+                "width": 480,
+                "height": 360
+            },
+            "state": 2,
+            "type": 1
+        },
+        "e25a07c343e6389195110cf20ffd55cc": {
+            "format": "jpg",
+            "id": "e25a07c343e6389195110cf20ffd55cc",
+            "name": "CameraHPWREN_MirrorSmoke3797.jpg",
+            "path": "file:/home/abhay_kashyap03/Downloads/smokee/CameraHPWREN_MirrorSmoke3797.jpg",
+            "size": {
+                "width": 480,
+                "height": 360
+            },
+            "state": 2,
+            "type": 1
+        },
+        "7075fbd4d21340762edad2fc86fcb2ab": {
+            "format": "jpg",
+            "id": "7075fbd4d21340762edad2fc86fcb2ab",
+            "name": "CameraHPWREN_MirrorSmoke3796.jpg",
+            "path": "file:/home/abhay_kashyap03/Downloads/smokee/CameraHPWREN_MirrorSmoke3796.jpg",
+            "size": {
+                "width": 480,
+                "height": 360
+            },
+            "state": 2,
+            "type": 1
+        },
+        "fe8a772aa79e599c9246bb7c28e53c51": {
+            "format": "jpg",
+            "id": "fe8a772aa79e599c9246bb7c28e53c51",
+            "name": "CameraHPWREN_MirrorSmoke3800.jpg",
+            "path": "file:/home/abhay_kashyap03/Downloads/smokee/CameraHPWREN_MirrorSmoke3800.jpg",
+            "size": {
+                "width": 480,
+                "height": 360
+            },
+            "state": 2,
+            "type": 1
+        },
+        "db752ad6f63979428f429460f0797bb8": {
+            "format": "jpg",
+            "id": "db752ad6f63979428f429460f0797bb8",
+            "name": "CameraHPWREN_MirrorSmoke3801.jpg",
+            "path": "file:/home/abhay_kashyap03/Downloads/smokee/CameraHPWREN_MirrorSmoke3801.jpg",
+            "size": {
+                "width": 480,
+                "height": 360
+            },
+            "state": 2,
+            "type": 1
+        },
+        "ee7e86ff1d74465096888cb1dd977a27": {
+            "format": "jpg",
+            "id": "ee7e86ff1d74465096888cb1dd977a27",
+            "name": "CameraHPWREN_MirrorSmoke3805.jpg",
+            "path": "file:/home/abhay_kashyap03/Downloads/smokee/CameraHPWREN_MirrorSmoke3805.jpg",
+            "size": {
+                "width": 480,
+                "height": 360
+            },
+            "state": 2,
+            "type": 1
+        },
+        "9910aa45345f62a41250ba335f20c98d": {
+            "format": "jpg",
+            "id": "9910aa45345f62a41250ba335f20c98d",
+            "name": "CameraHPWREN_MirrorSmoke3811.jpg",
+            "path": "file:/home/abhay_kashyap03/Downloads/smokee/CameraHPWREN_MirrorSmoke3811.jpg",
+            "size": {
+                "width": 480,
+                "height": 360
+            },
+            "state": 2,
+            "type": 1
+        },
+        "1392a34c362d886a6d319e8f240f6714": {
+            "format": "jpg",
+            "id": "1392a34c362d886a6d319e8f240f6714",
+            "name": "CameraHPWREN_MirrorSmoke3809.jpg",
+            "path": "file:/home/abhay_kashyap03/Downloads/smokee/CameraHPWREN_MirrorSmoke3809.jpg",
+            "size": {
+                "width": 480,
+                "height": 360
+            },
+            "state": 2,
+            "type": 1
+        },
+        "48775a3736a95091a91349662573a7e9": {
+            "format": "jpg",
+            "id": "48775a3736a95091a91349662573a7e9",
+            "name": "CameraHPWREN_MirrorSmoke3812.jpg",
+            "path": "file:/home/abhay_kashyap03/Downloads/smokee/CameraHPWREN_MirrorSmoke3812.jpg",
+            "size": {
+                "width": 480,
+                "height": 360
+            },
+            "state": 2,
+            "type": 1
+        },
+        "ef055a049aec355039b7c050e7384f9e": {
+            "format": "jpg",
+            "id": "ef055a049aec355039b7c050e7384f9e",
+            "name": "CameraHPWREN_MirrorSmoke3813.jpg",
+            "path": "file:/home/abhay_kashyap03/Downloads/smokee/CameraHPWREN_MirrorSmoke3813.jpg",
+            "size": {
+                "width": 480,
+                "height": 360
+            },
+            "state": 2,
+            "type": 1
+        },
+        "39212f81578f562477076c7cdc2aea26": {
+            "format": "jpg",
+            "id": "39212f81578f562477076c7cdc2aea26",
+            "name": "CameraHPWREN_MirrorSmoke3814.jpg",
+            "path": "file:/home/abhay_kashyap03/Downloads/smokee/CameraHPWREN_MirrorSmoke3814.jpg",
+            "size": {
+                "width": 480,
+                "height": 360
+            },
+            "state": 2,
+            "type": 1
+        },
+        "9e76c4498cb25c21c7349282be756634": {
+            "format": "jpg",
+            "id": "9e76c4498cb25c21c7349282be756634",
+            "name": "CameraHPWREN_MirrorSmoke3821.jpg",
+            "path": "file:/home/abhay_kashyap03/Downloads/smokee/CameraHPWREN_MirrorSmoke3821.jpg",
+            "size": {
+                "width": 480,
+                "height": 360
+            },
+            "state": 2,
+            "type": 1
+        },
+        "8d7b9bbd66c0595b4b62244802943d1e": {
+            "format": "jpg",
+            "id": "8d7b9bbd66c0595b4b62244802943d1e",
+            "name": "CameraHPWREN_MirrorSmoke3820.jpg",
+            "path": "file:/home/abhay_kashyap03/Downloads/smokee/CameraHPWREN_MirrorSmoke3820.jpg",
+            "size": {
+                "width": 480,
+                "height": 360
+            },
+            "state": 2,
+            "type": 1
+        },
+        "586424e045061a8ff83af34a5ca421e9": {
+            "format": "jpg",
+            "id": "586424e045061a8ff83af34a5ca421e9",
+            "name": "CameraHPWREN_MirrorSmoke3822.jpg",
+            "path": "file:/home/abhay_kashyap03/Downloads/smokee/CameraHPWREN_MirrorSmoke3822.jpg",
+            "size": {
+                "width": 480,
+                "height": 360
+            },
+            "state": 2,
+            "type": 1
+        },
+        "89a9276d4fb04682335a75ba11dffcdd": {
+            "format": "jpg",
+            "id": "89a9276d4fb04682335a75ba11dffcdd",
+            "name": "CameraHPWREN_MirrorSmoke3823.jpg",
+            "path": "file:/home/abhay_kashyap03/Downloads/smokee/CameraHPWREN_MirrorSmoke3823.jpg",
+            "size": {
+                "width": 480,
+                "height": 360
+            },
+            "state": 2,
+            "type": 1
+        },
+        "1844752f7d21d194a407b06de8d0ec01": {
+            "format": "jpg",
+            "id": "1844752f7d21d194a407b06de8d0ec01",
+            "name": "CameraHPWREN_MirrorSmoke3824.jpg",
+            "path": "file:/home/abhay_kashyap03/Downloads/smokee/CameraHPWREN_MirrorSmoke3824.jpg",
+            "size": {
+                "width": 480,
+                "height": 360
+            },
+            "state": 2,
+            "type": 1
+        },
+        "5e2952a7cab148fd21d7684878c6f61a": {
+            "format": "jpg",
+            "id": "5e2952a7cab148fd21d7684878c6f61a",
+            "name": "CameraHPWREN_MirrorSmoke3825.jpg",
+            "path": "file:/home/abhay_kashyap03/Downloads/smokee/CameraHPWREN_MirrorSmoke3825.jpg",
+            "size": {
+                "width": 480,
+                "height": 360
+            },
+            "state": 2,
+            "type": 1
+        },
+        "1ca0138b5cb2ee2256eac7ac45b9778c": {
+            "format": "jpg",
+            "id": "1ca0138b5cb2ee2256eac7ac45b9778c",
+            "name": "CameraHPWREN_MirrorSmoke3826.jpg",
+            "path": "file:/home/abhay_kashyap03/Downloads/smokee/CameraHPWREN_MirrorSmoke3826.jpg",
+            "size": {
+                "width": 480,
+                "height": 360
+            },
+            "state": 2,
+            "type": 1
+        },
+        "93a26f9dcafae0c5e2e960d477c0acc9": {
+            "format": "jpg",
+            "id": "93a26f9dcafae0c5e2e960d477c0acc9",
+            "name": "CameraHPWREN_MirrorSmoke3829.jpg",
+            "path": "file:/home/abhay_kashyap03/Downloads/smokee/CameraHPWREN_MirrorSmoke3829.jpg",
+            "size": {
+                "width": 480,
+                "height": 360
+            },
+            "state": 2,
+            "type": 1
+        },
+        "3b64ddc3806bc75351fd3ccb79ae4502": {
+            "format": "jpg",
+            "id": "3b64ddc3806bc75351fd3ccb79ae4502",
+            "name": "CameraHPWREN_MirrorSmoke3831.jpg",
+            "path": "file:/home/abhay_kashyap03/Downloads/smokee/CameraHPWREN_MirrorSmoke3831.jpg",
+            "size": {
+                "width": 480,
+                "height": 360
+            },
+            "state": 2,
+            "type": 1
+        },
+        "ff4ddb6d1f15510dbf205666d436eaa4": {
+            "format": "jpg",
+            "id": "ff4ddb6d1f15510dbf205666d436eaa4",
+            "name": "CameraHPWREN_MirrorSmoke3834.jpg",
+            "path": "file:/home/abhay_kashyap03/Downloads/smokee/CameraHPWREN_MirrorSmoke3834.jpg",
+            "size": {
+                "width": 480,
+                "height": 360
+            },
+            "state": 1,
+            "type": 1
+        },
+        "ab7f0baf23a76ecca95661d767b29e3b": {
+            "format": "jpg",
+            "id": "ab7f0baf23a76ecca95661d767b29e3b",
+            "name": "CameraHPWREN_MirrorSmoke3835.jpg",
+            "path": "file:/home/abhay_kashyap03/Downloads/smokee/CameraHPWREN_MirrorSmoke3835.jpg",
+            "size": {
+                "width": 480,
+                "height": 360
+            },
+            "state": 1,
+            "type": 1
+        },
+        "f11a30651957cf6d870aa42431273669": {
+            "format": "jpg",
+            "id": "f11a30651957cf6d870aa42431273669",
+            "name": "CameraHPWREN_MirrorSmoke3836.jpg",
+            "path": "file:/home/abhay_kashyap03/Downloads/smokee/CameraHPWREN_MirrorSmoke3836.jpg",
+            "size": {
+                "width": 480,
+                "height": 360
+            },
+            "state": 1,
+            "type": 1
+        },
+        "4c179c8f81fc9ffb5ae76f171485fa52": {
+            "format": "jpg",
+            "id": "4c179c8f81fc9ffb5ae76f171485fa52",
+            "name": "CameraHPWREN_MirrorSmoke3837.jpg",
+            "path": "file:/home/abhay_kashyap03/Downloads/smokee/CameraHPWREN_MirrorSmoke3837.jpg",
+            "size": {
+                "width": 480,
+                "height": 360
+            },
+            "state": 1,
+            "type": 1
+        },
+        "cbb2f8682b65680b901ac52db77b0260": {
+            "format": "jpg",
+            "id": "cbb2f8682b65680b901ac52db77b0260",
+            "name": "CameraHPWREN_MirrorSmoke3833.jpg",
+            "path": "file:/home/abhay_kashyap03/Downloads/smokee/CameraHPWREN_MirrorSmoke3833.jpg",
+            "size": {
+                "width": 480,
+                "height": 360
+            },
+            "state": 1,
+            "type": 1
+        },
+        "64bee77e2679bf710938ad8792bf9933": {
+            "format": "jpg",
+            "id": "64bee77e2679bf710938ad8792bf9933",
+            "name": "CameraHPWREN_MirrorSmoke3838.jpg",
+            "path": "file:/home/abhay_kashyap03/Downloads/smokee/CameraHPWREN_MirrorSmoke3838.jpg",
+            "size": {
+                "width": 480,
+                "height": 360
+            },
+            "state": 2,
+            "type": 1
+        },
+        "8ce16e4013b1ea1bb235d70f43efb246": {
+            "format": "jpg",
+            "id": "8ce16e4013b1ea1bb235d70f43efb246",
+            "name": "CameraHPWREN_MirrorSmoke3839.jpg",
+            "path": "file:/home/abhay_kashyap03/Downloads/smokee/CameraHPWREN_MirrorSmoke3839.jpg",
+            "size": {
+                "width": 480,
+                "height": 360
+            },
+            "state": 1,
+            "type": 1
+        },
+        "cfc6c119db299b9b3eb7b45d51073322": {
+            "format": "jpg",
+            "id": "cfc6c119db299b9b3eb7b45d51073322",
+            "name": "CameraHPWREN_MirrorSmoke3840.jpg",
+            "path": "file:/home/abhay_kashyap03/Downloads/smokee/CameraHPWREN_MirrorSmoke3840.jpg",
+            "size": {
+                "width": 480,
+                "height": 360
+            },
+            "state": 2,
+            "type": 1
+        },
+        "1d9cb60cc0e3cd314223732f70f149c0": {
+            "format": "jpg",
+            "id": "1d9cb60cc0e3cd314223732f70f149c0",
+            "name": "CameraHPWREN_MirrorSmoke3841.jpg",
+            "path": "file:/home/abhay_kashyap03/Downloads/smokee/CameraHPWREN_MirrorSmoke3841.jpg",
+            "size": {
+                "width": 480,
+                "height": 360
+            },
+            "state": 1,
+            "type": 1
+        },
+        "56e7c7d0395a7bfe7fd94682a5a378d0": {
+            "format": "jpg",
+            "id": "56e7c7d0395a7bfe7fd94682a5a378d0",
+            "name": "CameraHPWREN_MirrorSmoke3842.jpg",
+            "path": "file:/home/abhay_kashyap03/Downloads/smokee/CameraHPWREN_MirrorSmoke3842.jpg",
+            "size": {
+                "width": 480,
+                "height": 360
+            },
+            "state": 1,
+            "type": 1
+        },
+        "e5fb2b2e2f6a85d7c8c80e79f8122781": {
+            "format": "jpg",
+            "id": "e5fb2b2e2f6a85d7c8c80e79f8122781",
+            "name": "CameraHPWREN_MirrorSmoke3843.jpg",
+            "path": "file:/home/abhay_kashyap03/Downloads/smokee/CameraHPWREN_MirrorSmoke3843.jpg",
+            "size": {
+                "width": 480,
+                "height": 360
+            },
+            "state": 2,
+            "type": 1
+        },
+        "4f70baeb88b297e3e7e51b22357e0b9e": {
+            "format": "jpg",
+            "id": "4f70baeb88b297e3e7e51b22357e0b9e",
+            "name": "CameraHPWREN_MirrorSmoke3844.jpg",
+            "path": "file:/home/abhay_kashyap03/Downloads/smokee/CameraHPWREN_MirrorSmoke3844.jpg",
+            "size": {
+                "width": 480,
+                "height": 360
+            },
+            "state": 1,
+            "type": 1
+        },
+        "28773f21c4197be37df1530e18f95167": {
+            "format": "jpg",
+            "id": "28773f21c4197be37df1530e18f95167",
+            "name": "CameraHPWREN_MirrorSmoke3845.jpg",
+            "path": "file:/home/abhay_kashyap03/Downloads/smokee/CameraHPWREN_MirrorSmoke3845.jpg",
+            "size": {
+                "width": 480,
+                "height": 360
+            },
+            "state": 2,
+            "type": 1
+        },
+        "051fd169ed5582ed95457d1100577a0c": {
+            "format": "jpg",
+            "id": "051fd169ed5582ed95457d1100577a0c",
+            "name": "CameraHPWREN_MirrorSmoke3846.jpg",
+            "path": "file:/home/abhay_kashyap03/Downloads/smokee/CameraHPWREN_MirrorSmoke3846.jpg",
+            "size": {
+                "width": 480,
+                "height": 360
+            },
+            "state": 1,
+            "type": 1
+        },
+        "30a3e3c87879bd3f0bdc905851bcd51c": {
+            "format": "jpg",
+            "id": "30a3e3c87879bd3f0bdc905851bcd51c",
+            "name": "CameraHPWREN_MirrorSmoke3847.jpg",
+            "path": "file:/home/abhay_kashyap03/Downloads/smokee/CameraHPWREN_MirrorSmoke3847.jpg",
+            "size": {
+                "width": 480,
+                "height": 360
+            },
+            "state": 1,
+            "type": 1
+        },
+        "b5d0511eba262c7a40c0394544e36aa7": {
+            "format": "jpg",
+            "id": "b5d0511eba262c7a40c0394544e36aa7",
+            "name": "CameraHPWREN_MirrorSmoke3848.jpg",
+            "path": "file:/home/abhay_kashyap03/Downloads/smokee/CameraHPWREN_MirrorSmoke3848.jpg",
+            "size": {
+                "width": 480,
+                "height": 360
+            },
+            "state": 1,
+            "type": 1
+        },
+        "5455ff8883f95e2073a0985878b9166c": {
+            "format": "jpg",
+            "id": "5455ff8883f95e2073a0985878b9166c",
+            "name": "CameraHPWREN_MirrorSmoke3849.jpg",
+            "path": "file:/home/abhay_kashyap03/Downloads/smokee/CameraHPWREN_MirrorSmoke3849.jpg",
+            "size": {
+                "width": 480,
+                "height": 360
+            },
+            "state": 2,
+            "type": 1
+        },
+        "1c9ae65d0eb5c907c164d823d756d866": {
+            "format": "jpg",
+            "id": "1c9ae65d0eb5c907c164d823d756d866",
+            "name": "CameraHPWREN_MirrorSmoke3850.jpg",
+            "path": "file:/home/abhay_kashyap03/Downloads/smokee/CameraHPWREN_MirrorSmoke3850.jpg",
+            "size": {
+                "width": 480,
+                "height": 360
+            },
+            "state": 1,
+            "type": 1
+        },
+        "99c6b8c70fc4e40029713afbd8fb304c": {
+            "format": "jpg",
+            "id": "99c6b8c70fc4e40029713afbd8fb304c",
+            "name": "CameraHPWREN_MirrorSmoke3851.jpg",
+            "path": "file:/home/abhay_kashyap03/Downloads/smokee/CameraHPWREN_MirrorSmoke3851.jpg",
+            "size": {
+                "width": 480,
+                "height": 360
+            },
+            "state": 1,
+            "type": 1
+        },
+        "9b927a5a31e858176e8bfcd5ec0afdd9": {
+            "format": "jpg",
+            "id": "9b927a5a31e858176e8bfcd5ec0afdd9",
+            "name": "CameraHPWREN_MirrorSmoke3852.jpg",
+            "path": "file:/home/abhay_kashyap03/Downloads/smokee/CameraHPWREN_MirrorSmoke3852.jpg",
+            "size": {
+                "width": 480,
+                "height": 360
+            },
+            "state": 1,
+            "type": 1
+        },
+        "fe638b3831da0668a6ecbf86598a6f1d": {
+            "format": "jpg",
+            "id": "fe638b3831da0668a6ecbf86598a6f1d",
+            "name": "CameraHPWREN_MirrorSmoke3853.jpg",
+            "path": "file:/home/abhay_kashyap03/Downloads/smokee/CameraHPWREN_MirrorSmoke3853.jpg",
+            "size": {
+                "width": 480,
+                "height": 360
+            },
+            "state": 2,
+            "type": 1
+        },
+        "32bc47cd61be34dc9231d336163bbb5b": {
+            "format": "jpg",
+            "id": "32bc47cd61be34dc9231d336163bbb5b",
+            "name": "CameraHPWREN_MirrorSmoke3854.jpg",
+            "path": "file:/home/abhay_kashyap03/Downloads/smokee/CameraHPWREN_MirrorSmoke3854.jpg",
+            "size": {
+                "width": 480,
+                "height": 360
+            },
+            "state": 2,
+            "type": 1
+        },
+        "427cbb33ba459b401b26a43215fff140": {
+            "format": "jpg",
+            "id": "427cbb33ba459b401b26a43215fff140",
+            "name": "CameraHPWREN_MirrorSmoke3859.jpg",
+            "path": "file:/home/abhay_kashyap03/Downloads/smokee/CameraHPWREN_MirrorSmoke3859.jpg",
+            "size": {
+                "width": 480,
+                "height": 360
+            },
+            "state": 2,
+            "type": 1
+        },
+        "76d9a7a87c9e153cadc92845459ae0fd": {
+            "format": "jpg",
+            "id": "76d9a7a87c9e153cadc92845459ae0fd",
+            "name": "CameraHPWREN_MirrorSmoke3861.jpg",
+            "path": "file:/home/abhay_kashyap03/Downloads/smokee/CameraHPWREN_MirrorSmoke3861.jpg",
+            "size": {
+                "width": 480,
+                "height": 360
+            },
+            "state": 2,
+            "type": 1
+        },
+        "bf0d84e265ea3331780b7cc0596ca42e": {
+            "format": "jpg",
+            "id": "bf0d84e265ea3331780b7cc0596ca42e",
+            "name": "CameraHPWREN_MirrorSmoke3869.jpg",
+            "path": "file:/home/abhay_kashyap03/Downloads/smokee/CameraHPWREN_MirrorSmoke3869.jpg",
+            "size": {
+                "width": 480,
+                "height": 360
+            },
+            "state": 2,
+            "type": 1
+        },
+        "affa7974bda52c3209ba130b77ef2ed9": {
+            "format": "jpg",
+            "id": "affa7974bda52c3209ba130b77ef2ed9",
+            "name": "CameraHPWREN_MirrorSmoke3872.jpg",
+            "path": "file:/home/abhay_kashyap03/Downloads/smokee/CameraHPWREN_MirrorSmoke3872.jpg",
+            "size": {
+                "width": 540,
+                "height": 360
+            },
+            "state": 2,
+            "type": 1
+        },
+        "9f8611e185bda2540c580c2d6bb98b70": {
+            "format": "jpg",
+            "id": "9f8611e185bda2540c580c2d6bb98b70",
+            "name": "CameraHPWREN_MirrorSmoke3873.jpg",
+            "path": "file:/home/abhay_kashyap03/Downloads/smokee/CameraHPWREN_MirrorSmoke3873.jpg",
+            "size": {
+                "width": 540,
+                "height": 360
+            },
+            "state": 2,
+            "type": 1
+        },
+        "2e10866b2478460b959ae27f845da5f8": {
+            "format": "jpg",
+            "id": "2e10866b2478460b959ae27f845da5f8",
+            "name": "CameraHPWREN_MirrorSmoke3874.jpg",
+            "path": "file:/home/abhay_kashyap03/Downloads/smokee/CameraHPWREN_MirrorSmoke3874.jpg",
+            "size": {
+                "width": 540,
+                "height": 360
+            },
+            "state": 1,
+            "type": 1
+        },
+        "eee42ce38cef9df826f36d4b9f4c8639": {
+            "format": "jpg",
+            "id": "eee42ce38cef9df826f36d4b9f4c8639",
+            "name": "CameraHPWREN_MirrorSmoke3875.jpg",
+            "path": "file:/home/abhay_kashyap03/Downloads/smokee/CameraHPWREN_MirrorSmoke3875.jpg",
+            "size": {
+                "width": 540,
+                "height": 360
+            },
+            "state": 1,
+            "type": 1
+        },
+        "a7802078419644114f10c309287ae82c": {
+            "format": "jpg",
+            "id": "a7802078419644114f10c309287ae82c",
+            "name": "CameraHPWREN_MirrorSmoke3876.jpg",
+            "path": "file:/home/abhay_kashyap03/Downloads/smokee/CameraHPWREN_MirrorSmoke3876.jpg",
+            "size": {
+                "width": 540,
+                "height": 360
+            },
+            "state": 2,
+            "type": 1
+        },
+        "3c78248e9bc7dff7dfaf483a1a38ecc9": {
+            "format": "jpg",
+            "id": "3c78248e9bc7dff7dfaf483a1a38ecc9",
+            "name": "CameraHPWREN_MirrorSmoke3877.jpg",
+            "path": "file:/home/abhay_kashyap03/Downloads/smokee/CameraHPWREN_MirrorSmoke3877.jpg",
+            "size": {
+                "width": 540,
+                "height": 360
+            },
+            "state": 2,
+            "type": 1
+        },
+        "2cf93a0fc56d626438bc91b403d79282": {
+            "format": "jpg",
+            "id": "2cf93a0fc56d626438bc91b403d79282",
+            "name": "CameraHPWREN_MirrorSmoke3878.jpg",
+            "path": "file:/home/abhay_kashyap03/Downloads/smokee/CameraHPWREN_MirrorSmoke3878.jpg",
+            "size": {
+                "width": 540,
+                "height": 360
+            },
+            "state": 1,
+            "type": 1
+        },
+        "9c347f176b4151575acbc462b63052ae": {
+            "format": "jpg",
+            "id": "9c347f176b4151575acbc462b63052ae",
+            "name": "CameraHPWREN_MirrorSmoke3879.jpg",
+            "path": "file:/home/abhay_kashyap03/Downloads/smokee/CameraHPWREN_MirrorSmoke3879.jpg",
+            "size": {
+                "width": 540,
+                "height": 360
+            },
+            "state": 1,
+            "type": 1
+        },
+        "e05ec32b27ae76edcb47a317802898fc": {
+            "format": "jpg",
+            "id": "e05ec32b27ae76edcb47a317802898fc",
+            "name": "CameraHPWREN_MirrorSmoke3880.jpg",
+            "path": "file:/home/abhay_kashyap03/Downloads/smokee/CameraHPWREN_MirrorSmoke3880.jpg",
+            "size": {
+                "width": 540,
+                "height": 360
+            },
+            "state": 1,
+            "type": 1
+        },
+        "d85853efe7910a05303e7caadbd6e882": {
+            "format": "jpg",
+            "id": "d85853efe7910a05303e7caadbd6e882",
+            "name": "CameraHPWREN_MirrorSmoke3881.jpg",
+            "path": "file:/home/abhay_kashyap03/Downloads/smokee/CameraHPWREN_MirrorSmoke3881.jpg",
+            "size": {
+                "width": 540,
+                "height": 360
+            },
+            "state": 1,
+            "type": 1
+        },
+        "05de0f656dce3d95a67e00c088906925": {
+            "format": "jpg",
+            "id": "05de0f656dce3d95a67e00c088906925",
+            "name": "CameraHPWREN_MirrorSmoke3906.jpg",
+            "path": "file:/home/abhay_kashyap03/Downloads/smokee/CameraHPWREN_MirrorSmoke3906.jpg",
+            "size": {
+                "width": 640,
+                "height": 360
+            },
+            "state": 2,
+            "type": 1
+        },
+        "68ab3833e4c7a3e7ef4dd07a0122d22a": {
+            "format": "jpg",
+            "id": "68ab3833e4c7a3e7ef4dd07a0122d22a",
+            "name": "CameraHPWREN_MirrorSmoke3907.jpg",
+            "path": "file:/home/abhay_kashyap03/Downloads/smokee/CameraHPWREN_MirrorSmoke3907.jpg",
+            "size": {
+                "width": 640,
+                "height": 360
+            },
+            "state": 2,
+            "type": 1
+        },
+        "947a81ca7911e7c9703723d1054604e6": {
+            "format": "jpg",
+            "id": "947a81ca7911e7c9703723d1054604e6",
+            "name": "CameraHPWREN_MirrorSmoke3982.jpg",
+            "path": "file:/home/abhay_kashyap03/Downloads/smokee/CameraHPWREN_MirrorSmoke3982.jpg",
+            "size": {
+                "width": 640,
+                "height": 360
+            },
+            "state": 2,
+            "type": 1
+        },
+        "4ffd6c95c3d1f053f5fbabadaa0f1c98": {
+            "format": "jpg",
+            "id": "4ffd6c95c3d1f053f5fbabadaa0f1c98",
+            "name": "CameraHPWREN_MirrorSmoke3983.jpg",
+            "path": "file:/home/abhay_kashyap03/Downloads/smokee/CameraHPWREN_MirrorSmoke3983.jpg",
+            "size": {
+                "width": 640,
+                "height": 360
+            },
+            "state": 2,
+            "type": 1
+        },
+        "b7d821da8858faf0e344538c3504dbbf": {
+            "format": "jpg",
+            "id": "b7d821da8858faf0e344538c3504dbbf",
+            "name": "CameraHPWREN_MirrorSmoke3986.jpg",
+            "path": "file:/home/abhay_kashyap03/Downloads/smokee/CameraHPWREN_MirrorSmoke3986.jpg",
+            "size": {
+                "width": 640,
+                "height": 360
+            },
+            "state": 2,
+            "type": 1
+        },
+        "f77b219b52fc1536780afce8eb277eae": {
+            "format": "jpg",
+            "id": "f77b219b52fc1536780afce8eb277eae",
+            "name": "CameraHPWREN_MirrorSmoke3989.jpg",
+            "path": "file:/home/abhay_kashyap03/Downloads/smokee/CameraHPWREN_MirrorSmoke3989.jpg",
+            "size": {
+                "width": 640,
+                "height": 360
+            },
+            "state": 2,
+            "type": 1
+        },
+        "708224a64dd21ebdb325a89ade9ae11b": {
+            "format": "jpg",
+            "id": "708224a64dd21ebdb325a89ade9ae11b",
+            "name": "CameraHPWREN_MirrorSmoke3993.jpg",
+            "path": "file:/home/abhay_kashyap03/Downloads/smokee/CameraHPWREN_MirrorSmoke3993.jpg",
+            "size": {
+                "width": 640,
+                "height": 360
+            },
+            "state": 2,
+            "type": 1
+        },
+        "7e3275f0452f265fcebdd7a70fdbfefb": {
+            "format": "jpg",
+            "id": "7e3275f0452f265fcebdd7a70fdbfefb",
+            "name": "CameraHPWREN_MirrorSmoke3995.jpg",
+            "path": "file:/home/abhay_kashyap03/Downloads/smokee/CameraHPWREN_MirrorSmoke3995.jpg",
+            "size": {
+                "width": 640,
+                "height": 360
+            },
+            "state": 2,
+            "type": 1
+        },
+        "b0182fb44b55816c43f6d24be23f14bc": {
+            "format": "jpg",
+            "id": "b0182fb44b55816c43f6d24be23f14bc",
+            "name": "CameraHPWREN_MirrorSmoke4000.jpg",
+            "path": "file:/home/abhay_kashyap03/Downloads/smokee/CameraHPWREN_MirrorSmoke4000.jpg",
+            "size": {
+                "width": 540,
+                "height": 360
+            },
+            "state": 2,
+            "type": 1
+        },
+        "4f8d960f2cbaee23c094ea9ac8202ee2": {
+            "format": "jpg",
+            "id": "4f8d960f2cbaee23c094ea9ac8202ee2",
+            "name": "CameraHPWREN_MirrorSmoke4001.jpg",
+            "path": "file:/home/abhay_kashyap03/Downloads/smokee/CameraHPWREN_MirrorSmoke4001.jpg",
+            "size": {
+                "width": 540,
+                "height": 360
+            },
+            "state": 1,
+            "type": 1
+        },
+        "88201a5c10a639029eaf8d1c292d6aaf": {
+            "format": "jpg",
+            "id": "88201a5c10a639029eaf8d1c292d6aaf",
+            "name": "CameraHPWREN_MirrorSmoke4003.jpg",
+            "path": "file:/home/abhay_kashyap03/Downloads/smokee/CameraHPWREN_MirrorSmoke4003.jpg",
+            "size": {
+                "width": 540,
+                "height": 360
+            },
+            "state": 2,
+            "type": 1
+        },
+        "09abe0bd631ab4de2eb8922ee5bc73f4": {
+            "format": "jpg",
+            "id": "09abe0bd631ab4de2eb8922ee5bc73f4",
+            "name": "CameraHPWREN_MirrorSmoke4007.jpg",
+            "path": "file:/home/abhay_kashyap03/Downloads/smokee/CameraHPWREN_MirrorSmoke4007.jpg",
+            "size": {
+                "width": 540,
+                "height": 360
+            },
+            "state": 2,
+            "type": 1
+        },
+        "37e3ae8ad62e96bb2e3b78de42bc018a": {
+            "format": "jpg",
+            "id": "37e3ae8ad62e96bb2e3b78de42bc018a",
+            "name": "CameraHPWREN_MirrorSmoke4009.jpg",
+            "path": "file:/home/abhay_kashyap03/Downloads/smokee/CameraHPWREN_MirrorSmoke4009.jpg",
+            "size": {
+                "width": 540,
+                "height": 360
+            },
+            "state": 2,
+            "type": 1
+        },
+        "4ea3b43fe27b309e8d0c8efdad2dc8e0": {
+            "format": "jpg",
+            "id": "4ea3b43fe27b309e8d0c8efdad2dc8e0",
+            "name": "CameraHPWREN_MirrorSmoke4013.jpg",
+            "path": "file:/home/abhay_kashyap03/Downloads/smokee/CameraHPWREN_MirrorSmoke4013.jpg",
+            "size": {
+                "width": 540,
+                "height": 360
+            },
+            "state": 2,
+            "type": 1
+        },
+        "f61c61e320d4215b75d471b159002737": {
+            "format": "jpg",
+            "id": "f61c61e320d4215b75d471b159002737",
+            "name": "CameraHPWREN_MirrorSmoke4014.jpg",
+            "path": "file:/home/abhay_kashyap03/Downloads/smokee/CameraHPWREN_MirrorSmoke4014.jpg",
+            "size": {
+                "width": 540,
+                "height": 360
+            },
+            "state": 2,
+            "type": 1
+        },
+        "b3c96f4b9cd0ead8aed23d2cbf27e683": {
+            "format": "jpg",
+            "id": "b3c96f4b9cd0ead8aed23d2cbf27e683",
+            "name": "CameraHPWREN_MirrorSmoke4015.jpg",
+            "path": "file:/home/abhay_kashyap03/Downloads/smokee/CameraHPWREN_MirrorSmoke4015.jpg",
+            "size": {
+                "width": 540,
+                "height": 360
+            },
+            "state": 2,
+            "type": 1
+        },
+        "404fb7184a89293cede5424074cd1f16": {
+            "format": "jpg",
+            "id": "404fb7184a89293cede5424074cd1f16",
+            "name": "CameraHPWREN_MirrorSmoke4017.jpg",
+            "path": "file:/home/abhay_kashyap03/Downloads/smokee/CameraHPWREN_MirrorSmoke4017.jpg",
+            "size": {
+                "width": 540,
+                "height": 360
+            },
+            "state": 2,
+            "type": 1
+        },
+        "5fd0be2390368ae39c12b2b1380e4932": {
+            "format": "jpg",
+            "id": "5fd0be2390368ae39c12b2b1380e4932",
+            "name": "CameraHPWREN_MirrorSmoke4016.jpg",
+            "path": "file:/home/abhay_kashyap03/Downloads/smokee/CameraHPWREN_MirrorSmoke4016.jpg",
+            "size": {
+                "width": 540,
+                "height": 360
+            },
+            "state": 2,
+            "type": 1
+        },
+        "c67d6731ecc6fd3c51e27ced0c2d7420": {
+            "format": "jpg",
+            "id": "c67d6731ecc6fd3c51e27ced0c2d7420",
+            "name": "CameraHPWREN_MirrorSmoke4018.jpg",
+            "path": "file:/home/abhay_kashyap03/Downloads/smokee/CameraHPWREN_MirrorSmoke4018.jpg",
+            "size": {
+                "width": 540,
+                "height": 360
+            },
+            "state": 2,
+            "type": 1
+        },
+        "1d6399f0fcf68307a7d9191027e9a92a": {
+            "format": "jpg",
+            "id": "1d6399f0fcf68307a7d9191027e9a92a",
+            "name": "CameraHPWREN_MirrorSmoke4019.jpg",
+            "path": "file:/home/abhay_kashyap03/Downloads/smokee/CameraHPWREN_MirrorSmoke4019.jpg",
+            "size": {
+                "width": 540,
+                "height": 360
+            },
+            "state": 2,
+            "type": 1
+        },
+        "86b117df87d9a7870bf36992dee6a42c": {
+            "format": "jpg",
+            "id": "86b117df87d9a7870bf36992dee6a42c",
+            "name": "CameraHPWREN_MirrorSmoke4029.jpg",
+            "path": "file:/home/abhay_kashyap03/Downloads/smokee/CameraHPWREN_MirrorSmoke4029.jpg",
+            "size": {
+                "width": 640,
+                "height": 360
+            },
+            "state": 2,
+            "type": 1
+        },
+        "94185da00d53ddfd99746536ecd54183": {
+            "format": "jpg",
+            "id": "94185da00d53ddfd99746536ecd54183",
+            "name": "CameraHPWREN_MirrorSmoke4031.jpg",
+            "path": "file:/home/abhay_kashyap03/Downloads/smokee/CameraHPWREN_MirrorSmoke4031.jpg",
+            "size": {
+                "width": 640,
+                "height": 360
+            },
+            "state": 2,
+            "type": 1
+        },
+        "b2e113e191d1d8deb2c7bb39984d7e91": {
+            "format": "jpg",
+            "id": "b2e113e191d1d8deb2c7bb39984d7e91",
+            "name": "CameraHPWREN_MirrorSmoke4034.jpg",
+            "path": "file:/home/abhay_kashyap03/Downloads/smokee/CameraHPWREN_MirrorSmoke4034.jpg",
+            "size": {
+                "width": 640,
+                "height": 360
+            },
+            "state": 2,
+            "type": 1
+        },
+        "ae02344e1851bf9a8b2e82404d80654f": {
+            "format": "jpg",
+            "id": "ae02344e1851bf9a8b2e82404d80654f",
+            "name": "CameraHPWREN_MirrorSmoke4047.jpg",
+            "path": "file:/home/abhay_kashyap03/Downloads/smokee/CameraHPWREN_MirrorSmoke4047.jpg",
+            "size": {
+                "width": 640,
+                "height": 360
+            },
+            "state": 1,
+            "type": 1
+        },
+        "ace51a1b6b3fc5b5f1a1d95e322e3ee9": {
+            "format": "jpg",
+            "id": "ace51a1b6b3fc5b5f1a1d95e322e3ee9",
+            "name": "CameraHPWREN_MirrorSmoke4048.jpg",
+            "path": "file:/home/abhay_kashyap03/Downloads/smokee/CameraHPWREN_MirrorSmoke4048.jpg",
+            "size": {
+                "width": 640,
+                "height": 360
+            },
+            "state": 2,
+            "type": 1
+        },
+        "1ac1496103658ed966c3a1c5ff63f653": {
+            "format": "jpg",
+            "id": "1ac1496103658ed966c3a1c5ff63f653",
+            "name": "CameraHPWREN_MirrorSmoke4052.jpg",
+            "path": "file:/home/abhay_kashyap03/Downloads/smokee/CameraHPWREN_MirrorSmoke4052.jpg",
+            "size": {
+                "width": 640,
+                "height": 360
+            },
+            "state": 2,
+            "type": 1
+        },
+        "51dfc9e3291abda516aac33ccfd0b3b6": {
+            "format": "jpg",
+            "id": "51dfc9e3291abda516aac33ccfd0b3b6",
+            "name": "CameraHPWREN_MirrorSmoke4070.jpg",
+            "path": "file:/home/abhay_kashyap03/Downloads/smokee/CameraHPWREN_MirrorSmoke4070.jpg",
+            "size": {
+                "width": 640,
+                "height": 360
+            },
+            "state": 2,
+            "type": 1
+        },
+        "c3d556b73931530ce00f1d1b11ccb046": {
+            "format": "jpg",
+            "id": "c3d556b73931530ce00f1d1b11ccb046",
+            "name": "CameraHPWREN_MirrorSmoke4076.jpg",
+            "path": "file:/home/abhay_kashyap03/Downloads/smokee/CameraHPWREN_MirrorSmoke4076.jpg",
+            "size": {
+                "width": 640,
+                "height": 360
+            },
+            "state": 2,
+            "type": 1
+        }
+    }
+}
