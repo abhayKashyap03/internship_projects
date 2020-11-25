@@ -159,6 +159,7 @@ def img(image_path, out) :
         landmark = ort_outs[0]
         landmark = landmark.reshape(-1,2)
         landmark = new_bbox.reprojectLandmark(landmark)
+        print(landmark)
         orig_image = drawLandmark_multiple(orig_image, new_bbox, landmark)
     cv2.imwrite(out+os.path.basename(image_path), orig_image)
 

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/mobilepose_pytorch/waving/src/githubs/tf-pose-estimation" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/smoke_and_flame_detection/fire_detection/darknet" vcs="Git" />
+  </component>
+</project>

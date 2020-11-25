@@ -1,4 +1,4 @@
-from enum import IntEnum
+# from enum import IntEnum
 import os, glob
 import argparse
 from tqdm import tqdm
@@ -9,46 +9,54 @@ import matplotlib.pyplot as plt
 from natsort import natsorted
 from ast import literal_eval
 
+from estimator import ResEstimator
+# from networks import *
+from network import CoordRegressionNetwork
+# from dataloader import crop_camera
 from signdetection import *
 
 parser = argparse.ArgumentParser(description='MobilePose Realtime Webcam.')
-parser.add_argument('--inp_path', type=str, required=True)
+parser.add_argument('--inp_path', type=str, required=False)
 parser.add_argument('--output_dir', type=str, default="output")
-parser.add_argument('--type', choices=['img', 'vid'], type=str, default='img')
+parser.add_argument('--model', type=str, default='resnet18', choices=['mobilenetv2', 'resnet18', 'shufflenetv2', 'squeezenet'])
+parser.add_argument('--inp_dim', type=int, default=224, help='input size')
+parser.add_argument('--type', choices=['img', 'vid', 'live'], type=str, default='img')
+parser.add_argument('--cam', type=int, default=0)
 parser.add_argument('--file')
 parser.add_argument('--plot', type=str, default=False)
 args = parser.parse_args()
 
-if not os.path.exists(args.output_dir) :
+if not os.path.exists(args.output_dir):
     os.mkdir(args.output_dir)
 
-joint_names = {key : value for key, value in MPIIPartMapping.__dict__.items() if
+joint_names = {key: value for key, value in MPIIPartMapping.__dict__.items() if
                not key.startswith('__') and not callable(key)}
-joint_names = {k : v for k, v in sorted(joint_names.items(), key=lambda item : item[1])}
+joint_names = {k: v for k, v in sorted(joint_names.items(), key=lambda item: item[1])}
 print(joint_names)
 
-if not os.path.exists(os.path.join(args.output_dir, "graphs")) :
+if not os.path.exists(os.path.join(args.output_dir, "graphs")):
     os.mkdir(os.path.join(args.output_dir, "graphs"))
 
-def plot_vid(files, data) :
+
+def plot_vid(files, data):
     matplotlib.use('TkAgg')
 
     data = pd.read_csv(data).iloc[:, 1:].to_numpy().tolist()
     points = list(joint_names.keys())
 
     z = []
-    for file in files :
+    for file in files:
         z.append(os.path.splitext(os.path.basename(file))[0])
     z = np.asarray(natsorted(z))
 
     frames = []
-    for i in range(len(z)) :
+    for i in range(len(z)):
         frames.append(i)
 
     xy = data
-    for i in range(16) :
+    for i in range(16):
         x, y = [], []
-        for j in range(len(z)) :
+        for j in range(len(z)):
             x.append(literal_eval(xy[j][i])[0] / 224)
             y.append(literal_eval(xy[j][i])[1] / 224)
         x, y = np.asarray(x), np.asarray(y)
@@ -70,18 +78,18 @@ def plot_vid(files, data) :
         plt.show()
 
 
-def plot_img(data) :
+def plot_img(data):
     matplotlib.use('TkAgg')
 
     data = pd.read_csv(data).iloc[0, 1:].to_numpy().tolist()
     xy = data
 
     points = []
-    for i in range(16) :
+    for i in range(16):
         points.append(i)
 
     x, y = [], []
-    for i in range(16) :
+    for i in range(16):
         x.append(literal_eval(xy[i])[0] / 224)
         y.append(literal_eval(xy[i])[1] / 224)
     fig = plt.figure(figsize=(60, 60))
@@ -93,7 +101,7 @@ def plot_img(data) :
     ax.scatter3D(x[0], y[0], points[0], c='r', label="Joint 1")
     ax.scatter3D(x[1:-1], y[1:-1], points[1:-1], label="Joints 2-15")
     ax.scatter3D(x[-1], y[-1], points[-1], c='coral', label="Joint 16")
-    for key, value in joint_names.items() :
+    for key, value in joint_names.items():
         ax.text(s=key, x=x[value], y=y[value], z=points[value])
     ax.plot(x, y, points)
     ax.legend(loc='upper right')
@@ -104,38 +112,76 @@ def plot_img(data) :
     plt.savefig("joints.png")
 
 
-if args.type == 'img' :
-    if args.file is None :
+def detect(name, img, args_):
+    # load the model
+    model_path = os.path.join("models", args_.model + "_%d_adam_best.t7" % args_.inp_dim)
+    net = CoordRegressionNetwork(n_locations=16, backbone=args_.model).to("cpu")
+    e = ResEstimator(model_path, net, args_.inp_dim)
+    # predict keypoints
+    humans = e.inference(img)
+    # Comment below line if skeleton is not to be drawn :
+    img = ResEstimator.draw_humans(img, humans, imgcopy=False)
+    # detect sign
+    sign = sign_detector(humans)
+    # draw sign name on image
+    draw_sign(img, sign)
+    # add keypoints and img name to csv file ---> data storage
+    humans = humans.tolist()
+    cv2.imwrite(os.path.join(args_.output_dir, str(name)+'.jpg'), img)
+    data = pd.read_csv(args_.file)
+    data = data.append(pd.DataFrame([[str(name)] + humans], columns=data.columns))
+    data.to_csv(os.path.join(args_.output_dir, "data.csv"), index=False, columns=data.columns)
+
+
+if args.type == 'img':
+    if args.file is None:
         data = pd.DataFrame(
-            columns=['Image']+list(joint_names.keys()))
+            columns=['Image'] + list(joint_names.keys()))
         file = os.path.join(args.output_dir, "data.csv")
         data.to_csv(file, index=False, columns=data.columns)
         args.file = file
-
-    os.system("python detect_sign.py --inp_path "+args.inp_path+ " --output_dir "+args.output_dir+" --type "+args.type+" --file "+args.file+" --plot "+str(args.plot))
-
+    img = cv2.resize(cv2.imread(args.inp_path), (args.inp_dim, args.inp_dim))
+    name = os.path.splitext(os.path.basename(args.inp_path))[0]
+    detect(name, img, args)
     print("Result image and coordinates file stored in " + args.output_dir)
-
-    if literal_eval(str(args.plot)) :
+    if literal_eval(str(args.plot)):
         plot_img(args.file)
 
-elif args.type == 'vid' :
+
+elif args.type == 'live':
+    cam = cv2.VideoCapture(args.cam)
+    c = 0
+    while True:
+        ret, img = cam.read()
+        if img is None:
+            break
+        c += 1
+        if args.file is None:
+            data = pd.DataFrame(
+                columns=['Frame'] + list(joint_names.keys()))
+            file = os.path.join(args.output_dir, "data.csv")
+            data.to_csv(file, index=False, columns=data.columns)
+            args.file = file
+        detect(c, img, args)
+        cv2.imshow('MobilePose Demo', img)
+        if cv2.waitKey(1) == 27: # ESC
+            break
+    cv2.destroyAllWindows()
+
+
+elif args.type == 'vid':
     files = glob.glob(args.inp_path + "/*.jpg")
     files = natsorted(files)
-
-    if args.file is None :
+    if args.file is None:
         data = pd.DataFrame(
-            columns=['Frame']+list(joint_names.keys()))
+            columns=['Frame'] + list(joint_names.keys()))
         file = os.path.join(args.output_dir, "data.csv")
         data.to_csv(file, index=False, columns=data.columns)
         args.file = file
-
-    for path in tqdm(files) :
-        os.system("python detect_sign.py --inp_path "+path+ " --output_dir "+args.output_dir+" --type "+args.type+" --file "+args.file+" --plot "+str(args.plot))
-
+    for path in tqdm(files):
+        img = cv2.resize(cv2.imread(file), (args.inp_dim, args.inp_dim))
+        detect(img, args)
     os.system('python convert2.py --pathIn ' + args.output_dir + ' --pathOut ' + args.output_dir)
-
     print("Frames, result video and coordinates file stored in " + args.output_dir)
-
-    if literal_eval(str(args.plot)) :
+    if literal_eval(str(args.plot)):
         plot_vid(files, args.file)

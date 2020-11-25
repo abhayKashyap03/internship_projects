@@ -4,7 +4,6 @@
 
 # import the necessary packages
 from imutils import face_utils
-import numpy as np
 import argparse
 import os
 import imutils
@@ -48,6 +47,7 @@ for (i, rect) in enumerate(rects):
 	# array
 	shape = predictor(gray, rect)
 	shape = face_utils.shape_to_np(shape)
+	print(shape, '\n', len(shape))
 
 	# convert dlib's rectangle to a OpenCV-style bounding box
 	# [i.e., (x, y, w, h)], then draw the face bounding box
@@ -63,12 +63,12 @@ for (i, rect) in enumerate(rects):
 	for (x, y) in shape:
 		cv2.circle(image, (x, y), 1, (0, 0, 255), 2)
 
-'''plt.imshow(image)
+plt.imshow(image)
 plt.xticks([])
 plt.yticks([])
 plt.title("Output")
 
 fname = "results/"+"result_" + args["image"].partition('/')[-1]
 
-plt.savefig(fname)'''
+plt.savefig(fname)
 cv2.imwrite("results/"+"result_" + os.path.basename(args["image"]), cv2.cvtColor(image, cv2.COLOR_BGR2RGB))

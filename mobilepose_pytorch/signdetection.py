@@ -285,9 +285,6 @@ def sign_detector(keypoints):
          (np.arctan2(left_relative_dist[1], left_relative_dist[0])*180/np.pi) < -150))
     )
 
-    print(np.arctan2(right_relative_dist[1], right_relative_dist[0])*180/np.pi)
-    print(np.arctan2(left_relative_dist[1], left_relative_dist[0])*180/np.pi)
-
     if y_sign : 
         return Signs.Y
     if n_sign : 
