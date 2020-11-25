@@ -1,4 +1,3 @@
-# from enum import IntEnum
 import os, glob
 import argparse
 from tqdm import tqdm
@@ -8,11 +7,10 @@ import matplotlib
 import matplotlib.pyplot as plt
 from natsort import natsorted
 from ast import literal_eval
+from time import time
 
 from estimator import ResEstimator
-# from networks import *
 from network import CoordRegressionNetwork
-# from dataloader import crop_camera
 from signdetection import *
 
 parser = argparse.ArgumentParser(description='MobilePose Realtime Webcam.')
@@ -25,6 +23,8 @@ parser.add_argument('--cam', type=int, default=0)
 parser.add_argument('--file')
 parser.add_argument('--plot', type=str, default=False)
 args = parser.parse_args()
+
+start = time()
 
 if not os.path.exists(args.output_dir):
     os.mkdir(args.output_dir)
@@ -127,7 +127,7 @@ def detect(name, img, args_):
     draw_sign(img, sign)
     # add keypoints and img name to csv file ---> data storage
     humans = humans.tolist()
-    cv2.imwrite(os.path.join(args_.output_dir, str(name)+'.jpg'), img)
+    cv2.imwrite(os.path.join(args_.output_dir, str(name) + '.jpg'), img)
     data = pd.read_csv(args_.file)
     data = data.append(pd.DataFrame([[str(name)] + humans], columns=data.columns))
     data.to_csv(os.path.join(args_.output_dir, "data.csv"), index=False, columns=data.columns)
@@ -164,24 +164,34 @@ elif args.type == 'live':
             args.file = file
         detect(c, img, args)
         cv2.imshow('MobilePose Demo', img)
-        if cv2.waitKey(1) == 27: # ESC
+        if cv2.waitKey(1) == 27:  # ESC
             break
     cv2.destroyAllWindows()
 
 
 elif args.type == 'vid':
-    files = glob.glob(args.inp_path + "/*.jpg")
-    files = natsorted(files)
     if args.file is None:
         data = pd.DataFrame(
             columns=['Frame'] + list(joint_names.keys()))
         file = os.path.join(args.output_dir, "data.csv")
         data.to_csv(file, index=False, columns=data.columns)
         args.file = file
-    for path in tqdm(files):
-        img = cv2.resize(cv2.imread(file), (args.inp_dim, args.inp_dim))
-        detect(img, args)
-    os.system('python convert2.py --pathIn ' + args.output_dir + ' --pathOut ' + args.output_dir)
+    cam = cv2.VideoCapture(args.inp_path)
+    c = 0
+    while True:
+        ret, img = cam.read()
+        if img is not None:
+            print(c)
+            c += 1
+            detect(c, img, args)
+    print("\n", "Converting to video...")
+    height, width, layers = frame.shape
+    video = cv2.VideoWriter("result.mp4", cv2.VideoWriter_fourcc(*'mp4v'), 7, (width, height))
+    for image in tqdm(images):
+        video.write(image)
+    video.release()
     print("Frames, result video and coordinates file stored in " + args.output_dir)
     if literal_eval(str(args.plot)):
         plot_vid(files, args.file)
+
+print("Time taken : %d seconds" % round(time() - start))

@@ -73,7 +73,7 @@ python run_webcam.py --model squeezenet --inp_dim 224 --camera 0
 5. Identifying sign from image
 
 ```shell
-python test.py --type {'img','vid'} --inp_path /path/to/image --output_dir /path/to/result --file path/to/file/storing/info  --plot False/True
+python test.py --type {'img','vid', 'live'} --inp_path /path/to/image --output_dir /path/to/result --file path/to/file/storing/info  --plot False/True
 ```
 OR
 ```shell

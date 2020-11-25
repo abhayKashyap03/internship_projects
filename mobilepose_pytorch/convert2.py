@@ -14,14 +14,14 @@ args = parser.parse_args()
 image_folder = args.pathIn
 video_name = os.path.join(args.pathOut, "result.mp4")
 
-images = [img for img in os.listdir(image_folder) if img.startswith('Frame')]
+images = [img for img in os.listdir(image_folder) if img.endswith(('.jpg', '.jpeg', '.png'))]
 images = natsorted(images)
 frame = cv2.imread(os.path.join(image_folder, images[0]))
 height, width, layers = frame.shape
 
 video = cv2.VideoWriter(video_name, cv2.VideoWriter_fourcc(*'mp4v'), 7, (width,height))
 
-print("\n", "Converting to video...")
+print("Converting to video...")
 for image in tqdm(images):
     video.write(cv2.imread(os.path.join(image_folder, image)))
 
