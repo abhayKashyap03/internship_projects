@@ -41,7 +41,7 @@ Some codes for networks and display are brought from:
 - [x] multiple models support (network.py)
 - [x] ipython notebook visualization (demo.ipynb)
 - [x] camera realtime display script (run_webcam.py)
-- [x] sign detection from image, video, and realtime
+- [x] sign detection from image, video, and realtime (sign_detect.py)
 
 ## Usage
 
