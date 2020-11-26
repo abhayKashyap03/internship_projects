@@ -41,6 +41,7 @@ Some codes for networks and display are brought from:
 - [x] multiple models support (network.py)
 - [x] ipython notebook visualization (demo.ipynb)
 - [x] camera realtime display script (run_webcam.py)
+- [x] sign detection from image, video, and realtime
 
 ## Usage
 
@@ -73,7 +74,7 @@ python run_webcam.py --model squeezenet --inp_dim 224 --camera 0
 5. Identifying sign from image/video/live camera
 
 ```shell
-python test.py --type {'img','vid', 'live'} --inp_path /path/to/image --out_dir /path/to/result --file path/to/file/storing/info  --plot False/True --model ['mobilenetv2', 'resnet18'] --cam int
+python sign_detect.py --type {'img','vid', 'live'} --inp_path /path/to/image --out_dir /path/to/result --file path/to/file/storing/info  --plot False/True --model ['mobilenetv2', 'resnet18'] --cam int
 ```
 Arguments :\
 type : type of input - image, video or live camera\
