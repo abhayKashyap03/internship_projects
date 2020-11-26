@@ -8,34 +8,33 @@ import matplotlib.pyplot as plt
 from natsort import natsorted
 from ast import literal_eval
 from time import time
-
 from estimator import ResEstimator
 from network import CoordRegressionNetwork
 from signdetection import *
 
 parser = argparse.ArgumentParser(description='MobilePose Realtime Webcam.')
-parser.add_argument('--inp_path', type=str, required=False)
-parser.add_argument('--output_dir', type=str, default="output")
-parser.add_argument('--model', type=str, default='resnet18', choices=['mobilenetv2', 'resnet18', 'shufflenetv2', 'squeezenet'])
-parser.add_argument('--inp_dim', type=int, default=224, help='input size')
-parser.add_argument('--type', choices=['img', 'vid', 'live'], type=str, default='img')
+parser.add_argument('--inp_path', type=str, required=False, help='location or path where image/video is stored')
+parser.add_argument('--out_dir', type=str, default='output', help='location or path where results have to be stored')
+parser.add_argument('--model', type=str, default='resnet18', choices=['mobilenetv2', 'resnet18', 'shufflenetv2', 'squeezenet'], help='name of model to be used')
+parser.add_argument('--type', choices=['img', 'vid', 'live'], type=str, default='img', help='type of input')
 parser.add_argument('--cam', type=int, default=0)
 parser.add_argument('--file')
 parser.add_argument('--plot', type=str, default=False)
 args = parser.parse_args()
 
+
 start = time()
 
-if not os.path.exists(args.output_dir):
-    os.mkdir(args.output_dir)
+if not os.path.exists(args.out_dir):
+    os.mkdir(args.out_dir)
 
 joint_names = {key: value for key, value in MPIIPartMapping.__dict__.items() if
                not key.startswith('__') and not callable(key)}
 joint_names = {k: v for k, v in sorted(joint_names.items(), key=lambda item: item[1])}
 print(joint_names)
 
-if not os.path.exists(os.path.join(args.output_dir, "graphs")):
-    os.mkdir(os.path.join(args.output_dir, "graphs"))
+if not os.path.exists(os.path.join(args.out_dir, "graphs")):
+    os.mkdir(os.path.join(args.out_dir, "graphs"))
 
 
 def plot_vid(files, data):
@@ -74,7 +73,7 @@ def plot_vid(files, data):
         ax.set_zlabel("frame number", fontsize="x-large", fontstyle="oblique", fontweight="bold", labelpad=10)
         ax.set_ylabel("y coordinates", fontsize="x-large", fontstyle="oblique", fontweight="bold", labelpad=10)
         ax.set_xlabel("x coordinates", fontsize="x-large", fontstyle="oblique", fontweight="bold", labelpad=10)
-        plt.savefig(os.path.join(args.output_dir, "graphs", list(joint_names.keys())[i] + ".png"))
+        plt.savefig(os.path.join(args.out_dir, "graphs", list(joint_names.keys())[i] + ".png"))
         plt.show()
 
 
@@ -114,9 +113,9 @@ def plot_img(data):
 
 def detect(name, img, args_):
     # load the model
-    model_path = os.path.join("models", args_.model + "_%d_adam_best.t7" % args_.inp_dim)
+    model_path = os.path.join("models", args_.model + "_224_adam_best.t7")
     net = CoordRegressionNetwork(n_locations=16, backbone=args_.model).to("cpu")
-    e = ResEstimator(model_path, net, args_.inp_dim)
+    e = ResEstimator(model_path, net, 224)
     # predict keypoints
     humans = e.inference(img)
     # Comment below line if skeleton is not to be drawn :
@@ -127,28 +126,34 @@ def detect(name, img, args_):
     draw_sign(img, sign)
     # add keypoints and img name to csv file ---> data storage
     humans = humans.tolist()
-    cv2.imwrite(os.path.join(args_.output_dir, str(name) + '.jpg'), img)
+    cv2.imwrite(os.path.join(args_.out_dir, str(name) + '.jpg'), img)
     data = pd.read_csv(args_.file)
     data = data.append(pd.DataFrame([[str(name)] + humans], columns=data.columns))
-    data.to_csv(os.path.join(args_.output_dir, "data.csv"), index=False, columns=data.columns)
+    data.to_csv(os.path.join(args_.out_dir, "data.csv"), index=False, columns=data.columns)
 
 
 if args.type == 'img':
     if args.file is None:
         data = pd.DataFrame(
             columns=['Image'] + list(joint_names.keys()))
-        file = os.path.join(args.output_dir, "data.csv")
+        file = os.path.join(args.out_dir, "data.csv")
         data.to_csv(file, index=False, columns=data.columns)
         args.file = file
-    img = cv2.resize(cv2.imread(args.inp_path), (args.inp_dim, args.inp_dim))
+    img = cv2.resize(cv2.imread(args.inp_path), (224, 224))
     name = os.path.splitext(os.path.basename(args.inp_path))[0]
     detect(name, img, args)
-    print("Result image and coordinates file stored in " + args.output_dir)
+    print("Result image and coordinates file stored in " + args.out_dir)
     if literal_eval(str(args.plot)):
         plot_img(args.file)
 
 
 elif args.type == 'live':
+    if args.file is None:
+        data = pd.DataFrame(
+            columns=['Frame'] + list(joint_names.keys()))
+        file = os.path.join(args.out_dir, "data.csv")
+        data.to_csv(file, index=False, columns=data.columns)
+        args.file = file
     cam = cv2.VideoCapture(args.cam)
     c = 0
     while True:
@@ -156,12 +161,7 @@ elif args.type == 'live':
         if img is None:
             break
         c += 1
-        if args.file is None:
-            data = pd.DataFrame(
-                columns=['Frame'] + list(joint_names.keys()))
-            file = os.path.join(args.output_dir, "data.csv")
-            data.to_csv(file, index=False, columns=data.columns)
-            args.file = file
+        img = cv2.resize(img, (224, 224))
         detect(c, img, args)
         cv2.imshow('MobilePose Demo', img)
         if cv2.waitKey(1) == 27:  # ESC
@@ -173,25 +173,29 @@ elif args.type == 'vid':
     if args.file is None:
         data = pd.DataFrame(
             columns=['Frame'] + list(joint_names.keys()))
-        file = os.path.join(args.output_dir, "data.csv")
+        file = os.path.join(args.out_dir, "data.csv")
         data.to_csv(file, index=False, columns=data.columns)
         args.file = file
     cam = cv2.VideoCapture(args.inp_path)
     c = 0
     while True:
         ret, img = cam.read()
-        if img is not None:
-            print(c)
-            c += 1
-            detect(c, img, args)
+        if ret is not True:
+            break
+        print(c)
+        c += 1
+        img = cv2.resize(img, (224, 224))
+        detect(c, img, args)
     print("\n", "Converting to video...")
-    height, width, layers = frame.shape
-    video = cv2.VideoWriter("result.mp4", cv2.VideoWriter_fourcc(*'mp4v'), 7, (width, height))
-    for image in tqdm(images):
-        video.write(image)
+    video = cv2.VideoWriter(os.path.join(args.out_dir, "result.mp4"), cv2.VideoWriter_fourcc(*'mp4v'), 15, (224, 224))
+    files = glob.glob(os.path.join(args.out_dir, '*.jpg'))
+    files = natsorted(files)
+    for file in tqdm(files):
+        video.write(cv2.imread(file))
     video.release()
-    print("Frames, result video and coordinates file stored in " + args.output_dir)
+    print("Frames, result video and coordinates file stored in " + args.out_dir)
     if literal_eval(str(args.plot)):
         plot_vid(files, args.file)
+
 
 print("Time taken : %d seconds" % round(time() - start))

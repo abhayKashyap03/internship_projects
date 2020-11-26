@@ -16,9 +16,9 @@ Some codes for networks and display are brought from:
 
 ## Requirements
 
-- Python 3.7
-- PyTorch 1.0
-- [dsntnn 1.0](https://github.com/anibali/dsntnn)
+- Python 3.x
+- PyTorch >= 1.0
+- [dsntnn >= 1.0](https://github.com/anibali/dsntnn)
 
 ## Evaluation Results
 
@@ -70,34 +70,22 @@ python eval.py --t7 ./models/resnet18_224_adam_best.t7 --model resnet18 --gpu 0
 python run_webcam.py --model squeezenet --inp_dim 224 --camera 0
 ```
 
-5. Identifying sign from image
+5. Identifying sign from image/video/live camera
 
 ```shell
-python test.py --type {'img','vid', 'live'} --inp_path /path/to/image --output_dir /path/to/result --file path/to/file/storing/info  --plot False/True
+python test.py --type {'img','vid', 'live'} --inp_path /path/to/image --out_dir /path/to/result --file path/to/file/storing/info  --plot False/True --model ['mobilenetv2', 'resnet18'] --cam int
 ```
-OR
-```shell
-python detect_sign.py --inp_path /path/to/image --output_dir /path/to/result --file path/to/file/storing/info  --plot False/True
-```
-Optional arguments (only for detect_sign.py) : 
-'--model' : 'resnet18' or 'mobilenetv2'; resnet18 gives best results
-'--inp_dim' : Size to which image is resized
-
-Default model is resnet18, can be changed to user requirement, options are resnet18 and mobilenetv2
-Input size must be 224
+Arguments :\
+type : type of input - image, video or live camera\
+inp_path : location or path where image/video is stored; argument not required if input type is live camera\
+out_dir : location or path where results have to be stored\
+model : name of model to be used - 'resnet18' or 'mobilenetv2'; resnet18 gives best results\
+cam : camera to be used for live (required only if input is live type)\
+file : file to store skeleton (keypoints) information\
+plot : whether or not points should be plotted
+    
+Default model is resnet18, can be changed to user requirement, options are resnet18 and mobilenetv2\
 Default output path is the 'output' folder, can be changed to user requirement
-
-6. Identifying sign from video
-
-i) Convert video to frames
-```shell
-python convert.py --video /path/to/video --out_dir /path/to/output/frames
-```
-
-ii) Apply model on the frames
-```shell
-python test.py --type vid --path /path/to/frames --out_dir /path/to/store/results --file /path/to/file/storing/info --plot False/True
-```
 
 ## Contributors
 
