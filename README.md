@@ -1,4 +1,5 @@
 # Internship
+Project I worked on during internship
 
 - mobilepose_pytorch : Detection of naval and helicopter rescue signals
 - assets_info : Basic GUI for employee information record with CSV data storage functionality
