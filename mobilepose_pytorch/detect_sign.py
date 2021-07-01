@@ -23,7 +23,7 @@ from dataloader import crop_camera
 from signdetection import *
 
 parser = argparse.ArgumentParser(description='MobilePose Realtime Webcam.')
-parser.add_argument('--model', type=str, default='resnet18', choices=['mobilenetv2', 'resnet18', 'shufflenetv2', 'squeezenet'])
+parser.add_argument('--model', type=str, default='resnet18', choices=['mobilenetv2', 'resnet18'])
 parser.add_argument('--inp_dim', type=int, default=224, help='input size')
 parser.add_argument('--inp_path', type=str, required=True)
 parser.add_argument('--output_dir', type=str, default="output")
