@@ -1,6 +1,8 @@
-# MobilePose
+# PoseSignDetect
 
-MobilePose is a **Tiny** PyTorch implementation of single person 2D pose estimation framework. The aim is to provide the interface of the training/inference/evaluation, and the dataloader with various data augmentation options. And final trained model can satisfy basic requirements(speed+size+accuracy) for mobile device.
+PoseSignDetect is an algorithm for detecting rescue and naval signals from human poses in images, videos, and live streams.
+The project is based on pose estimation (MobilePose) to detect the pose of the person in the input media and determine the signal using trigonoetric operations (angle calculation between keypoints to identify the signal).
+This project uses ResNet and MobileNet, giving it speed without compromising accuracy. This makes it possible to implement the project on mobile devices and edge devices, and apply in real life scenarios without the need of bulk computer equipments.
 
 ## Requirements
 
@@ -20,7 +22,7 @@ MobilePose is a **Tiny** PyTorch implementation of single person 2D pose estimat
 
 ## Usage
 
-1. Installation:
+1. Requirements/Dependencies Installation:
 
 ```shell
 pip install -r requirements.txt
@@ -29,7 +31,7 @@ pip install -r requirements.txt
 2. Training:
 
 ```shell
-python training.py --model shufflenetv2 --gpu 0 --inputsize 224 --lr 1e-3 --batchsize 128 --t7 ./models/shufflenetv2_224_adam_best.t7
+python training.py --model ['mobilenetv2', 'resnet18'] --gpu int --inputsize int --lr int --batchsize int --t7 ./models/['mobilenetv2', 'resnet18']_224_adam_best.t7
 ```
 
 3. Evaluation
@@ -38,21 +40,24 @@ python training.py --model shufflenetv2 --gpu 0 --inputsize 224 --lr 1e-3 --batc
 ln -s cocoapi/PythonAPI/pycocotools
 cd cocoapi/PythonAPI && make
 
-python eval.py --t7 ./models/resnet18_224_adam_best.t7 --model resnet18 --gpu 0
+python eval.py --t7 ./models/['mobilenetv2', 'resnet18']_224_adam_best.t7 --model ['mobilenetv2', 'resnet18'] --gpu int
 ```
 
 4. Web Camera Demo (Only pose estimation)
 ```shell
-python run_webcam.py --model squeezenet --inp_dim 224 --camera 0
+python run_webcam.py --model ['mobilenetv2', 'resnet18'] --inp_dim 224 --camera int
 ```
 
 5. Identifying sign from image/video/live camera
 
 ```shell
-python sign_detect.py --type {'img','vid', 'live'} --inp_path /path/to/image --out_dir /path/to/result --file path/to/file/storing/info  --plot False/True --model ['mobilenetv2', 'resnet18'] --cam int
+python sign_detect.py --type ['img', 'vid', 'live'] --inp_path /path/to/image --out_dir /path/to/result --file path/to/file/storing/info  --plot False/True --model ['mobilenetv2', 'resnet18'] --cam int
 ```
 
 Arguments :\
+gpu : number of the GPU to be used (usually '0' for primary GPU or if using single GPU)
+t7 : model path (models/.....)
+lr : learning rate of model
 type : type of input - image, video or live camera\
 inp_path : location or path where image/video is stored; argument not required if input type is live camera\
 out_dir : location or path where results have to be stored\
