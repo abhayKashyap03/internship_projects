@@ -15,7 +15,7 @@ from signdetection import *
 parser = argparse.ArgumentParser(description='MobilePose Realtime Webcam.')
 parser.add_argument('--inp_path', type=str, required=False, help='location or path where image/video is stored')
 parser.add_argument('--out_dir', type=str, default='output', help='location or path where results have to be stored')
-parser.add_argument('--model', type=str, default='resnet18', choices=['mobilenetv2', 'resnet18', 'shufflenetv2', 'squeezenet'], help='name of model to be used')
+parser.add_argument('--model', type=str, default='resnet18', choices=['mobilenetv2', 'resnet18'], help='name of model to be used')
 parser.add_argument('--type', choices=['img', 'vid', 'live'], type=str, default='img', help='type of input')
 parser.add_argument('--cam', type=int, default=0)
 parser.add_argument('--file')
