@@ -1,7 +1,7 @@
 # Internship
 Project I worked on during internship
 
-- mobilepose_pytorch : Detection of naval and helicopter rescue signals
+- posesigndetect : Detection of naval and helicopter rescue signals
 - assets_info : Basic GUI for employee information record with CSV data storage functionality
 - dcscn_super_resolution : Video super resolution
 - face_landmark_detection : Facial landmark detection, which can be implemented for facial detection and recognition
