@@ -1,14 +1,15 @@
 # PoseSignDetect
 
 PoseSignDetect is an algorithm for detecting rescue and naval signals from human poses in images, videos, and live streams.
-The project is based on pose estimation (MobilePose) to detect the pose of the person in the input media and determine the signal using trigonoetric operations (angle calculation between keypoints to identify the signal).
-This project uses ResNet and MobileNet, giving it speed without compromising accuracy. This makes it possible to implement the project on mobile devices and edge devices, and apply in real life scenarios without the need of bulk computer equipments.
+The project is based on pose estimation (MobilePose) to detect the pose of the person in the input media and determine the signal using trigonoetric operations. <br>
+The deep learning model gives joints' keypoints as output (predictions) and the pose is determined by calculating angles between keypoints to identify the signal. <br>
+This project uses ResNet and MobileNet, giving it speed without compromising accuracy. This makes it possible to implement the project on mobile devices and edge devices, and apply in real life scenarios without the need of bulk computer equipments. <br>
 
 ## Requirements
 
 - Python 3.x
 - PyTorch >= 1.0
-- [dsntnn >= 1.0](https://github.com/anibali/dsntnn)
+- dsntnn >= 1.0
 
 ## Features
 
