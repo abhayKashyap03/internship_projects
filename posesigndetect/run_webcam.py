@@ -59,9 +59,6 @@ if __name__ == '__main__':
         humans = e.inference(image)
         image = ResEstimator.draw_humans(image, humans, imgcopy=False)
         cv2.imshow('MobilePose Demo', image)
-        print("\n\n", humans[[10, 11, 14, 15]], "\n\n")
-        if c == 50 :
-            break
         if cv2.waitKey(1) == 27: # ESC
             break
         c += 1
@@ -72,7 +69,4 @@ if __name__ == '__main__':
     image = cv2.imread("./results/test.png")
     humans = e.inference(image)
     image = ResEstimator.draw_humans(image, humans, imgcopy=False)
-    
-    
-    
     cv2.imwrite("./results/out.png", image)
