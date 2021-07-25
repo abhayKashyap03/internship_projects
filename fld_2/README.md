@@ -84,4 +84,12 @@ The following features will be added soon.
 * https://github.com/lzx1413/pytorch_face_landmark
 * https://github.com/polarisZhao/PFLD-pytorch
 
-
+```
+@misc{PFL,
+  title={{PyTorch Face Landmark}: A Fast and Accurate Facial Landmark Detector},
+  url={https://github.com/cunjian/pytorch_face_landmark},
+  note={Open-source software available at https://github.com/cunjian/pytorch_face_landmark},
+  author={Cunjian Chen},
+  year={2021},
+}
+```
