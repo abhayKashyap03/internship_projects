@@ -2,7 +2,7 @@
 File: detect_sign.py
 Project: MobilePose-PyTorch
 File Created: 10th April 2020
-Author: Abhay Kashyap (abhay.kashyap95@gmail.com)
+Author: Abhay Kashyap (abhay.kashyap03@gmail.com)
 '''
 
 import argparse
